@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "eyvb:cucumber_block"
+    }
+  },
+  "pattern": [
+    "CCC"
+  ],
+  "result": {
+    "item": "eyvb:cucumber_slab"
+  },
+  "show_notification": true
+}

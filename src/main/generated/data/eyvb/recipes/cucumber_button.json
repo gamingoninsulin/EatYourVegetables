@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eyvb:cucumber_block"
+    }
+  ],
+  "result": {
+    "item": "eyvb:cucumber_button"
+  }
+}

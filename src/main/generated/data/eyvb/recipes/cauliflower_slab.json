@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "eyvb:cauliflower_block"
+    }
+  },
+  "pattern": [
+    "CCC"
+  ],
+  "result": {
+    "item": "eyvb:cauliflower_slab"
+  },
+  "show_notification": true
+}

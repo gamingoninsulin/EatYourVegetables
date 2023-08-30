@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "eyvb:cauliflower_block",
+    "eyvb:cauliflower_stairs",
+    "eyvb:cauliflower_slab",
+    "eyvb:cauliflower_pressure_plate",
+    "eyvb:cauliflower_button",
+    "eyvb:cauliflower_fence",
+    "eyvb:cauliflower_fence_gate",
+    "eyvb:cauliflower_wall",
+    "eyvb:cucumber_block",
+    "eyvb:cucumber_stairs",
+    "eyvb:cucumber_slab",
+    "eyvb:cucumber_pressure_plate",
+    "eyvb:cucumber_button",
+    "eyvb:cucumber_fence",
+    "eyvb:cucumber_fence_gate",
+    "eyvb:cucumber_wall"
+  ]
+}

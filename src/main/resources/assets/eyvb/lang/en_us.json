@@ -1,0 +1,43 @@
+{
+  "itemgroup.eyvb.food_and_stuffs": "Food & Stuffs",
+  "itemgroup.eyvb.tools_and_armor": "Tools & Armor",
+
+  "_comment_1": "SEEDS",
+  "item.eyvb.cauliflower_seeds": "Cauliflower Seeds",
+  "item.eyvb.cucumber_seeds": "Cucumber Seeds",
+
+  "_comment_2": "Raw",
+  "item.eyvb.cauliflower": "Raw Cauliflower",
+  "item.eyvb.cucumber": "Cucumber",
+
+  "_comment_3": "COOKED",
+  "item.eyvb.cooked_cauliflower": "Cooked Cauliflower",
+  "item.eyvb.cut_cucumber": "Cut Cucumber",
+
+  "_comment_4": "BLOCKS",
+  "block.eyvb.cauliflower_block": "Cauliflower Block",
+  "block.eyvb.cauliflower_stairs": "Cauliflower Stairs",
+  "block.eyvb.cauliflower_slab": "Cauliflower Slab",
+  "block.eyvb.cauliflower_wall": "Cauliflower Wall",
+  "block.eyvb.cauliflower_fence": "Cauliflower Fence",
+  "block.eyvb.cauliflower_fence_gate": "Cauliflower Fence Gate",
+  "block.eyvb.cauliflower_pressure_plate": "Cauliflower Pressure Plate",
+  "block.eyvb.cauliflower_button": "Cauliflower Button",
+
+  "block.eyvb.cucumber_block": "Cucumber Block",
+  "block.eyvb.cucumber_stairs": "Cucumber Stairs",
+  "block.eyvb.cucumber_slab": "Cucumber Slab",
+  "block.eyvb.cucumber_wall": "Cucumber Wall",
+  "block.eyvb.cucumber_fence": "Cucumber Fence",
+  "block.eyvb.cucumber_fence_gate": "Cucumber Fence Gate",
+  "block.eyvb.cucumber_pressure_plate": "Cucumber Pressure Plate",
+  "block.eyvb.cucumber_button": "Cucumber Button",
+
+  "block.eyvb.crateblock": "Crate",
+  "block.eyvb.crate_block": "Crate",
+
+  "_comment_5": "TOOLS",
+  "item.eyvb.stone_knife": "Stone Knife"
+
+
+}

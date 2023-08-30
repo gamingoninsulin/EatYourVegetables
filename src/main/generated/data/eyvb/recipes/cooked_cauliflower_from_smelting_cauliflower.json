@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "vegetables",
+  "ingredient": {
+    "item": "eyvb:cauliflower"
+  },
+  "result": "eyvb:cooked_cauliflower"
+}

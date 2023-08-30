@@ -1,0 +1,16 @@
+// 1.20.1	2023-08-30T12:33:21.225282795	Eat Your Vegetables Boy/Block Loot Tables
+3abf3aedbc976890b3dbd1f30b8ceb0dcb5a6caa data/eyvb/loot_tables/blocks/cauliflower_fence_gate.json
+f5f395487ec873265b550feeb4d15abed731c55f data/eyvb/loot_tables/blocks/cucumber_fence_gate.json
+4a9c0e8eb3d15433d06dffb544fbbffcaba09b33 data/eyvb/loot_tables/blocks/cauliflower_slab.json
+f18062cb2ac276628e2d3531aef54d054fa8bc0e data/eyvb/loot_tables/blocks/cucumber_wall.json
+123c812d509518f88aa0681a66284c137fb616da data/eyvb/loot_tables/blocks/cucumbers_crop.json
+88f1e5980aabbbbab27130d8f7d915fc2d305cb1 data/eyvb/loot_tables/blocks/cauliflower_pressure_plate.json
+b33e282c37150c944468375eb0a01bf52c3a91ab data/eyvb/loot_tables/blocks/crateblock.json
+6db66533b49d517bb39c136210b2396f150b653c data/eyvb/loot_tables/blocks/cauliflower_crop.json
+275500a895683190cae2056730920e57ad5a924e data/eyvb/loot_tables/blocks/cauliflower_button.json
+21c15487da6ffd5eb4fb8dfbf950468aa51b94e9 data/eyvb/loot_tables/blocks/cucumber_button.json
+d2f2ef0d74ef7d3f0aeba36eb260ee661144104a data/eyvb/loot_tables/blocks/cucumber_fence.json
+b44903297a5516fd588ecf7d3257cd5abdd6d953 data/eyvb/loot_tables/blocks/cucumber_pressure_plate.json
+4ada57a20cb6b048c3028a499da434187ace6e26 data/eyvb/loot_tables/blocks/cauliflower_wall.json
+cd544970abdc029183fe2431485f775651e820f2 data/eyvb/loot_tables/blocks/cucumber_slab.json
+8bdc92b2baa45c4220e9ac71ec3260a255755a60 data/eyvb/loot_tables/blocks/cauliflower_fence.json

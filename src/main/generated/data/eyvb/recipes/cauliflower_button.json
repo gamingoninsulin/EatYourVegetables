@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eyvb:cauliflower_block"
+    }
+  ],
+  "result": {
+    "item": "eyvb:cauliflower_button"
+  }
+}

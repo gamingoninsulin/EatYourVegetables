@@ -1,0 +1,59 @@
+{
+	"schemaVersion": 1,
+	"id": "eyvb",
+	"version": "${version}",
+	"name": "Eat Your Vegetables Boy",
+	"description": "Adds cookable and craftable food items\nFor Minecraft 1.20.X",
+	"authors": [
+		"Gaming On Insulin"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/eyvb/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.gamingoninsulin.EYVBMod"
+		],
+		"fabric-datagen": [
+			"me.gamingoninsulin.core.EYVBModDataGenerator"
+		],
+		"client": [
+			"me.gamingoninsulin.core.EYVBClientMod"
+		],
+		"rei_client": [
+			"me.gamingoninsulin.common.compat.rei.EYVBREIClientPlugin"
+		]
+	},
+	"mixins": [
+		"eyvb.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/n832bVJ"
+			},
+			"badges": [],
+			"parent": {
+				"id": "eyvb",
+				"name": "Eat Your Vegetables Boy",
+				"description": "Adds cookable and craftable food items\nFor Minecraft 1.20.X",
+				"icon": "assets/eyvb/icon.png",
+				"badges": [ "library" ]
+			},
+			"update_checker": true
+		}
+	}
+}

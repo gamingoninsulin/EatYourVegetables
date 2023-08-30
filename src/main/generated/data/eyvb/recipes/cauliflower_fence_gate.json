@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "eyvb:cauliflower_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "CSC",
+    "CSC"
+  ],
+  "result": {
+    "item": "eyvb:cauliflower_fence_gate"
+  },
+  "show_notification": true
+}

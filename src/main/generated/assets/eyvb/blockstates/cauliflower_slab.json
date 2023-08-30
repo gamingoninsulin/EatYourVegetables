@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eyvb:block/cauliflower_slab"
+    },
+    "type=double": {
+      "model": "eyvb:block/cauliflower_block"
+    },
+    "type=top": {
+      "model": "eyvb:block/cauliflower_slab_top"
+    }
+  }
+}

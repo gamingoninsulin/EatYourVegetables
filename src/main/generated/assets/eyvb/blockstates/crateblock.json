@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "eyvb:block/crateblock",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "eyvb:block/crateblock"
+    },
+    "facing=south": {
+      "model": "eyvb:block/crateblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eyvb:block/crateblock",
+      "y": 270
+    }
+  }
+}

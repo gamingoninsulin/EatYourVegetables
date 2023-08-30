@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "eyvb:block/cauliflower_block",
+    "side": "eyvb:block/cauliflower_block",
+    "top": "eyvb:block/cauliflower_block"
+  }
+}

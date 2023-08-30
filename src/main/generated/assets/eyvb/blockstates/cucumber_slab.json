@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eyvb:block/cucumber_slab"
+    },
+    "type=double": {
+      "model": "eyvb:block/cucumber_block"
+    },
+    "type=top": {
+      "model": "eyvb:block/cucumber_slab_top"
+    }
+  }
+}
