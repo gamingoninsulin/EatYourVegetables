@@ -420,7 +420,7 @@ public class ModRecipeGen extends FabricRecipeProvider {
         // ######################################################################################################### \\
         // ### TOOLS ### \\
         // stone knife
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STONE_KNIFE, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STONE_KNIFE, 12)
                 .pattern("C")
                 .pattern("S")
 

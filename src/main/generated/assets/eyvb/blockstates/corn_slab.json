@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eyvb:block/corn_slab"
+    },
+    "type=double": {
+      "model": "eyvb:block/corn_block"
+    },
+    "type=top": {
+      "model": "eyvb:block/corn_slab_top"
+    }
+  }
+}

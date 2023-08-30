@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "eyvb:block/corn_block",
+    "side": "eyvb:block/corn_block",
+    "top": "eyvb:block/corn_block"
+  }
+}

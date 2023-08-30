@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/crop",
-  "textures": {
-    "crop": "eyvb:block/cucumbers_crop_stage3"
-  }
-}

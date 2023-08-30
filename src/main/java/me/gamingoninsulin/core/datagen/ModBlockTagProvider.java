@@ -41,7 +41,47 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.CUCUMBER_BUTTON,
                         ModBlocks.CUCUMBER_FENCE,
                         ModBlocks.CUCUMBER_FENCE_GATE,
-                        ModBlocks.CUCUMBER_WALL
+                        ModBlocks.CUCUMBER_WALL,
+
+                        // eggplant deco
+                        ModBlocks.EGGPLANT_BLOCK,
+                        ModBlocks.EGGPLANT_STAIRS,
+                        ModBlocks.EGGPLANT_SLAB,
+                        ModBlocks.EGGPLANT_PRESSURE_PLATE,
+                        ModBlocks.EGGPLANT_BUTTON,
+                        ModBlocks.EGGPLANT_FENCE,
+                        ModBlocks.EGGPLANT_FENCE_GATE,
+                        ModBlocks.EGGPLANT_WALL,
+
+                        // avocado deco
+                        ModBlocks.AVOCADO_BLOCK,
+                        ModBlocks.AVOCADO_STAIRS,
+                        ModBlocks.AVOCADO_SLAB,
+                        ModBlocks.AVOCADO_PRESSURE_PLATE,
+                        ModBlocks.AVOCADO_BUTTON,
+                        ModBlocks.AVOCADO_FENCE,
+                        ModBlocks.AVOCADO_FENCE_GATE,
+                        ModBlocks.AVOCADO_WALL,
+
+                        // sea pickle deco
+                        ModBlocks.SEA_PICKLE_BLOCK,
+                        ModBlocks.SEA_PICKLE_STAIRS,
+                        ModBlocks.SEA_PICKLE_SLAB,
+                        ModBlocks.SEA_PICKLE_PRESSURE_PLATE,
+                        ModBlocks.SEA_PICKLE_BUTTON,
+                        ModBlocks.SEA_PICKLE_FENCE,
+                        ModBlocks.SEA_PICKLE_FENCE_GATE,
+                        ModBlocks.SEA_PICKLE_WALL,
+
+                        // corn deco
+                        ModBlocks.CORN_BLOCK,
+                        ModBlocks.CORN_STAIRS,
+                        ModBlocks.CORN_SLAB,
+                        ModBlocks.CORN_PRESSURE_PLATE,
+                        ModBlocks.CORN_BUTTON,
+                        ModBlocks.CORN_FENCE,
+                        ModBlocks.CORN_FENCE_GATE,
+                        ModBlocks.CORN_WALL
                 );
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -67,7 +107,48 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5,
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6,
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7,
-                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8 // ADD A COMMA
+
+        // TO DO  make these blocks! asap
+//                        // eggplant
+//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_1,
+//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_2,
+//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_3,
+//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_4,
+//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_5,
+//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_6,
+//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_7,
+//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_8,
+//
+//                        // avocado
+//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_1,
+//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_2,
+//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_3,
+//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_4,
+//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_5,
+//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_6,
+//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_7,
+//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_8,
+//
+//                        // corn
+//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_1,
+//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_2,
+//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_3,
+//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_4,
+//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_5,
+//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_6,
+//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_7,
+//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_8,
+//
+//                        // sea_pickle
+//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_1,
+//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_2,
+//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_3,
+//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_4,
+//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_5,
+//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_6,
+//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_7,
+//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8
                 );
 
     }

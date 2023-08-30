@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "eyvb:block/corn_pressure_plate"
+    },
+    "powered=true": {
+      "model": "eyvb:block/corn_pressure_plate_down"
+    }
+  }
+}

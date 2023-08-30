@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "eyvb:block/eggplant_block",
+    "side": "eyvb:block/eggplant_block",
+    "top": "eyvb:block/eggplant_block"
+  }
+}

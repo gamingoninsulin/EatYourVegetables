@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "eyvb:block/sea_pickle_block"
+  }
+}

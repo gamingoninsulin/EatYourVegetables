@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eyvb:block/sea_pickle_slab"
+    },
+    "type=double": {
+      "model": "eyvb:block/sea_pickle_block"
+    },
+    "type=top": {
+      "model": "eyvb:block/sea_pickle_slab_top"
+    }
+  }
+}

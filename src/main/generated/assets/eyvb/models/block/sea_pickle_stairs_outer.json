@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "eyvb:block/sea_pickle_block",
+    "side": "eyvb:block/sea_pickle_block",
+    "top": "eyvb:block/sea_pickle_block"
+  }
+}

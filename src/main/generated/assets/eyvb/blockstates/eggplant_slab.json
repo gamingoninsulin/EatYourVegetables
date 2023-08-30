@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eyvb:block/eggplant_slab"
+    },
+    "type=double": {
+      "model": "eyvb:block/eggplant_block"
+    },
+    "type=top": {
+      "model": "eyvb:block/eggplant_slab_top"
+    }
+  }
+}

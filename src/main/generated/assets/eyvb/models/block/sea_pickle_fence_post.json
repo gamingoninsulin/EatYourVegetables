@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "eyvb:block/sea_pickle_block"
+  }
+}

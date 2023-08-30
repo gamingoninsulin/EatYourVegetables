@@ -27,7 +27,14 @@ public class ModItems {
 
     // Cucumber Seeds
     public static final Item CUCUMBER_SEEDS = registerItem("cucumber_seeds",
-            new AliasedBlockItem(ModBlocks.CUCUMBERS_CROP, new FabricItemSettings()));
+            new AliasedBlockItem(ModBlocks.CUCUMBER_CROP, new FabricItemSettings()));
+
+    // Eggplant Seeds
+    public static final Item EGGPLANT_SEEDS = registerItem("eggplant_seeds",
+            new AliasedBlockItem(ModBlocks.EGGPLANT_CROP, new FabricItemSettings()));
+
+    // ##################################################
+
     // cauliflower
     public static final Item CAULIFLOWER = registerItem("cauliflower",
             new Item(new FabricItemSettings().food(ModFoodComponent.CAULIFLOWER)));
@@ -35,6 +42,25 @@ public class ModItems {
     // Cucumber
     public static final Item CUCUMBER = registerItem("cucumber",
             new Item(new FabricItemSettings().food(ModFoodComponent.CUCUMBER)));
+
+    // Cucumber
+    public static final Item EGGPLANT = registerItem("eggplant",
+            new Item(new FabricItemSettings().food(ModFoodComponent.EGGPLANT)));
+
+    // Cucumber
+    public static final Item CORN = registerItem("corn_cob",
+            new Item(new FabricItemSettings().food(ModFoodComponent.CORN)));
+
+    // Cucumber
+    public static final Item AVOCADO = registerItem("avocado",
+            new Item(new FabricItemSettings().food(ModFoodComponent.AVOCADO)));
+
+    // Cucumber
+    public static final Item SEA_PICKLE = registerItem("sea_pickle",
+            new Item(new FabricItemSettings().food(ModFoodComponent.SEA_PICKLE)));
+
+    // ##################################################
+
     // cooked cauliflower
     public static final Item COOKED_CAULIFLOWER = registerItem("cooked_cauliflower",
             new Item(new FabricItemSettings().food(ModFoodComponent.COOKED_CAULIFLOWER)));
