@@ -2,8 +2,8 @@ package me.gamingoninsulin.common.blocks;
 
 import me.gamingoninsulin.EYVBMod;
 import me.gamingoninsulin.common.blocks.custom.CauliflowerCropBlock;
-import me.gamingoninsulin.common.blocks.custom.CrateBlock;
 import me.gamingoninsulin.common.blocks.custom.CucumberCropBlock;
+import me.gamingoninsulin.common.blocks.custom.ModCrateBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -74,11 +74,60 @@ public class ModBlocks {
 
     // ##################################################
     // MISC
-    public static final Block CRATEBLOCK = registerBlock("crateblock",
-            new CrateBlock(FabricBlockSettings.copyOf(Blocks.COMPOSTER).nonOpaque()));
+    // empty crate
+    public static final Block MOD_CRATE_BLOCK = registerBlock("mod_crate_block",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
 
-    public static final Block CRATE_BLOCK = registerBlock("crate_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.COMPOSTER).nonOpaque()));
+    // CAULIFLOWER \\
+    public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1 = registerBlock("mod_crate_block_cauliflower_layer_1",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // layer 2
+    public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2 = registerBlock("mod_crate_block_cauliflower_layer_2",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 3
+    public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3 = registerBlock("mod_crate_block_cauliflower_layer_3",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later
+    public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4 = registerBlock("mod_crate_block_cauliflower_layer_4",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 4
+    public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5 = registerBlock("mod_crate_block_cauliflower_layer_5",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 5
+    public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6 = registerBlock("mod_crate_block_cauliflower_layer_6",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 6
+    public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7 = registerBlock("mod_crate_block_cauliflower_layer_7",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 7
+    public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8 = registerBlock("mod_crate_block_cauliflower_layer_8",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+
+    // CUCUMBER \\
+    // layer 1
+    public static final Block MOD_CRATE_BLOCK_CUCUMBER_LAYER_1 = registerBlock("mod_crate_block_cucumber_layer_1",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // layer 2
+    public static final Block MOD_CRATE_BLOCK_CUCUMBER_LAYER_2 = registerBlock("mod_crate_block_cucumber_layer_2",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 3
+    public static final Block MOD_CRATE_BLOCK_CUCUMBER_LAYER_3 = registerBlock("mod_crate_block_cucumber_layer_3",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later
+    public static final Block MOD_CRATE_BLOCK_CUCUMBER_LAYER_4 = registerBlock("mod_crate_block_cucumber_layer_4",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 4
+    public static final Block MOD_CRATE_BLOCK_CUCUMBER_LAYER_5 = registerBlock("mod_crate_block_cucumber_layer_5",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 5
+    public static final Block MOD_CRATE_BLOCK_CUCUMBER_LAYER_6 = registerBlock("mod_crate_block_cucumber_layer_6",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 6
+    public static final Block MOD_CRATE_BLOCK_CUCUMBER_LAYER_7 = registerBlock("mod_crate_block_cucumber_layer_7",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+    // later 7
+    public static final Block MOD_CRATE_BLOCK_CUCUMBER_LAYER_8 = registerBlock("mod_crate_block_cucumber_layer_8",
+            new ModCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
 
     // ##################################################
 

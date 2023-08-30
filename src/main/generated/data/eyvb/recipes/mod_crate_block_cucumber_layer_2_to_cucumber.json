@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eyvb:mod_crate_block_cucumber_layer_2"
+    }
+  ],
+  "result": {
+    "count": 16,
+    "item": "eyvb:cucumber"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "eyvb:mod_crate_block_cauliflower_layer_2"
+    },
+    "C": {
+      "item": "eyvb:cauliflower"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "C#C",
+    "CCC"
+  ],
+  "result": {
+    "item": "eyvb:mod_crate_block_cauliflower_layer_3"
+  },
+  "show_notification": true
+}

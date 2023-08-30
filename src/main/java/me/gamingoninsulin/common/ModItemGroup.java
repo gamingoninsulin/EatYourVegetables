@@ -51,8 +51,28 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CUCUMBER_BUTTON);
 
                         //  MISC
-                        entries.add(ModBlocks.CRATEBLOCK);
-                        entries.add(ModBlocks.CRATE_BLOCK);
+                        // empty crate
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK);
+
+                        // cauliflower crates
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8);
+
+                        // cucumber crates
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7);
+                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8);
                     }).build());
 
     // ##################################################

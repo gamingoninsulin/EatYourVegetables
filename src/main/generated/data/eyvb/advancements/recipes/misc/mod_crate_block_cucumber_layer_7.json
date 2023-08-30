@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cucumber": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eyvb:cucumber"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mod_crate_block_cucumber_layer_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eyvb:mod_crate_block_cucumber_layer_6"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mod_crate_block_cucumber_layer_7"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cucumber",
+      "has_mod_crate_block_cucumber_layer_6",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mod_crate_block_cucumber_layer_7"
+    ]
+  },
+  "sends_telemetry_event": false
+}

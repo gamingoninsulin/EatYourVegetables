@@ -190,8 +190,9 @@ public class ModRecipeGen extends FabricRecipeProvider {
 
         // ######################################################################################################### \\
 
-        // Crate Block
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CRATEBLOCK)
+        // Empty Crate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK)
+                .pattern("F F")
                 .pattern("F F")
                 .pattern("SSS")
 
@@ -200,21 +201,225 @@ public class ModRecipeGen extends FabricRecipeProvider {
 
                 .criterion(hasItem(Blocks.OAK_PLANKS), conditionsFromItem(Blocks.OAK_PLANKS))
                 .criterion(hasItem(Blocks.OAK_FENCE), conditionsFromItem(Blocks.OAK_FENCE))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CRATEBLOCK)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK)));
 
-        // Crate Block
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CRATE_BLOCK)
-                .pattern("S S")
-                .pattern("SSS")
+        // ######################################################################################################### \\
 
-                .input('S', Blocks.OAK_SLAB)
+        // Cauliflower \\
+        // Crate with 1 layer cauliflower x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
 
-                .criterion(hasItem(Blocks.OAK_SLAB), conditionsFromItem(Blocks.OAK_SLAB))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CRATE_BLOCK)));
+                .input('C', ModItems.CAULIFLOWER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1))); // new crate as a result
+
+        // Crate with 2 layer cauliflower x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CAULIFLOWER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2))); // new crate as a result
+
+        // Crate with 3 layer cauliflower x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CAULIFLOWER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3))); // new crate as a result
+
+        // Crate with 4 layer cauliflower x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CAULIFLOWER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4))); // new crate as a result
+
+        // Crate with 5 layer cauliflower x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CAULIFLOWER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5))); // new crate as a result
+
+        // Crate with 6 layer cauliflower x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CAULIFLOWER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6))); // new crate as a result
+
+        // Crate with 7 layer cauliflower x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CAULIFLOWER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7))); // new crate as a result
+
+        // Crate with 8 layer cauliflower x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CAULIFLOWER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8))); // new crate as a result
+
+        // ######################################################################################################### \\
+
+        // Cucumber \\
+        // Crate with 1 layer cucumber x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CUCUMBER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CUCUMBER), conditionsFromItem(ModItems.CUCUMBER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1))); // new crate as a result
+
+        // Crate with 2 layer cucumber x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CUCUMBER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CUCUMBER), conditionsFromItem(ModItems.CUCUMBER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2))); // new crate as a result
+
+        // Crate with 3 layer cucumber x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CUCUMBER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CUCUMBER), conditionsFromItem(ModItems.CUCUMBER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3))); // new crate as a result
+
+        // Crate with 4 layer cucumber x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CUCUMBER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CUCUMBER), conditionsFromItem(ModItems.CUCUMBER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4))); // new crate as a result
+
+        // Crate with 5 layer cucumber x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CUCUMBER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CUCUMBER), conditionsFromItem(ModItems.CUCUMBER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5))); // new crate as a result
+
+        // Crate with 6 layer cucumber x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CUCUMBER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CUCUMBER), conditionsFromItem(ModItems.CUCUMBER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6))); // new crate as a result
+
+        // Crate with 7 layer cucumber x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CUCUMBER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CUCUMBER), conditionsFromItem(ModItems.CUCUMBER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7))); // new crate as a result
+
+        // Crate with 8 layer cucumber x 8
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8) // recipe for this item
+                .pattern("CCC")
+                .pattern("C#C")
+                .pattern("CCC")
+
+                .input('C', ModItems.CUCUMBER)
+                .input('#', ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7) // previous crate that is used
+
+                .criterion(hasItem(ModItems.CUCUMBER), conditionsFromItem(ModItems.CUCUMBER)) // unlock by this item
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7)) // unlock by this item
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8))); // new crate as a result
 
         // ######################################################################################################### \\
         // ### TOOLS ### \\
-        // pink garnet sword
+        // stone knife
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STONE_KNIFE, 4)
                 .pattern("C")
                 .pattern("S")
@@ -248,13 +453,149 @@ public class ModRecipeGen extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.CAULIFLOWER_BLOCK), conditionsFromItem(ModBlocks.CAULIFLOWER_BLOCK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CAULIFLOWER_BUTTON)));
 
-        // cauliflower button
+        // ######################################################################################################### \\
+
+        // Crate with 1 layer cauliflower x 8
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAULIFLOWER, 8)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1) + "_to_cauliflower" + "_1"));
+
+        // Crate with 2 layer cauliflower x 16
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAULIFLOWER, 16)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2) + "_to_cauliflower" + "_2"));
+
+        // Crate with 3 layer cauliflower x 24
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAULIFLOWER, 24)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3) + "_to_cauliflower" + "_3"));
+
+        // Crate with 4 layer cauliflower x 32
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAULIFLOWER, 32)
+
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4) + "_to_cauliflower" + "_4"));
+
+        // Crate with 5 layer cauliflower x 40
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAULIFLOWER, 40)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5) + "_to_cauliflower" + "_5"));
+
+        // Crate with 6 layer cauliflower x 48
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAULIFLOWER, 48)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6) + "_to_cauliflower" + "_6"));
+
+        // Crate with 7 layer cauliflower x 56
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAULIFLOWER, 56)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7) + "_to_cauliflower" + "_7"));
+
+        // Crate with 8 layer cauliflower x 64
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CAULIFLOWER, 64)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8) + "_to_cauliflower" + "_8"));
+
+
+        // ######################################################################################################### \\
+
+        // cucumber button
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CUCUMBER_BUTTON, 1)
 
                 .input(ModBlocks.CUCUMBER_BLOCK)
 
                 .criterion(hasItem(ModBlocks.CUCUMBER_BLOCK), conditionsFromItem(ModBlocks.CUCUMBER_BLOCK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CUCUMBER_BUTTON)));
+
+        // ######################################################################################################### \\
+
+        // Crate with 1 layer cucumber x 8
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUCUMBER, 8)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1) + "_to_cucumber"));
+
+        // Crate with 2 layer cucumber x 16
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUCUMBER, 16)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2) + "_to_cucumber"));
+
+        // Crate with 3 layer cucumber x 24
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUCUMBER, 24)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3) + "_to_cucumber"));
+
+        // Crate with 4 layer cucumber x 32
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUCUMBER, 32)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4) + "_to_cucumber"));
+
+        // Crate with 5 layer cucumber x 40
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUCUMBER, 40)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5) + "_to_cucumber"));
+
+        // Crate with 6 layer cucumber x 48
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUCUMBER, 48)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6) + "_to_cucumber"));
+
+        // Crate with 7 layer cucumber x 56
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUCUMBER, 56)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7) + "_to_cucumber"));
+
+        // Crate with 8 layer cucumber x 64
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CUCUMBER, 64)
+
+                .input(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8)
+
+                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8) + "_to_cucumber"));
 
         // ######################################################################################################### \\
         //  ### SMELTING & BLASTING ###  \\

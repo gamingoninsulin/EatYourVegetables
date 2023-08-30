@@ -23,6 +23,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         // shovel
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(
+                        // cauliflower deco
                         ModBlocks.CAULIFLOWER_BLOCK,
                         ModBlocks.CAULIFLOWER_STAIRS,
                         ModBlocks.CAULIFLOWER_SLAB,
@@ -32,6 +33,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.CAULIFLOWER_FENCE_GATE,
                         ModBlocks.CAULIFLOWER_WALL,
 
+                        // cucumber deco
                         ModBlocks.CUCUMBER_BLOCK,
                         ModBlocks.CUCUMBER_STAIRS,
                         ModBlocks.CUCUMBER_SLAB,
@@ -40,6 +42,32 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.CUCUMBER_FENCE,
                         ModBlocks.CUCUMBER_FENCE_GATE,
                         ModBlocks.CUCUMBER_WALL
+                );
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(
+                        // empty crate
+                        ModBlocks.MOD_CRATE_BLOCK,
+
+                        // cauliflower
+                        ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1,
+                        ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2,
+                        ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3,
+                        ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4,
+                        ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5,
+                        ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6,
+                        ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7,
+                        ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8,
+
+                        // cucumbers
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1,
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2,
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3,
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4,
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5,
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6,
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7,
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8
                 );
 
     }

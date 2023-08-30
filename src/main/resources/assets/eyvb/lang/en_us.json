@@ -24,6 +24,15 @@
   "block.eyvb.cauliflower_pressure_plate": "Cauliflower Pressure Plate",
   "block.eyvb.cauliflower_button": "Cauliflower Button",
 
+  "block.eyvb.mod_crate_block_cauliflower_layer_1": "Crate with 8x Cauliflower's",
+  "block.eyvb.mod_crate_block_cauliflower_layer_2": "Crate with 16 Cauliflower's",
+  "block.eyvb.mod_crate_block_cauliflower_layer_3": "Crate with 24x Cauliflower's",
+  "block.eyvb.mod_crate_block_cauliflower_layer_4": "Crate with 32x Cauliflower's",
+  "block.eyvb.mod_crate_block_cauliflower_layer_5": "Crate with 40x Cauliflower's",
+  "block.eyvb.mod_crate_block_cauliflower_layer_6": "Crate with 48x Cauliflower's",
+  "block.eyvb.mod_crate_block_cauliflower_layer_7": "Crate with 56x Cauliflower's",
+  "block.eyvb.mod_crate_block_cauliflower_layer_8": "Crate with 64x Cauliflower's",
+
   "block.eyvb.cucumber_block": "Cucumber Block",
   "block.eyvb.cucumber_stairs": "Cucumber Stairs",
   "block.eyvb.cucumber_slab": "Cucumber Slab",
@@ -33,8 +42,16 @@
   "block.eyvb.cucumber_pressure_plate": "Cucumber Pressure Plate",
   "block.eyvb.cucumber_button": "Cucumber Button",
 
-  "block.eyvb.crateblock": "Crate",
-  "block.eyvb.crate_block": "Crate",
+  "block.eyvb.mod_crate_block_cucumber_layer_1": "Crate with 8x Cucumber's",
+  "block.eyvb.mod_crate_block_cucumber_layer_2": "Crate with 16 Cucumber's",
+  "block.eyvb.mod_crate_block_cucumber_layer_3": "Crate with 24x Cucumber's",
+  "block.eyvb.mod_crate_block_cucumber_layer_4": "Crate with 32x Cucumber's",
+  "block.eyvb.mod_crate_block_cucumber_layer_5": "Crate with 40x Cucumber's",
+  "block.eyvb.mod_crate_block_cucumber_layer_6": "Crate with 48x Cucumber's",
+  "block.eyvb.mod_crate_block_cucumber_layer_7": "Crate with 56x Cucumber's",
+  "block.eyvb.mod_crate_block_cucumber_layer_8": "Crate with 64x Cucumber's",
+
+  "block.eyvb.mod_crate_block": "Empty Crate",
 
   "_comment_5": "TOOLS",
   "item.eyvb.stone_knife": "Stone Knife"

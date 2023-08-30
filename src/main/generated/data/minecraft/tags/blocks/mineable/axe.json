@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "eyvb:mod_crate_block",
+    "eyvb:mod_crate_block_cauliflower_layer_1",
+    "eyvb:mod_crate_block_cauliflower_layer_2",
+    "eyvb:mod_crate_block_cauliflower_layer_3",
+    "eyvb:mod_crate_block_cauliflower_layer_4",
+    "eyvb:mod_crate_block_cauliflower_layer_5",
+    "eyvb:mod_crate_block_cauliflower_layer_6",
+    "eyvb:mod_crate_block_cauliflower_layer_7",
+    "eyvb:mod_crate_block_cauliflower_layer_8",
+    "eyvb:mod_crate_block_cucumber_layer_1",
+    "eyvb:mod_crate_block_cucumber_layer_2",
+    "eyvb:mod_crate_block_cucumber_layer_3",
+    "eyvb:mod_crate_block_cucumber_layer_4",
+    "eyvb:mod_crate_block_cucumber_layer_5",
+    "eyvb:mod_crate_block_cucumber_layer_6",
+    "eyvb:mod_crate_block_cucumber_layer_7",
+    "eyvb:mod_crate_block_cucumber_layer_8"
+  ]
+}

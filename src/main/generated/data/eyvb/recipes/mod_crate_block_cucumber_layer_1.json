@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "eyvb:mod_crate_block"
+    },
+    "C": {
+      "item": "eyvb:cucumber"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "C#C",
+    "CCC"
+  ],
+  "result": {
+    "item": "eyvb:mod_crate_block_cucumber_layer_1"
+  },
+  "show_notification": true
+}

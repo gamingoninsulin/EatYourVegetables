@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "eyvb:block/mod_crate_block_cauliflower_layer_8",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "eyvb:block/mod_crate_block_cauliflower_layer_8"
+    },
+    "facing=south": {
+      "model": "eyvb:block/mod_crate_block_cauliflower_layer_8",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eyvb:block/mod_crate_block_cauliflower_layer_8",
+      "y": 270
+    }
+  }
+}

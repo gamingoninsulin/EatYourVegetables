@@ -18,9 +18,8 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
     public void generate() {
 
 // ##################################################
-        // CRATW
-        addDrop(ModBlocks.CRATEBLOCK);
-
+        // EMPTY CRATE
+        addDrop(ModBlocks.MOD_CRATE_BLOCK);
 // ##################################################
 
         // CAULIFLOWER CROP
@@ -36,6 +35,16 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CAULIFLOWER_FENCE_GATE);
         addDrop(ModBlocks.CAULIFLOWER_WALL);
 
+        // cauliflower crates
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8);
+
         // ##################################################
 
         // CUCUMBER CROP
@@ -50,6 +59,16 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CUCUMBER_FENCE);
         addDrop(ModBlocks.CUCUMBER_FENCE_GATE);
         addDrop(ModBlocks.CUCUMBER_WALL);
+
+        // cucumber crates
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7);
+        addDrop(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8);
 
         // ##################################################
     }

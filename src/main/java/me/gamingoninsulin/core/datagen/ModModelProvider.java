@@ -7,11 +7,6 @@ import me.gamingoninsulin.common.items.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.*;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.state.property.Properties;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.math.Direction;
-
 public class ModModelProvider extends FabricModelProvider {
 
 
@@ -21,8 +16,16 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockstatemodelgenerator) {
+
+        // ######################################################################################################### \\
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK);
+        // ######################################################################################################### \\
+
+        //  CAULIFLOWER BLOCK
         BlockStateModelGenerator.BlockTexturePool CauliflowerTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.CAULIFLOWER_BLOCK);
-        BlockStateModelGenerator.BlockTexturePool CucumberTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.CUCUMBER_BLOCK);
+
+        // CROP
+        blockstatemodelgenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
 
         CauliflowerTexture.stairs(ModBlocks.CAULIFLOWER_STAIRS);
         CauliflowerTexture.slab(ModBlocks.CAULIFLOWER_SLAB);
@@ -32,6 +35,38 @@ public class ModModelProvider extends FabricModelProvider {
         CauliflowerTexture.fenceGate(ModBlocks.CAULIFLOWER_FENCE_GATE);
         CauliflowerTexture.wall(ModBlocks.CAULIFLOWER_WALL);
 
+        // layer 1
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1);
+
+        // layer 2
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2);
+
+        // layer 3
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3);
+
+        // layer 4
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4);
+
+        // layer 5
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5);
+
+        // layer
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6);
+
+        // layer 7
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7);
+
+        // layer 8
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8);
+
+        // ######################################################################################################### \\
+
+        // CUCUMBER BLOCK
+        BlockStateModelGenerator.BlockTexturePool CucumberTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.CUCUMBER_BLOCK);
+
+        // CROP
+        blockstatemodelgenerator.registerCrop(ModBlocks.CUCUMBERS_CROP, CucumberCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+
         CucumberTexture.stairs(ModBlocks.CUCUMBER_STAIRS);
         CucumberTexture.slab(ModBlocks.CUCUMBER_SLAB);
         CucumberTexture.button(ModBlocks.CUCUMBER_BUTTON);
@@ -40,11 +75,32 @@ public class ModModelProvider extends FabricModelProvider {
         CucumberTexture.fenceGate(ModBlocks.CUCUMBER_FENCE_GATE);
         CucumberTexture.wall(ModBlocks.CUCUMBER_WALL);
 
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CRATEBLOCK);
-        blockstatemodelgenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
-        blockstatemodelgenerator.registerCrop(ModBlocks.CUCUMBERS_CROP, CucumberCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        // layer 1
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1);
 
-  }
+        // layer 2
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2);
+
+        // layer 3
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3);
+
+        // layer 4
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4);
+
+        // layer 5
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5);
+
+        // layer
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6);
+
+        // layer 7
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7);
+
+        // layer 8
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8);
+
+        // ######################################################################################################### \\
+    }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemmodelgenerator) {

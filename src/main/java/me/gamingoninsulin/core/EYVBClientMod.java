@@ -12,8 +12,28 @@ public class EYVBClientMod implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CAULIFLOWER_CROP, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CUCUMBERS_CROP, RenderLayer.getCutout());
-//        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CRATEBLOCK, RenderLayer.getCutout());
-//        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CRATE_BLOCK, RenderLayer.getCutout());
+
+        // empty crate
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK, RenderLayer.getCutout());
+        // cauliflower \\
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8, RenderLayer.getCutout());
+
+        // cucumber \\
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8, RenderLayer.getCutout());
     }
 }
 /*      //OFF\\
