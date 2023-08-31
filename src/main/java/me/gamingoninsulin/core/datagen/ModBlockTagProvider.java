@@ -87,7 +87,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(
                         // empty crate
-                        ModBlocks.MOD_CRATE_BLOCK,
+                        ModBlocks.EMPTY_CRATE,
 
                         // cauliflower
                         ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1,
@@ -107,48 +107,47 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5,
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6,
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7,
-                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8 // ADD A COMMA
+                        ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8,
 
-        // TO DO  make these blocks! asap
-//                        // eggplant
-//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_1,
-//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_2,
-//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_3,
-//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_4,
-//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_5,
-//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_6,
-//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_7,
-//                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_8,
-//
-//                        // avocado
-//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_1,
-//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_2,
-//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_3,
-//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_4,
-//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_5,
-//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_6,
-//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_7,
-//                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_8,
-//
-//                        // corn
-//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_1,
-//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_2,
-//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_3,
-//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_4,
-//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_5,
-//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_6,
-//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_7,
-//                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_8,
-//
-//                        // sea_pickle
-//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_1,
-//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_2,
-//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_3,
-//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_4,
-//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_5,
-//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_6,
-//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_7,
-//                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8
+                        // eggplant
+                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_1,
+                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_2,
+                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_3,
+                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_4,
+                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_5,
+                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_6,
+                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_7,
+                        ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_8,
+
+                        // avocado
+                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_1,
+                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_2,
+                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_3,
+                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_4,
+                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_5,
+                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_6,
+                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_7,
+                        ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_8,
+
+                        // corn
+                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_1,
+                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_2,
+                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_3,
+                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_4,
+                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_5,
+                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_6,
+                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_7,
+                        ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_8,
+
+                        // sea_pickle
+                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_1,
+                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_2,
+                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_3,
+                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_4,
+                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_5,
+                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_6,
+                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_7,
+                        ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8
                 );
 
     }

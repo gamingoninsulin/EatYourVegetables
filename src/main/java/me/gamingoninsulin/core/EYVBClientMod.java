@@ -15,7 +15,8 @@ public class EYVBClientMod implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EGGPLANT_CROP, RenderLayer.getCutout());
 
         // empty crate
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EMPTY_CRATE, RenderLayer.getCutout());
+
         // cauliflower \\
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2, RenderLayer.getCutout());

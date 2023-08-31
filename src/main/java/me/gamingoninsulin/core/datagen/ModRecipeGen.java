@@ -191,7 +191,7 @@ public class ModRecipeGen extends FabricRecipeProvider {
         // ######################################################################################################### \\
 
         // Empty Crate
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MOD_CRATE_BLOCK)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.EMPTY_CRATE)
                 .pattern("F F")
                 .pattern("F F")
                 .pattern("SSS")
@@ -201,7 +201,7 @@ public class ModRecipeGen extends FabricRecipeProvider {
 
                 .criterion(hasItem(Blocks.OAK_PLANKS), conditionsFromItem(Blocks.OAK_PLANKS))
                 .criterion(hasItem(Blocks.OAK_FENCE), conditionsFromItem(Blocks.OAK_FENCE))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.EMPTY_CRATE)));
 
         // ######################################################################################################### \\
 
@@ -213,10 +213,10 @@ public class ModRecipeGen extends FabricRecipeProvider {
                 .pattern("CCC")
 
                 .input('C', ModItems.CAULIFLOWER)
-                .input('#', ModBlocks.MOD_CRATE_BLOCK) // previous crate that is used
+                .input('#', ModBlocks.EMPTY_CRATE) // previous crate that is used
 
                 .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER)) // unlock by this item
-                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK)) // unlock by this item
+                .criterion(hasItem(ModBlocks.EMPTY_CRATE), conditionsFromItem(ModBlocks.EMPTY_CRATE)) // unlock by this item
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1))); // new crate as a result
 
         // Crate with 2 layer cauliflower x 8
@@ -320,10 +320,10 @@ public class ModRecipeGen extends FabricRecipeProvider {
                 .pattern("CCC")
 
                 .input('C', ModItems.CUCUMBER)
-                .input('#', ModBlocks.MOD_CRATE_BLOCK) // previous crate that is used
+                .input('#', ModBlocks.EMPTY_CRATE) // previous crate that is used
 
                 .criterion(hasItem(ModItems.CUCUMBER), conditionsFromItem(ModItems.CUCUMBER)) // unlock by this item
-                .criterion(hasItem(ModBlocks.MOD_CRATE_BLOCK), conditionsFromItem(ModBlocks.MOD_CRATE_BLOCK)) // unlock by this item
+                .criterion(hasItem(ModBlocks.EMPTY_CRATE), conditionsFromItem(ModBlocks.EMPTY_CRATE)) // unlock by this item
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1))); // new crate as a result
 
         // Crate with 2 layer cucumber x 8

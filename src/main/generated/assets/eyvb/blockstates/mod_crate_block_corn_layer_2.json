@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "eyvb:block/mod_crate_block_corn_layer_2",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "eyvb:block/mod_crate_block_corn_layer_2"
+    },
+    "facing=south": {
+      "model": "eyvb:block/mod_crate_block_corn_layer_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eyvb:block/mod_crate_block_corn_layer_2",
+      "y": 270
+    }
+  }
+}

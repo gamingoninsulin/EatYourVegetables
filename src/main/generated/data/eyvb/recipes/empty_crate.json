@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:oak_fence"
+    },
+    "S": {
+      "item": "minecraft:oak_slab"
+    }
+  },
+  "pattern": [
+    "F F",
+    "F F",
+    "SSS"
+  ],
+  "result": {
+    "item": "eyvb:empty_crate"
+  },
+  "show_notification": true
+}

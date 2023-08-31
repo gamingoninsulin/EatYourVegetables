@@ -13,12 +13,12 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
-    "has_mod_crate_block": {
+    "has_empty_crate": {
       "conditions": {
         "items": [
           {
             "items": [
-              "eyvb:mod_crate_block"
+              "eyvb:empty_crate"
             ]
           }
         ]
@@ -35,7 +35,7 @@
   "requirements": [
     [
       "has_cauliflower",
-      "has_mod_crate_block",
+      "has_empty_crate",
       "has_the_recipe"
     ]
   ],
