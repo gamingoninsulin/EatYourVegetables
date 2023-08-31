@@ -38,7 +38,7 @@
   <h3>Contact details:</h3>
   <br>
   <p>(Discord) GamingOnInsulin</p>
-  <br><br>
+  <br>
   <p>(Twitter) <a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a></p>
 </div>
 </div>
