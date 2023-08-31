@@ -41,5 +41,6 @@
   GamingOnInsulin
   <br><br>
   (Twitter)
-  <li></li><a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a></div>li>
+  <a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a>
+</div>
 </div>
