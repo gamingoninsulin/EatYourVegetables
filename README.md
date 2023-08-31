@@ -36,7 +36,7 @@
  <img src="src\main\resources\assets\eyvb\icon.png" alt="Mod Icon" width="100" hight="100"/> 
   <br>
   <h3>Contact details:</h3>
-  <br><br>
+  <br>
   <p>(Discord) GamingOnInsulin</p>
   <br><br>
   <p>(Twitter) <a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a></p>
