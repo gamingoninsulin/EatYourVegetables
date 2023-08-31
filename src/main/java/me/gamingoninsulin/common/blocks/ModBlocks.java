@@ -23,7 +23,7 @@ public class ModBlocks {
     // ##################################################
     // Cauliflower Block
     public static final Block CAULIFLOWER_BLOCK = registerBlock(    "cauliflower_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Cauliflower Crop
     public static final Block CAULIFLOWER_CROP = registerBlockWithoutBlockItem("cauliflower_crop",
@@ -31,20 +31,20 @@ public class ModBlocks {
 
     // Cauliflower Decorations
     public static final Block CAULIFLOWER_STAIRS = registerBlock("cauliflower_stairs",
-            new StairsBlock(ModBlocks.CAULIFLOWER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new StairsBlock(ModBlocks.CAULIFLOWER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block CAULIFLOWER_SLAB = registerBlock("cauliflower_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block CAULIFLOWER_BUTTON = registerBlock("cauliflower_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK, 10, true));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK, 10, true));
     public static final Block CAULIFLOWER_PRESSURE_PLATE = registerBlock("cauliflower_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE), BlockSetType.OAK));
 
     public static final Block CAULIFLOWER_FENCE = registerBlock("cauliflower_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block CAULIFLOWER_FENCE_GATE = registerBlock("cauliflower_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.STONE), WoodType.OAK));
     public static final Block CAULIFLOWER_WALL = registerBlock("cauliflower_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Cauliflower Crates
     // layer 1
@@ -76,7 +76,7 @@ public class ModBlocks {
 
     // Cucumber Block
     public static final Block CUCUMBER_BLOCK = registerBlock(    "cucumber_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Cucumber Crop
     public static final Block CUCUMBER_CROP = registerBlockWithoutBlockItem("cucumber_crop",
@@ -84,19 +84,19 @@ public class ModBlocks {
 
     // Cucumber Decorations
     public static final Block CUCUMBER_STAIRS = registerBlock("cucumber_stairs",
-            new StairsBlock(ModBlocks.CUCUMBER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new StairsBlock(ModBlocks.CUCUMBER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block CUCUMBER_SLAB = registerBlock("cucumber_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block CUCUMBER_BUTTON = registerBlock("cucumber_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK, 10, true));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK, 10, true));
     public static final Block CUCUMBER_PRESSURE_PLATE = registerBlock("cucumber_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK));
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK));
     public static final Block CUCUMBER_FENCE = registerBlock("cucumber_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block CUCUMBER_FENCE_GATE = registerBlock("cucumber_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.STONE), WoodType.OAK));
     public static final Block CUCUMBER_WALL = registerBlock("cucumber_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Cucumber Crates
     // layer 1
@@ -128,23 +128,23 @@ public class ModBlocks {
 
     // Avocado Block
     public static final Block AVOCADO_BLOCK = registerBlock(    "avocado_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Avocado Decorations
     public static final Block AVOCADO_STAIRS = registerBlock("avocado_stairs",
-            new StairsBlock(ModBlocks.AVOCADO_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new StairsBlock(ModBlocks.AVOCADO_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block AVOCADO_SLAB = registerBlock("avocado_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block AVOCADO_BUTTON = registerBlock("avocado_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK, 10, true));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK, 10, true));
     public static final Block AVOCADO_PRESSURE_PLATE = registerBlock("avocado_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE), BlockSetType.OAK));
     public static final Block AVOCADO_FENCE = registerBlock("avocado_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block AVOCADO_FENCE_GATE = registerBlock("avocado_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.STONE), WoodType.OAK));
     public static final Block AVOCADO_WALL = registerBlock("avocado_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Avocado Crates
     // layer 1
@@ -176,7 +176,7 @@ public class ModBlocks {
 
     // Eggplant Block
     public static final Block EGGPLANT_BLOCK = registerBlock(    "eggplant_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Eggplant Crop
     public static final Block EGGPLANT_CROP = registerBlockWithoutBlockItem("eggplant_crop",
@@ -184,19 +184,19 @@ public class ModBlocks {
 
     // Eggplant Decorations
     public static final Block EGGPLANT_STAIRS = registerBlock("eggplant_stairs",
-            new StairsBlock(ModBlocks.EGGPLANT_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new StairsBlock(ModBlocks.EGGPLANT_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block EGGPLANT_SLAB = registerBlock("eggplant_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block EGGPLANT_BUTTON = registerBlock("eggplant_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK, 10, true));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK, 10, true));
     public static final Block EGGPLANT_PRESSURE_PLATE = registerBlock("eggplant_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK));
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK));
     public static final Block EGGPLANT_FENCE = registerBlock("eggplant_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block EGGPLANT_FENCE_GATE = registerBlock("eggplant_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.STONE), WoodType.OAK));
     public static final Block EGGPLANT_WALL = registerBlock("eggplant_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Eggplant Crates
     // layer 1
@@ -228,25 +228,25 @@ public class ModBlocks {
 
     // Corn Block
     public static final Block CORN_BLOCK = registerBlock(    "corn_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Corn Crop
 
     // CORN
     public static final Block CORN_STAIRS = registerBlock("corn_stairs",
-            new StairsBlock(ModBlocks.CORN_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new StairsBlock(ModBlocks.CORN_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block CORN_SLAB = registerBlock("corn_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block CORN_BUTTON = registerBlock("corn_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK, 10, true));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK, 10, true));
     public static final Block CORN_PRESSURE_PLATE = registerBlock("corn_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK));
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK));
     public static final Block CORN_FENCE = registerBlock("corn_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block CORN_FENCE_GATE = registerBlock("corn_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.STONE), WoodType.OAK));
     public static final Block CORN_WALL = registerBlock("corn_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Cron Crates
     // layer 1
@@ -278,23 +278,23 @@ public class ModBlocks {
 
     // Sea Pickle Block
     public static final Block SEA_PICKLE_BLOCK = registerBlock(    "sea_pickle_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Sea Pickle Decorations
     public static final Block SEA_PICKLE_STAIRS = registerBlock("sea_pickle_stairs",
-            new StairsBlock(ModBlocks.SEA_PICKLE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new StairsBlock(ModBlocks.SEA_PICKLE_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block SEA_PICKLE_SLAB = registerBlock("sea_pickle_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block SEA_PICKLE_BUTTON = registerBlock("sea_pickle_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK, 10, true));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK, 10, true));
     public static final Block SEA_PICKLE_PRESSURE_PLATE = registerBlock("sea_pickle_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK));
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK));
     public static final Block SEA_PICKLE_FENCE = registerBlock("sea_pickle_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
     public static final Block SEA_PICKLE_FENCE_GATE = registerBlock("sea_pickle_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.STONE), WoodType.OAK));
     public static final Block SEA_PICKLE_WALL = registerBlock("sea_pickle_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
 
     // Sea Pickle Crates
     // layer 1
@@ -364,6 +364,15 @@ public class ModBlocks {
 
     public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+     public static final Block PINK_GARNET_FENCE = registerBlock("pink_garnet_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+     public static final Block PINK_GARNET_FENCE_GATE = registerBlock("pink_garnet_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), WoodType.ACACIA));
+
+     public static final Block PINK_GARNET_WALL = registerBlock("pink_garnet_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
 // ##################################################
 
