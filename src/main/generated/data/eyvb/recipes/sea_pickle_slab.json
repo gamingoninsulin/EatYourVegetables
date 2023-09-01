@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "eyvb:sea_pickle_block"
+    }
+  },
+  "pattern": [
+    "CCC"
+  ],
+  "result": {
+    "item": "eyvb:sea_pickle_slab"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eyvb:mod_crate_block_eggplant_layer_7"
+    }
+  ],
+  "result": {
+    "count": 56,
+    "item": "eyvb:eggplant"
+  }
+}

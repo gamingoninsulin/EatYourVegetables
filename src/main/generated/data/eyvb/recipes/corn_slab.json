@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "eyvb:corn_block"
+    }
+  },
+  "pattern": [
+    "CCC"
+  ],
+  "result": {
+    "item": "eyvb:corn_slab"
+  },
+  "show_notification": true
+}

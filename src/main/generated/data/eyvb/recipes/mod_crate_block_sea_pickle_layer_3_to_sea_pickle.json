@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eyvb:mod_crate_block_sea_pickle_layer_3"
+    }
+  ],
+  "result": {
+    "count": 24,
+    "item": "eyvb:sea_pickle"
+  }
+}

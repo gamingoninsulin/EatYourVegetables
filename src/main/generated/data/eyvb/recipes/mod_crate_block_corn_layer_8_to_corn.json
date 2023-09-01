@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eyvb:mod_crate_block_corn_layer_8"
+    }
+  ],
+  "result": {
+    "count": 64,
+    "item": "eyvb:corn_cob"
+  }
+}

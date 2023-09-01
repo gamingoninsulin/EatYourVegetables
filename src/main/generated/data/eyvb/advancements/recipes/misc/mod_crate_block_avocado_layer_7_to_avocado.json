@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mod_crate_block_avocado_layer_7": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eyvb:mod_crate_block_avocado_layer_7"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mod_crate_block_avocado_layer_7_to_avocado"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mod_crate_block_avocado_layer_7",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mod_crate_block_avocado_layer_7_to_avocado"
+    ]
+  },
+  "sends_telemetry_event": false
+}

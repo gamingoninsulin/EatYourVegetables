@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eyvb:corn_block"
+    }
+  ],
+  "result": {
+    "item": "eyvb:corn_button"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "eyvb:sea_pickle_block"
+    }
+  ],
+  "result": {
+    "item": "eyvb:sea_pickle_button"
+  }
+}

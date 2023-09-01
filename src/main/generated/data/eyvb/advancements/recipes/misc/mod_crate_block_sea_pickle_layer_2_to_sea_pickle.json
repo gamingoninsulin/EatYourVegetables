@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mod_crate_block_sea_pickle_layer_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eyvb:mod_crate_block_sea_pickle_layer_2"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mod_crate_block_sea_pickle_layer_2_to_sea_pickle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mod_crate_block_sea_pickle_layer_2",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mod_crate_block_sea_pickle_layer_2_to_sea_pickle"
+    ]
+  },
+  "sends_telemetry_event": false
+}

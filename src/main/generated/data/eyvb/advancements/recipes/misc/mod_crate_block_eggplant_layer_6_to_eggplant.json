@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mod_crate_block_eggplant_layer_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "eyvb:mod_crate_block_eggplant_layer_6"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:mod_crate_block_eggplant_layer_6_to_eggplant"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mod_crate_block_eggplant_layer_6",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:mod_crate_block_eggplant_layer_6_to_eggplant"
+    ]
+  },
+  "sends_telemetry_event": false
+}

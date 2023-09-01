@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "eyvb:empty_crate"
+    },
+    "C": {
+      "item": "eyvb:avocado"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "C#C",
+    "CCC"
+  ],
+  "result": {
+    "item": "eyvb:mod_crate_block_avocado_layer_1"
+  },
+  "show_notification": true
+}
