@@ -36,6 +36,58 @@ public class ModRecipeGen extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.OAK_FENCE), conditionsFromItem(Blocks.OAK_FENCE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.EMPTY_CRATE)));
 
+        // Cabinet Closed
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CABINET_CLOSED)
+                .pattern("DDD")
+                .pattern("DBD")
+                .pattern("DDD")
+
+                .input('D', Blocks.DARK_OAK_PLANKS)
+                .input('B', Items.BUCKET)
+
+                .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
+                .criterion(hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CABINET_CLOSED)));
+
+        // Cabinet Open Left
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CABINET_OPEN_LEFT)
+                .pattern("DDD")
+                .pattern(" BD")
+                .pattern("DDD")
+
+                .input('D', Blocks.DARK_OAK_PLANKS)
+                .input('B', Items.BUCKET)
+
+                .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
+                .criterion(hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CABINET_OPEN_LEFT)));
+
+        // Cabinet Open Right
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CABINET_OPEN_RIGHT)
+                .pattern("DDD")
+                .pattern("DB ")
+                .pattern("DDD")
+
+                .input('D', Blocks.DARK_OAK_PLANKS)
+                .input('B', Items.BUCKET)
+
+                .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
+                .criterion(hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CABINET_OPEN_RIGHT)));
+
+        // Cabinet Open
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CABINET_OPEN)
+                .pattern("DDD")
+                .pattern(" B ")
+                .pattern("DDD")
+
+                .input('D', Blocks.DARK_OAK_PLANKS)
+                .input('B', Items.BUCKET)
+
+                .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
+                .criterion(hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CABINET_OPEN)));
+
         // ######################################################################################################### \\
 
         // stone knife

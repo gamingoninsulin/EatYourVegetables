@@ -1,6 +1,9 @@
 package me.gamingoninsulin.common.blocks;
 
 import me.gamingoninsulin.EYVBMod;
+import me.gamingoninsulin.common.blocks.custom.CabinetBlock;
+import me.gamingoninsulin.common.blocks.custom.CheesePressBlock;
+import me.gamingoninsulin.common.blocks.custom.KitchenOvenBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.CauliflowerCropBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.CucumberCropBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.EggplantCropBlock;
@@ -19,64 +22,102 @@ public class ModBlocks {
     // ##################################################
     // empty crate
     public static final Block EMPTY_CRATE = registerBlock("empty_crate",
-            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.COMPOSTER).nonOpaque()));
-    // ##################################################
-    // Cauliflower Block
-    public static final Block CAULIFLOWER_BLOCK = registerBlock(    "cauliflower_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
+    // cabinet closed
+    public static final Block CABINET_CLOSED = registerBlock("cabinet_closed",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    // cabinet open left
+    public static final Block CABINET_OPEN_LEFT = registerBlock("cabinet_open_left",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    // cabinet open right
+    public static final Block CABINET_OPEN_RIGHT = registerBlock("cabinet_open_right",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    public static final Block CABINET_OPEN = registerBlock("cabinet_open",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    // cabinet open
+    public static final Block CAULIFLOWER_BLOCK = registerBlock(    "cauliflower_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+
+    // oven off
+    public static final Block KITCHEN_OVEN_OFF = registerBlock("kitchen_oven_off",
+            new KitchenOvenBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // oven off
+    public static final Block KITCHEN_OVEN_ON = registerBlock("kitchen_oven_on",
+            new KitchenOvenBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+
+    // cheese press
+//    public static final Block CHEESE_PRESS = registerBlock("cheese_press",
+//            new CheesePressBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).nonOpaque()));
+//
+//    // cheese press working
+//    public static final Block CHEESE_PRESS_WORKING = registerBlock("cheese_press_working",
+//            new CheesePressBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).nonOpaque()));
+//
+//    // cheese press done
+//    public static final Block CHEESE_PRESS_DONE = registerBlock("cheese_press_done",
+//            new CheesePressBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).nonOpaque()));
+
+    // ##################################################
     // Cauliflower Crop
+    // Cauliflower Block
+
     public static final Block CAULIFLOWER_CROP = registerBlockWithoutBlockItem("cauliflower_crop",
             new CauliflowerCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     // Cauliflower Decorations
     public static final Block CAULIFLOWER_STAIRS = registerBlock("cauliflower_stairs",
-            new StairsBlock(ModBlocks.CAULIFLOWER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE)));
+            new StairsBlock(ModBlocks.CAULIFLOWER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
     public static final Block CAULIFLOWER_SLAB = registerBlock("cauliflower_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
     public static final Block CAULIFLOWER_BUTTON = registerBlock("cauliflower_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK, 10, true));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK, 10, true));
     public static final Block CAULIFLOWER_PRESSURE_PLATE = registerBlock("cauliflower_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.STONE_PRESSURE_PLATE), BlockSetType.OAK));
-
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK));
     public static final Block CAULIFLOWER_FENCE = registerBlock("cauliflower_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
     public static final Block CAULIFLOWER_FENCE_GATE = registerBlock("cauliflower_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.STONE), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
     public static final Block CAULIFLOWER_WALL = registerBlock("cauliflower_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
 
     // Cauliflower Crates
     // layer 1
     public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1 = registerBlock("mod_crate_block_cauliflower_layer_1",
-            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     // layer 2
     public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2 = registerBlock("mod_crate_block_cauliflower_layer_2",
-            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     // later 3
     public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3 = registerBlock("mod_crate_block_cauliflower_layer_3",
-            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     // layer 4
     public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4 = registerBlock("mod_crate_block_cauliflower_layer_4",
-            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     // later 5
     public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5 = registerBlock("mod_crate_block_cauliflower_layer_5",
-            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     // later 6
     public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6 = registerBlock("mod_crate_block_cauliflower_layer_6",
-            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     // later 7
     public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7 = registerBlock("mod_crate_block_cauliflower_layer_7",
-            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     // later 8
     public static final Block MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8 = registerBlock("mod_crate_block_cauliflower_layer_8",
-            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.CHEST).nonOpaque()));
+            new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     // ##################################################
 
     // Cucumber Block
     public static final Block CUCUMBER_BLOCK = registerBlock(    "cucumber_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
 
     // Cucumber Crop
     public static final Block CUCUMBER_CROP = registerBlockWithoutBlockItem("cucumber_crop",
@@ -84,19 +125,19 @@ public class ModBlocks {
 
     // Cucumber Decorations
     public static final Block CUCUMBER_STAIRS = registerBlock("cucumber_stairs",
-            new StairsBlock(ModBlocks.CUCUMBER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.STONE)));
+            new StairsBlock(ModBlocks.CUCUMBER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
     public static final Block CUCUMBER_SLAB = registerBlock("cucumber_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
     public static final Block CUCUMBER_BUTTON = registerBlock("cucumber_button",
-            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK, 10, true));
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK, 10, true));
     public static final Block CUCUMBER_PRESSURE_PLATE = registerBlock("cucumber_pressure_plate",
-            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.STONE), BlockSetType.OAK));
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), BlockSetType.OAK));
     public static final Block CUCUMBER_FENCE = registerBlock("cucumber_fence",
-            new FenceBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
     public static final Block CUCUMBER_FENCE_GATE = registerBlock("cucumber_fence_gate",
-            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.STONE), WoodType.OAK));
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
     public static final Block CUCUMBER_WALL = registerBlock("cucumber_wall",
-            new WallBlock(FabricBlockSettings.copyOf(Blocks.STONE)));
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
 
     // Cucumber Crates
     // layer 1

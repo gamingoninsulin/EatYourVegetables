@@ -20,9 +20,6 @@ public class ModItemGroup {
             new Identifier(MOD_ID, "food_and_stuffs"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eyvb.food_and_stuffs"))
                     .icon(() -> new ItemStack(ModItems.CAULIFLOWER)).entries((displayContext, entries) -> {
                         // ##################################################
-                        // empty crate
-                        entries.add(ModBlocks.EMPTY_CRATE);
-                        // ##################################################
 
                         // Cauliflower Item & Tree/Crop
                         entries.add(ModItems.CAULIFLOWER_SEEDS);
@@ -175,15 +172,45 @@ public class ModItemGroup {
                         entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_6);
                         entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_7);
                         entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8);
+
+                        // ##################################################
                     }).build());
 
     // ##################################################
 
-    public static final ItemGroup TOOLS_AND_ARMOR = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(MOD_ID, "tools_and_armor"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eyvb.tools_and_armor"))
-                    .icon(() -> new ItemStack(ModItems.STONE_KNIFE)).entries((displayContext, entries) -> {
-                        // TOOLS
+    public static final ItemGroup TOOLS_AND_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(MOD_ID, "tools_and_blocks"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eyvb.tools_and_blocks"))
+                    .icon(() -> new ItemStack(ModBlocks.EMPTY_CRATE)).entries((displayContext, entries) -> {
+                        // ##################################################
+                        // empty crate
+                        entries.add(ModBlocks.EMPTY_CRATE);
+
+                        // cabinet closed, open left, open right and open
+                        entries.add(ModBlocks.CABINET_CLOSED);
+                        entries.add(ModBlocks.CABINET_OPEN_LEFT);
+                        entries.add(ModBlocks.CABINET_OPEN_RIGHT);
+                        entries.add(ModBlocks.CABINET_OPEN);
+
+                        // Kitchen ovens
+
+                        // on
+                        entries.add(ModBlocks.KITCHEN_OVEN_ON);
+                        // off
+                        entries.add(ModBlocks.KITCHEN_OVEN_OFF);
+
+                        // cheese press
+                        // default
+//                        entries.add(ModBlocks.CHEESE_PRESS);
+//                        // working
+//                        entries.add(ModBlocks.CHEESE_PRESS_WORKING);
+//                        // done
+//                        entries.add(ModBlocks.CHEESE_PRESS_DONE);
+
+                        // ##################################################
+                        // stone knife
                         entries.add(ModItems.STONE_KNIFE);
+
+                        // ##################################################
                     }).build());
 
 

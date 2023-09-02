@@ -20,6 +20,19 @@ public class ModModelProvider extends FabricModelProvider {
 
         // ######################################################################################################### \\
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMPTY_CRATE);
+
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABINET_CLOSED);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABINET_OPEN_LEFT);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABINET_OPEN_RIGHT);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABINET_OPEN);
+
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_OVEN_OFF);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_OVEN_ON);
+
+//        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_PRESS);
+//        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_PRESS_WORKING);
+//        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_PRESS_DONE);
+
         // ######################################################################################################### \\
 
         //  CAULIFLOWER BLOCK

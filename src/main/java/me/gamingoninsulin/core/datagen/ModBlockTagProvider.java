@@ -84,12 +84,32 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.CORN_WALL
                 );
 
+        // pickaxe
+        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(
+                        // kitchen on / off
+                        ModBlocks.KITCHEN_OVEN_OFF,
+                        ModBlocks.KITCHEN_OVEN_ON
+                );
+
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(
                         // empty crate
                         ModBlocks.EMPTY_CRATE,
 
-                        // cauliflower
+                        // cabinets (closed, open left, open right, open)
+                        ModBlocks.CABINET_CLOSED,
+                        ModBlocks.CABINET_OPEN_LEFT,
+                        ModBlocks.CABINET_OPEN_RIGHT,
+                        ModBlocks.CABINET_OPEN,
+
+//                        ModBlocks.CHEESE_PRESS,
+//                        ModBlocks.CHEESE_PRESS_WORKING,
+//                        ModBlocks.CHEESE_PRESS_DONE,
+
+
+
+                        // cauliflower 1 - 8
                         ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1,
                         ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2,
                         ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3,
@@ -99,7 +119,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7,
                         ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8,
 
-                        // cucumbers
+                        // cucumbers 1 - 8
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1,
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2,
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3,
@@ -109,7 +129,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7,
                         ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8,
 
-                        // eggplant
+                        // eggplant 1 - 8
                         ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_1,
                         ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_2,
                         ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_3,
@@ -119,7 +139,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_7,
                         ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_8,
 
-                        // avocado
+                        // avocado 1 - 8
                         ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_1,
                         ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_2,
                         ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_3,
@@ -129,7 +149,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_7,
                         ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_8,
 
-                        // corn
+                        // corn 1 - 8
                         ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_1,
                         ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_2,
                         ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_3,
@@ -139,7 +159,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_7,
                         ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_8,
 
-                        // sea_pickle
+                        // sea_pickle 1 - 8
                         ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_1,
                         ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_2,
                         ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_3,

@@ -20,6 +20,22 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
 // ##################################################
         // EMPTY CRATE
         addDrop(ModBlocks.EMPTY_CRATE);
+
+        // KITCHEN COUNTER (closed, open left, open right and open)
+        addDrop(ModBlocks.CABINET_CLOSED);
+        addDrop(ModBlocks.CABINET_OPEN_LEFT);
+        addDrop(ModBlocks.CABINET_OPEN_RIGHT);
+        addDrop(ModBlocks.CABINET_OPEN);
+
+        // KITCHEN OVEN on / off
+        addDrop(ModBlocks.KITCHEN_OVEN_OFF);
+        addDrop(ModBlocks.KITCHEN_OVEN_ON);
+
+        // CHEESE PRESS (default, working and done)
+//        addDrop(ModBlocks.CHEESE_PRESS);
+//        addDrop(ModBlocks.CHEESE_PRESS_WORKING);
+//        addDrop(ModBlocks.CHEESE_PRESS_DONE);
+
 // ##################################################
 
         // CAULIFLOWER CROP
