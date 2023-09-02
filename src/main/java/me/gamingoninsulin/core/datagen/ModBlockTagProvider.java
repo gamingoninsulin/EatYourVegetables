@@ -87,9 +87,33 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         // pickaxe
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(
-                        // kitchen on / off
+                        // kitchen oven on / off
                         ModBlocks.KITCHEN_OVEN_OFF,
-                        ModBlocks.KITCHEN_OVEN_ON
+                        ModBlocks.KITCHEN_OVEN_ON,
+
+                        // kitchen sinks
+                        ModBlocks.KITCHEN_SINK_WATER_D_CLOSED,
+                        ModBlocks.KITCHEN_SINK_WATER_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_SINK_WATER_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_SINK_WATER_D_BOTH_OPEN,
+
+                        // kitchen sink with water
+                        ModBlocks.KITCHEN_SINK_EMPTY_D_CLOSED,
+                        ModBlocks.KITCHEN_SINK_EMPTY_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_SINK_EMPTY_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN,
+
+                        // kitchen corner left
+                        ModBlocks.KITCHEN_CABINET_LCORNER_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_LCORNER_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_LCORNER_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_LCORNER_D_BOTH_OPEN,
+
+                        // kitchen corner right
+                        ModBlocks.KITCHEN_CABINET_RCORNER_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN
                 );
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -98,10 +122,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.EMPTY_CRATE,
 
                         // cabinets (closed, open left, open right, open)
-                        ModBlocks.CABINET_CLOSED,
-                        ModBlocks.CABINET_OPEN_LEFT,
-                        ModBlocks.CABINET_OPEN_RIGHT,
-                        ModBlocks.CABINET_OPEN,
+                        ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN,
 
 //                        ModBlocks.CHEESE_PRESS,
 //                        ModBlocks.CHEESE_PRESS_WORKING,
@@ -170,6 +194,35 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8
                 );
 
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(
+                        ModBlocks.CAULIFLOWER_FENCE,
+                        ModBlocks.CUCUMBER_FENCE,
+                        ModBlocks.AVOCADO_FENCE,
+                        ModBlocks.CORN_FENCE,
+                        ModBlocks.EGGPLANT_FENCE,
+                        ModBlocks.SEA_PICKLE_FENCE
+                );
+
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(
+                        ModBlocks.CAULIFLOWER_FENCE_GATE,
+                        ModBlocks.CUCUMBER_FENCE_GATE,
+                        ModBlocks.AVOCADO_FENCE_GATE,
+                        ModBlocks.CORN_FENCE_GATE,
+                        ModBlocks.EGGPLANT_FENCE_GATE,
+                        ModBlocks.SEA_PICKLE_FENCE_GATE
+                );
+
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(
+                        ModBlocks.CAULIFLOWER_WALL,
+                        ModBlocks.CUCUMBER_WALL,
+                        ModBlocks.AVOCADO_WALL,
+                        ModBlocks.CORN_WALL,
+                        ModBlocks.EGGPLANT_WALL,
+                        ModBlocks.SEA_PICKLE_WALL
+                );
     }
 }
 /*      //OFF\\
@@ -187,16 +240,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .forceAddTag(BlockTags.EMERALD_ORES
                 );
 
-        getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(ModBlocks.PINK_GARNET_WALL);
-
-        getOrCreateTagBuilder(BlockTags.FENCES)
-                .add(ModBlocks.PINK_GARNET_FENCE);
-
-        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
-                .add(ModBlocks.PINK_GARNET_FENCE_GATE);
-
-
         // Tag for Tool Material Netherite
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
                 .add(ModBlocks.NETHER_PINK_GARNET_ORE);
@@ -205,7 +248,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_5")))
                 .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE)
                 .add(ModBlocks.END_PINK_GARNET_ORE);
-
 
         getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE_TAG)
                 .forceAddTag(BlockTags.PICKAXE_MINEABLE)

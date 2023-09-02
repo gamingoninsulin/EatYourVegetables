@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "eyvb:cauliflower_wall",
+    "eyvb:cucumber_wall",
+    "eyvb:avocado_wall",
+    "eyvb:corn_wall",
+    "eyvb:eggplant_wall",
+    "eyvb:sea_pickle_wall"
+  ]
+}

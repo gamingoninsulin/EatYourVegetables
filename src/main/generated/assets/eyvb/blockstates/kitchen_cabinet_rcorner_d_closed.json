@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "eyvb:block/kitchen_cabinet_rcorner_d_closed",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "eyvb:block/kitchen_cabinet_rcorner_d_closed"
+    },
+    "facing=south": {
+      "model": "eyvb:block/kitchen_cabinet_rcorner_d_closed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eyvb:block/kitchen_cabinet_rcorner_d_closed",
+      "y": 270
+    }
+  }
+}

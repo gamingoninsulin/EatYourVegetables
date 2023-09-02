@@ -21,13 +21,45 @@ public class ModModelProvider extends FabricModelProvider {
         // ######################################################################################################### \\
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMPTY_CRATE);
 
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABINET_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABINET_OPEN_LEFT);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABINET_OPEN_RIGHT);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CABINET_OPEN);
+        // kitchen cabinets
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN);
 
+        // kitchen cabinet corners left
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_CLOSED);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_LEFT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_RIGHT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_BOTH_OPEN);
+
+        // kitchen cabinet corners left
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_CLOSED);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN);
+
+        // ######################################################################################################### \\
+
+        // kitchen ovens
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_OVEN_OFF);
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_OVEN_ON);
+
+        // ######################################################################################################### \\
+
+        // kitchens sinks
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_CLOSED);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_RIGHT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_LEFT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_BOTH_OPEN);
+
+        // kitchen sink with water
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_CLOSED);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_RIGHT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_LEFT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN);
+
+        // ######################################################################################################### \\
 
 //        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_PRESS);
 //        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_PRESS_WORKING);

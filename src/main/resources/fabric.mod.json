@@ -46,13 +46,6 @@
 				"modmenu.discord": "https://discord.gg/n832bVJ"
 			},
 			"badges": [],
-			"parent": {
-				"id": "eyvb",
-				"name": "Eat Your Vegetables Boy",
-				"description": "Adds cookable and craftable food items\nFor Minecraft 1.20.X",
-				"icon": "assets/eyvb/icon.png",
-				"badges": [ "library" ]
-			},
 			"update_checker": true
 		}
 	}

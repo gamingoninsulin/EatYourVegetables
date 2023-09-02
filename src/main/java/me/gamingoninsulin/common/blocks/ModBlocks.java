@@ -1,13 +1,10 @@
 package me.gamingoninsulin.common.blocks;
 
 import me.gamingoninsulin.EYVBMod;
-import me.gamingoninsulin.common.blocks.custom.CabinetBlock;
-import me.gamingoninsulin.common.blocks.custom.CheesePressBlock;
-import me.gamingoninsulin.common.blocks.custom.KitchenOvenBlock;
+import me.gamingoninsulin.common.blocks.custom.*;
 import me.gamingoninsulin.common.blocks.custom.crops.CauliflowerCropBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.CucumberCropBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.EggplantCropBlock;
-import me.gamingoninsulin.common.blocks.custom.EmptyCrateBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -24,35 +21,109 @@ public class ModBlocks {
     public static final Block EMPTY_CRATE = registerBlock("empty_crate",
             new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
+    // ##################################################
+
     // cabinet closed
-    public static final Block CABINET_CLOSED = registerBlock("cabinet_closed",
+    public static final Block KITCHEN_CABINET_CENTER_D_CLOSED = registerBlock("kitchen_cabinet_center_d_closed",
             new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     // cabinet open left
-    public static final Block CABINET_OPEN_LEFT = registerBlock("cabinet_open_left",
+    public static final Block KITCHEN_CABINET_CENTER_D_LEFT_OPEN = registerBlock("kitchen_cabinet_center_d_left_open",
             new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     // cabinet open right
-    public static final Block CABINET_OPEN_RIGHT = registerBlock("cabinet_open_right",
+    public static final Block KITCHEN_CABINET_CENTER_D_RIGHT_OPEN = registerBlock("kitchen_cabinet_center_d_right_open",
             new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
-    public static final Block CABINET_OPEN = registerBlock("cabinet_open",
+    //  cabinet open
+    public static final Block KITCHEN_CABINET_CENTER_D_BOTH_OPEN = registerBlock("kitchen_cabinet_center_d_both_open",
             new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
-    // cabinet open
-    public static final Block CAULIFLOWER_BLOCK = registerBlock(    "cauliflower_block",
-            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+    // ##################################################
+
+    // cabinet corner left closed
+    public static final Block KITCHEN_CABINET_LCORNER_D_CLOSED = registerBlock("kitchen_cabinet_lcorner_d_closed",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    // cabinet corner left open left
+    public static final Block KITCHEN_CABINET_LCORNER_D_LEFT_OPEN = registerBlock("kitchen_cabinet_lcorner_d_left_open",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    // cabinet corner left open right
+    public static final Block KITCHEN_CABINET_LCORNER_D_RIGHT_OPEN = registerBlock("kitchen_cabinet_lcorner_d_right_open",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    //  cabinet corner left open
+    public static final Block KITCHEN_CABINET_LCORNER_D_BOTH_OPEN = registerBlock("kitchen_cabinet_lcorner_d_both_open",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    // ##################################################
+
+    // cabinet corner right closed
+    public static final Block KITCHEN_CABINET_RCORNER_D_CLOSED = registerBlock("kitchen_cabinet_rcorner_d_closed",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    // cabinet corner right open left
+    public static final Block KITCHEN_CABINET_RCORNER_D_LEFT_OPEN = registerBlock("kitchen_cabinet_rcorner_d_left_open",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    // cabinet corner right open right
+    public static final Block KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN = registerBlock("kitchen_cabinet_rcorner_d_right_open",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    //  cabinet corner right open
+    public static final Block KITCHEN_CABINET_RCORNER_D_BOTH_OPEN = registerBlock("kitchen_cabinet_rcorner_d_both_open",
+            new CabinetBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+
+    // ##################################################
 
     // oven off
     public static final Block KITCHEN_OVEN_OFF = registerBlock("kitchen_oven_off",
             new KitchenOvenBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
-    // oven off
+    // oven on
     public static final Block KITCHEN_OVEN_ON = registerBlock("kitchen_oven_on",
             new KitchenOvenBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
+    // ##################################################
 
-    // cheese press
+    // kitchen sink
+    public static final Block KITCHEN_SINK_WATER_D_CLOSED = registerBlock("kitchen_sink_water_d_closed",
+            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // kitchen sink
+    public static final Block KITCHEN_SINK_WATER_D_RIGHT_OPEN = registerBlock("kitchen_sink_water_d_right_open",
+            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // kitchen sink
+    public static final Block KITCHEN_SINK_WATER_D_LEFT_OPEN = registerBlock("kitchen_sink_water_d_left_open",
+            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // kitchen sink
+    public static final Block KITCHEN_SINK_WATER_D_BOTH_OPEN = registerBlock("kitchen_sink_water_d_both_open",
+            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // ##################################################
+
+    // kitchen water facet sink
+    public static final Block KITCHEN_SINK_EMPTY_D_CLOSED = registerBlock("kitchen_sink_empty_d_closed",
+            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // kitchen water facet sink
+    public static final Block KITCHEN_SINK_EMPTY_D_RIGHT_OPEN = registerBlock("kitchen_sink_empty_d_right_open",
+            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // kitchen water facet sink
+    public static final Block KITCHEN_SINK_EMPTY_D_LEFT_OPEN = registerBlock("kitchen_sink_empty_d_left_open",
+            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // kitchen water facet sink
+    public static final Block KITCHEN_SINK_EMPTY_D_BOTH_OPEN = registerBlock("kitchen_sink_empty_d_both_open",
+            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // ##################################################
+
+//    // cheese press
 //    public static final Block CHEESE_PRESS = registerBlock("cheese_press",
 //            new CheesePressBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).nonOpaque()));
 //
@@ -61,13 +132,16 @@ public class ModBlocks {
 //            new CheesePressBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).nonOpaque()));
 //
 //    // cheese press done
-//    public static final Block CHEESE_PRESS_DONE = registerBlock("cheese_press_done",
+//    public static final Block CHEESE_PRESS_DONE = registerBlock("cheese_press-done",
 //            new CheesePressBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).nonOpaque()));
 
     // ##################################################
-    // Cauliflower Crop
-    // Cauliflower Block
 
+    // Cauliflower Block
+    public static final Block CAULIFLOWER_BLOCK = registerBlock("cauliflower_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
+
+    // Cauliflower Crop
     public static final Block CAULIFLOWER_CROP = registerBlockWithoutBlockItem("cauliflower_crop",
             new CauliflowerCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 

@@ -36,8 +36,10 @@ public class ModRecipeGen extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.OAK_FENCE), conditionsFromItem(Blocks.OAK_FENCE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.EMPTY_CRATE)));
 
+        // ######################################################################################################### \\
+
         // Cabinet Closed
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CABINET_CLOSED)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED)
                 .pattern("DDD")
                 .pattern("DBD")
                 .pattern("DDD")
@@ -47,10 +49,10 @@ public class ModRecipeGen extends FabricRecipeProvider {
 
                 .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
                 .criterion(hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CABINET_CLOSED)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED)));
 
         // Cabinet Open Left
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CABINET_OPEN_LEFT)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN)
                 .pattern("DDD")
                 .pattern(" BD")
                 .pattern("DDD")
@@ -60,10 +62,10 @@ public class ModRecipeGen extends FabricRecipeProvider {
 
                 .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
                 .criterion(hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CABINET_OPEN_LEFT)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN)));
 
         // Cabinet Open Right
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CABINET_OPEN_RIGHT)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN)
                 .pattern("DDD")
                 .pattern("DB ")
                 .pattern("DDD")
@@ -73,10 +75,10 @@ public class ModRecipeGen extends FabricRecipeProvider {
 
                 .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
                 .criterion(hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CABINET_OPEN_RIGHT)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN)));
 
         // Cabinet Open
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CABINET_OPEN)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN)
                 .pattern("DDD")
                 .pattern(" B ")
                 .pattern("DDD")
@@ -86,7 +88,76 @@ public class ModRecipeGen extends FabricRecipeProvider {
 
                 .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
                 .criterion(hasItem(Items.BUCKET), conditionsFromItem(Items.BUCKET))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CABINET_OPEN)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN)));
+
+        // ######################################################################################################### \\
+
+        // Kitchen Sink Closed
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_SINK_WATER_D_CLOSED)
+                .pattern("DDD")
+                .pattern("DBD")
+                .pattern("DDD")
+
+                .input('D', Blocks.DARK_OAK_PLANKS)
+                .input('B', Items.WATER_BUCKET)
+
+                .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
+                .criterion(hasItem(Items.WATER_BUCKET), conditionsFromItem(Items.WATER_BUCKET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_SINK_WATER_D_CLOSED)));
+
+        // Kitchen Sink Open Left
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_SINK_WATER_D_LEFT_OPEN)
+                .pattern("DDD")
+                .pattern(" BD")
+                .pattern("DDD")
+
+                .input('D', Blocks.DARK_OAK_PLANKS)
+                .input('B', Items.WATER_BUCKET)
+
+                .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
+                .criterion(hasItem(Items.WATER_BUCKET), conditionsFromItem(Items.WATER_BUCKET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_SINK_WATER_D_LEFT_OPEN)));
+
+        // Kitchen Sink Open Right
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_SINK_WATER_D_RIGHT_OPEN)
+                .pattern("DDD")
+                .pattern("DB ")
+                .pattern("DDD")
+
+                .input('D', Blocks.DARK_OAK_PLANKS)
+                .input('B', Items.WATER_BUCKET)
+
+                .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
+                .criterion(hasItem(Items.WATER_BUCKET), conditionsFromItem(Items.WATER_BUCKET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_SINK_WATER_D_RIGHT_OPEN)));
+
+        // Kitchen Sink Open
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_SINK_WATER_D_BOTH_OPEN)
+                .pattern("DDD")
+                .pattern(" B ")
+                .pattern("DDD")
+
+                .input('D', Blocks.DARK_OAK_PLANKS)
+                .input('B', Items.WATER_BUCKET)
+
+                .criterion(hasItem(Blocks.DARK_OAK_PLANKS), conditionsFromItem(Blocks.DARK_OAK_PLANKS))
+                .criterion(hasItem(Items.WATER_BUCKET), conditionsFromItem(Items.WATER_BUCKET))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_SINK_WATER_D_BOTH_OPEN)));
+
+        // ######################################################################################################### \\
+
+        // Kitchen Oven Open
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_OVEN_OFF)
+                .pattern("DDD")
+                .pattern("DBD")
+                .pattern("DDD")
+
+                .input('D', Blocks.DEEPSLATE)
+                .input('B', Blocks.COAL_BLOCK)
+
+                .criterion(hasItem(Blocks.DEEPSLATE), conditionsFromItem(Blocks.DEEPSLATE))
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.COAL_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_OVEN_OFF)));
 
         // ######################################################################################################### \\
 

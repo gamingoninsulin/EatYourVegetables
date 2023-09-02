@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "eyvb:cauliflower_fence_gate",
+    "eyvb:cucumber_fence_gate",
+    "eyvb:avocado_fence_gate",
+    "eyvb:corn_fence_gate",
+    "eyvb:eggplant_fence_gate",
+    "eyvb:sea_pickle_fence_gate"
+  ]
+}
