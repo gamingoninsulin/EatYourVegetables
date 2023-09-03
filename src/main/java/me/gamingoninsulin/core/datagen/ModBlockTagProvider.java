@@ -97,11 +97,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.KITCHEN_SINK_WATER_D_LEFT_OPEN,
                         ModBlocks.KITCHEN_SINK_WATER_D_BOTH_OPEN,
 
+
                         // kitchen sink with water
                         ModBlocks.KITCHEN_SINK_EMPTY_D_CLOSED,
                         ModBlocks.KITCHEN_SINK_EMPTY_D_LEFT_OPEN,
                         ModBlocks.KITCHEN_SINK_EMPTY_D_RIGHT_OPEN,
-                        ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN,
+                        ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN
+                );
+
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(
+                        // empty crate
+                        ModBlocks.EMPTY_CRATE,
+
+                        // BOTTOM
+                        // cabinets (closed, open left, open right, open)
+                        ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN,
 
                         // kitchen corner left
                         ModBlocks.KITCHEN_CABINET_LCORNER_D_CLOSED,
@@ -113,19 +127,27 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.KITCHEN_CABINET_RCORNER_D_CLOSED,
                         ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN,
                         ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN,
-                        ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN
-                );
+                        ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN,
 
-        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .add(
-                        // empty crate
-                        ModBlocks.EMPTY_CRATE,
-
+                        // TOP
                         // cabinets (closed, open left, open right, open)
-                        ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED,
-                        ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN,
-                        ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN,
-                        ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN,
+                        ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_BOTH_OPEN,
+
+                        // kitchen corner left
+                        ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_BOTH_OPEN,
+
+                        // kitchen corner right
+                        ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_BOTH_OPEN,
+
 
 //                        ModBlocks.CHEESE_PRESS,
 //                        ModBlocks.CHEESE_PRESS_WORKING,

@@ -10,14 +10,6 @@
     "eyvb:kitchen_sink_empty_d_closed",
     "eyvb:kitchen_sink_empty_d_left_open",
     "eyvb:kitchen_sink_empty_d_right_open",
-    "eyvb:kitchen_sink_empty_d_both_open",
-    "eyvb:kitchen_cabinet_lcorner_d_closed",
-    "eyvb:kitchen_cabinet_lcorner_d_left_open",
-    "eyvb:kitchen_cabinet_lcorner_d_right_open",
-    "eyvb:kitchen_cabinet_lcorner_d_both_open",
-    "eyvb:kitchen_cabinet_rcorner_d_closed",
-    "eyvb:kitchen_cabinet_rcorner_d_right_open",
-    "eyvb:kitchen_cabinet_rcorner_d_left_open",
-    "eyvb:kitchen_cabinet_rcorner_d_both_open"
+    "eyvb:kitchen_sink_empty_d_both_open"
   ]
 }

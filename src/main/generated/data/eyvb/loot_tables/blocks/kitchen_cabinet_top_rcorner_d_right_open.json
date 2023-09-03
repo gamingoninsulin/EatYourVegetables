@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "eyvb:kitchen_cabinet_top_rcorner_d_right_open"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

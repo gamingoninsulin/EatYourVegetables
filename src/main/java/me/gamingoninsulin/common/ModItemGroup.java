@@ -185,6 +185,7 @@ public class ModItemGroup {
                         // empty crate
                         entries.add(ModBlocks.EMPTY_CRATE);
 
+                        // BOTTOM
                         // cabinet closed, open left, open right and open
                         entries.add(ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED);
                         entries.add(ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN);
@@ -202,6 +203,25 @@ public class ModItemGroup {
                         entries.add(ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN);
                         entries.add(ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN);
                         entries.add(ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN);
+
+                        // TOP
+                        // cabinet closed, open left, open right and open
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_CLOSED);
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_LEFT_OPEN);
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_RIGHT_OPEN);
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_BOTH_OPEN);
+
+                        // kitchen cabinet corner left
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_CLOSED);
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_LEFT_OPEN);
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_RIGHT_OPEN);
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_BOTH_OPEN);
+
+                        // kitchen cabinet corner right
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_CLOSED);
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_LEFT_OPEN);
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_RIGHT_OPEN);
+                        entries.add(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_BOTH_OPEN);
 
                         // Kitchen ovens
 

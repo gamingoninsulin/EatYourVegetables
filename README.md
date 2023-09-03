@@ -9,25 +9,41 @@
 <br>
 <div style="text-align: left;">
   <h3>What this mod adds:</h3>
+  Misc: 
+  <br>
   - Empty Crate
   <br><br>
-  - Cauliflower crop & seeds
-  - Cauliflower Deco Blocks such as (Cauliflower Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  Kitchen:
+  <br>
+  - Kitchen cabinets uppen & lower parts open and closed doors
+  - kitchen sinks open and closed doors
+  - kitchen ovens
   <br><br>
-  - Cucumber crop & seeds
-  - Cucumber Deco Blocks such as (Cucumber Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  Crops and Deco parts:
+  <br>
+  - Cauliflower crop & seeds<br>
+  - Cauliflower Deco Blocks such as:<br> 
+  (Cauliflower Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
   <br><br>
-  - Avocado crop & seeds
-  - Avocado Deco Blocks such as (Avocado Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  - Cucumber crop & seeds<br>
+  - Cucumber Deco Blocks such as:<br> 
+  (Cucumber Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
   <br><br>
-  - Eggplant crop & seeds
-  - Eggplant Deco Blocks such as (Eggplant Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  - Avocado crop & seeds<br>
+  - Avocado Deco Blocks such as:<br> 
+  (Avocado Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
   <br><br>
-  - Corn crop & seeds
-  - Corn Deco Blocks such as (Corn Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  - Eggplant crop & seeds<br>
+  - Eggplant Deco Blocks such as:<br> 
+  (Eggplant Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
   <br><br>
-  - Sea Pickle item
-  - Sea Pickle Deco Blocks such as (Sea Pickle Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)  
+  - Corn crop & seeds<br>
+  - Corn Deco Blocks such as:<br>
+  (Corn Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  <br><br>
+  - Sea Pickle item<br>
+  - Sea Pickle Deco Blocks such as:<br>
+  (Sea Pickle Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)  
 </div>
 <br>
 <br>
@@ -38,7 +54,7 @@
   <h3>Contact details:</h3>
   <br>
   <p>
-    (Discord) GamingOnInsulin <br>
+    (Discord Tag) GamingOnInsulin <br>
     (Twitter) <a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a>
   </p>
 </div>

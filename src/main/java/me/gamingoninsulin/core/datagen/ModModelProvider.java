@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
         // ######################################################################################################### \\
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMPTY_CRATE);
 
+        // BOTTOM
         // kitchen cabinets
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED);
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN);
@@ -38,6 +39,25 @@ public class ModModelProvider extends FabricModelProvider {
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN);
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN);
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN);
+
+        // TOP
+        // kitchen cabinets
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_CLOSED);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_LEFT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_RIGHT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_BOTH_OPEN);
+
+        // kitchen cabinet corners left
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_CLOSED);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_LEFT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_RIGHT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_BOTH_OPEN);
+
+        // kitchen cabinet corners left
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_CLOSED);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_LEFT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_RIGHT_OPEN);
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_BOTH_OPEN);
 
         // ######################################################################################################### \\
 

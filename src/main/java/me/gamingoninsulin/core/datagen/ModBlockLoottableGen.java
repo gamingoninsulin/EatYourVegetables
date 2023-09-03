@@ -21,15 +21,55 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
         // EMPTY CRATE
         addDrop(ModBlocks.EMPTY_CRATE);
 
+        // ##################################################
+
+        // BOTTOM
         // KITCHEN COUNTER (closed, open left, open right and open)
         addDrop(ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED);
         addDrop(ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN);
         addDrop(ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN);
         addDrop(ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN);
 
+        // KITCHEN CORNER LEFT
+        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_CLOSED);
+        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_LEFT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_RIGHT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_BOTH_OPEN);
+
+        // KITCHEN CORNER RIGHT
+        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_CLOSED);
+        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN);
+
+        // ##################################################
+
+        // TOP
+        // KITCHEN COUNTER (closed, open left, open right and open)
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_CLOSED);
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_LEFT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_RIGHT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_BOTH_OPEN);
+
+        // KITCHEN CORNER LEFT
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_CLOSED);
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_LEFT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_RIGHT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_BOTH_OPEN);
+
+        // KITCHEN CORNER RIGHT
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_CLOSED);
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_LEFT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_RIGHT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_BOTH_OPEN);
+
+        // ##################################################
+
         // KITCHEN OVEN on / off
         addDrop(ModBlocks.KITCHEN_OVEN_OFF);
         addDrop(ModBlocks.KITCHEN_OVEN_ON);
+
+        // ##################################################
 
         // KITCHEN SINKS
         addDrop(ModBlocks.KITCHEN_SINK_WATER_D_CLOSED);
@@ -43,17 +83,7 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.KITCHEN_SINK_EMPTY_D_LEFT_OPEN);
         addDrop(ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN);
 
-        // KITCHEN CORNER LEFT
-        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_CLOSED);
-        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_LEFT_OPEN);
-        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_RIGHT_OPEN);
-        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_BOTH_OPEN);
-
-        // KITCHEN CORNER RIGHT
-        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_CLOSED);
-        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN);
-        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN);
-        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN);
+        // ##################################################
 
         // CHEESE PRESS (default, working and done)
 //        addDrop(ModBlocks.CHEESE_PRESS);
