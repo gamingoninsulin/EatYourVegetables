@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "eyvb:block/cheese_form_press_done",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "eyvb:block/cheese_form_press_done"
+    },
+    "facing=south": {
+      "model": "eyvb:block/cheese_form_press_done",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eyvb:block/cheese_form_press_done",
+      "y": 270
+    }
+  }
+}

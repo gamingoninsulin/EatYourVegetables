@@ -246,11 +246,11 @@ public class ModItemGroup {
                         entries.add(ModBlocks.KITCHEN_EXTRACTOR_HOOD);
                         // cheese press
                         // default
-//                        entries.add(ModBlocks.CHEESE_PRESS);
-//                        // working
-//                        entries.add(ModBlocks.CHEESE_PRESS_WORKING);
-//                        // done
-//                        entries.add(ModBlocks.CHEESE_PRESS_DONE);
+                        entries.add(ModBlocks.CHEESE_FORM_PRESS);
+                        // working
+                        entries.add(ModBlocks.CHEESE_FORM_PRESS_WORKING);
+                        // done
+                        entries.add(ModBlocks.CHEESE_FORM_PRESS_DONE);
 
                         // ##################################################
                         // stone knife

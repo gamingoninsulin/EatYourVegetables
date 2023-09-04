@@ -1,4 +1,4 @@
-package me.gamingoninsulin.common.blocks.custom;
+package me.gamingoninsulin.common.blocks.custom.kitchen;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -12,12 +12,12 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class CheesePressBlock extends Block{
+public class KitchenExtractorHoodBlock extends Block{
 
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
-    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 12, 16, 14);
+    private static final VoxelShape SHAPE = Block.createCuboidShape(0, 0, 0, 16, 15, 16);
 
-    public CheesePressBlock(Settings settings) {
+    public KitchenExtractorHoodBlock(Settings settings) {
         super(settings);
     }
 
@@ -36,5 +36,4 @@ public class CheesePressBlock extends Block{
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(FACING);
     }
-
 }

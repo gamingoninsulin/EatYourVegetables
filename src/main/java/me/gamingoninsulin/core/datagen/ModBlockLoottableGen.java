@@ -30,17 +30,38 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN);
         addDrop(ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN);
 
+        // NO DRAWERS
+        // KITCHEN COUNTER (closed, open left, open right and open)
+        addDrop(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_CLOSED);
+        addDrop(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_LEFT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_RIGHT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_BOTH_OPEN);
+
         // KITCHEN CORNER LEFT
         addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_CLOSED);
         addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_LEFT_OPEN);
         addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_RIGHT_OPEN);
         addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_D_BOTH_OPEN);
 
+        // NO DRAWERS
+        // KITCHEN CORNER LEFT
+        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_CLOSED);
+        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_LEFT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_RIGHT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_BOTH_OPEN);
+
         // KITCHEN CORNER RIGHT
         addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_CLOSED);
         addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN);
         addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN);
         addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN);
+
+        // NO DRAWERS
+        // KITCHEN CORNER RIGHT
+        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_CLOSED);
+        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_LEFT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_RIGHT_OPEN);
+        addDrop(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_BOTH_OPEN);
 
         // ##################################################
 
@@ -89,9 +110,9 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
         // ##################################################
 
         // CHEESE PRESS (default, working and done)
-//        addDrop(ModBlocks.CHEESE_PRESS);
-//        addDrop(ModBlocks.CHEESE_PRESS_WORKING);
-//        addDrop(ModBlocks.CHEESE_PRESS_DONE);
+        addDrop(ModBlocks.CHEESE_FORM_PRESS);
+        addDrop(ModBlocks.CHEESE_FORM_PRESS_WORKING);
+        addDrop(ModBlocks.CHEESE_FORM_PRESS_DONE);
 
 // ##################################################
 

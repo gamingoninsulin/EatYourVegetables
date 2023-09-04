@@ -114,11 +114,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.EMPTY_CRATE,
 
                         // BOTTOM
-                        // cabinets (closed, open left, open right, open)
+                        // cabinets center
                         ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED,
                         ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN,
                         ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN,
                         ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN,
+
+                        // no drawers
+                        // cabinets center
+                        ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_BOTH_OPEN,
 
                         // kitchen corner left
                         ModBlocks.KITCHEN_CABINET_LCORNER_D_CLOSED,
@@ -126,11 +133,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.KITCHEN_CABINET_LCORNER_D_RIGHT_OPEN,
                         ModBlocks.KITCHEN_CABINET_LCORNER_D_BOTH_OPEN,
 
+                        // no drawers
+                        // kitchen corner left
+                        ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_BOTH_OPEN,
+
                         // kitchen corner right
                         ModBlocks.KITCHEN_CABINET_RCORNER_D_CLOSED,
                         ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN,
                         ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN,
                         ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN,
+
+                        // no drawers
+                        // kitchen corner right
+                        ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_CLOSED,
+                        ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_RIGHT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_LEFT_OPEN,
+                        ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_BOTH_OPEN,
 
                         // TOP
                         // cabinets (closed, open left, open right, open)
@@ -151,10 +172,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_LEFT_OPEN,
                         ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_BOTH_OPEN,
 
-
-//                        ModBlocks.CHEESE_PRESS,
-//                        ModBlocks.CHEESE_PRESS_WORKING,
-//                        ModBlocks.CHEESE_PRESS_DONE,
+                        // cheese press
+                        ModBlocks.CHEESE_FORM_PRESS,
+                        ModBlocks.CHEESE_FORM_PRESS_WORKING,
+                        ModBlocks.CHEESE_FORM_PRESS_DONE,
 
 
 

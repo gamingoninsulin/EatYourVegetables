@@ -1,93 +1,61 @@
 package me.gamingoninsulin.core;
 /*
-        Mod Idea's:
+        Mod Idea's {
+        // here will be new mod ideas before I make them in the mod!
+        - kitchen table
+        - dishwasher
+        - refrigerator
+        - fridge
 
-          ###############
-          #   x = done  #
-          # / = partial #
-          ###############
+        - special type of flooring
+        - multi-block structure for kitchen
+        - recipe book
+        - a crafting book for crafting all base block and items (recipe remainder (fabric api))
 
-          // crates misses their functionality.
-          // therefore they are partial added ps models are done when partial tag is added
-          // some blocks are still off with the texture. I take a look today (03-09-2023) #FIXED
+        - implement gui for oven, fridge, refrigerator, cabinets
+        }
 
           // add recipes for top part of the kitchen above hood.
 
-        - Blocks {
-           Cabinet - [
-              [x]doors closed, [x]left door open, [x]right door open, [x]both doors open
-           ],
-           Cabinet left corner - [
-              [x]doors closed, [x]left door open, [x]right door open, [x]both doors open
-           ],
-           Cabinet right corner - [
-              [x]doors closed, [x]left door open, [x]right door open, [x]both doors open
-           ],
+        - Added Blocks {
+           - kitchen Cabinet center bottom version
+           - kitchen Cabinet left corner bottom version
+           - kitchen Cabinet right corner bottom version
 
-           Sink empty - [
-              [x]doors closed, [x]left door open, [x]right door open, [x]both doors open
-           ],
-           Sink water - [
-              [x]doors closed, [x]left door open, [x]right door open, [x]both doors open
-           ],
-           Oven On - [
-              [x]doors closed, [x]left door open, [x]right door open, [x]both doors open
-           ]
-           Oven off - [
-              [x]doors closed, [x]left door open, [x]right door open, [x]both doors open
-           ]
-        },
+           - kitchen cabinet center top version
+           - kitchen cabinet center left corner top version
+           - kitchen cabinet center right corner top version
 
-        - Crop's {
+           - kitchen  Sink empty
+           - kitchen Sink water
+           - kitchen Oven On
+           - kitchen Oven off
+        }
+
+        - Added Crop's {
         // added
-            Cauliflower - [
-               [x]block, [x]stair, [x]slab, [x]wall, [x]fence, [x]fence gate, [x]pressure plate, [x]button, [/]crate, [x]plant
-            ],
-            Sea Pickle - [
-               [x]block, [x]stair, [x]slab, [x]wall, [x]fence, [x]fence gate, [x]pressure plate, [x]button, [/]crate, []plant
-            ],
-             Cucumber - [
-               [x]block, [x]stair, [x]slab, [x]wall, [x]fence, [x]fence gate, [x]pressure plate, [x]button, [/]crate, [x]plant
-            ],
-            Corn - [
-               [x]block, [x]stair, [x]slab, [x]wall, [x]fence, [x]fence gate, [x]pressure plate, [x]button, [/]crate, [x]plant
-            ],
-            Eggplant - [
-               [x]block, [x]stair, [x]slab, [x]wall, [x]fence, [x]fence gate, [x]pressure plate, [x]button, [/]crate, [x]plant
-            ],
-            avocado - [
-               [x]block, [x]stair, [x]slab, [x]wall, [x]fence, [x]fence gate, [x]pressure plate, [x]button, [/]crate, []plant
-            ],
+            - Cauliflower
+            - Sea Pickle
+            - Cucumber
+            - Corn
+            - Eggplant
+            - avocado
+           }
+        // future to be implemented {
+             - Radish
+             - Lettuce
+             - Tomatoes
+            }
 
-         // future to be implemented
-             Radish - [
-               []block, []stair, []slab, []wall, []fence, []fence gate, []pressure plate, []button, []crate, []plant
-            ],
-             Lettuce - [
-               []block, []stair, []slab, []wall, []fence, []fence gate, []pressure plate, []button, []crate, []plant
-            ],
-             Tomatoes - [
-               []block, []stair, []slab, []wall, []fence, []fence gate, []pressure plate, []button, []crate, []plant
-            ]
-          },
-
-        - Trees {
-            // future to be implemented
-              Avocado - [
-                 []block, []stair, []slab, []wall, []fence, []fence gate, []pressure plate, []button, []crate, []tree
-              ],
-              Coconut - [
-                 []block, []stair, []slab, []wall, []fence, []fence gate, []pressure plate, []button, []crate, []tree
-              ],
-              Banana - [
-                []block, []stair, []slab, []wall, []fence, []fence gate, []pressure plate, []button, []crate , []tree
-              ],
-              Mango - [
-                []block, []stair, []slab, []wall, []fence, []fence gate, []pressure plate, []button, []crate , []tree
-              ],
-              Peach - [
-                []block, []stair, []slab, []wall, []fence, []fence gate, []pressure plate, []button, []crate , []tree
-             ]
+        - Added Trees {
+        // none yet
+        }
+        // future to be implemented {
+             - Avocado
+             - Coconut
+             - Banana
+             - Mango
+             - Peach
           }
 
      */
