@@ -8,8 +8,10 @@ package me.gamingoninsulin.core;
           ###############
 
           // crates misses their functionality.
-          // there for they are partial added ps models are done when partial tag is added
-          // some blocks are still off with the texture. I take a look today (03-09-2023)
+          // therefore they are partial added ps models are done when partial tag is added
+          // some blocks are still off with the texture. I take a look today (03-09-2023) #FIXED
+
+          // add recipes for top part of the kitchen above hood.
 
         - Blocks {
            Cabinet - [

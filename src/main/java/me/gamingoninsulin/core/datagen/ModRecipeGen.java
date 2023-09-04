@@ -161,6 +161,21 @@ public class ModRecipeGen extends FabricRecipeProvider {
 
         // ######################################################################################################### \\
 
+        // Kitchen Extractor Hood
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.KITCHEN_EXTRACTOR_HOOD)
+                .pattern(" B ")
+                .pattern(" C ")
+                .pattern("BBB")
+
+                .input('C', Blocks.CAMPFIRE)
+                .input('B', Blocks.IRON_BLOCK)
+
+                .criterion(hasItem(Blocks.CAMPFIRE), conditionsFromItem(Blocks.CAMPFIRE))
+                .criterion(hasItem(Blocks.COAL_BLOCK), conditionsFromItem(Blocks.IRON_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.KITCHEN_EXTRACTOR_HOOD)));
+
+        // ######################################################################################################### \\
+
         // stone knife
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.STONE_KNIFE, 12)
                 .pattern("C")

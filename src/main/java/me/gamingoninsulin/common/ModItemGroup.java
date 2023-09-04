@@ -242,6 +242,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.KITCHEN_SINK_EMPTY_D_RIGHT_OPEN);
                         entries.add(ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN);
 
+                        // kitchen extractor hood
+                        entries.add(ModBlocks.KITCHEN_EXTRACTOR_HOOD);
                         // cheese press
                         // default
 //                        entries.add(ModBlocks.CHEESE_PRESS);

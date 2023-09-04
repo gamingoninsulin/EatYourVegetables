@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "C": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "pattern": [
+    " B ",
+    " C ",
+    "BBB"
+  ],
+  "result": {
+    "item": "eyvb:kitchen_extractor_hood"
+  },
+  "show_notification": true
+}

@@ -179,6 +179,12 @@ public class ModBlocks {
 
     // ##################################################
 
+    // kitchen extractor hood
+    public static final Block KITCHEN_EXTRACTOR_HOOD = registerBlock("kitchen_extractor_hood",
+            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    // ##################################################
+
 //    // cheese press
 //    public static final Block CHEESE_PRESS = registerBlock("cheese_press",
 //            new CheesePressBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).nonOpaque()));

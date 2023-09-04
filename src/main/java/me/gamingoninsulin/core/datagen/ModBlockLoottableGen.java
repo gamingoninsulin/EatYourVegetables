@@ -84,6 +84,9 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN);
 
         // ##################################################
+        // KITCHEN EXTRACTOR HOOD
+        addDrop(ModBlocks.KITCHEN_EXTRACTOR_HOOD);
+        // ##################################################
 
         // CHEESE PRESS (default, working and done)
 //        addDrop(ModBlocks.CHEESE_PRESS);

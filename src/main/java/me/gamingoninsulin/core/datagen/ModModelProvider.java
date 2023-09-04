@@ -80,6 +80,9 @@ public class ModModelProvider extends FabricModelProvider {
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN);
 
         // ######################################################################################################### \\
+        // kitchen extractor hood
+        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_EXTRACTOR_HOOD);
+        // ######################################################################################################### \\
 
 //        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_PRESS);
 //        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_PRESS_WORKING);

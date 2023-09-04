@@ -102,7 +102,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.KITCHEN_SINK_EMPTY_D_CLOSED,
                         ModBlocks.KITCHEN_SINK_EMPTY_D_LEFT_OPEN,
                         ModBlocks.KITCHEN_SINK_EMPTY_D_RIGHT_OPEN,
-                        ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN
+                        ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN,
+
+                        // kitchen extractor hood
+                        ModBlocks.KITCHEN_EXTRACTOR_HOOD
                 );
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "eyvb:block/kitchen_extractor_hood",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "eyvb:block/kitchen_extractor_hood"
+    },
+    "facing=south": {
+      "model": "eyvb:block/kitchen_extractor_hood",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "eyvb:block/kitchen_extractor_hood",
+      "y": 270
+    }
+  }
+}
