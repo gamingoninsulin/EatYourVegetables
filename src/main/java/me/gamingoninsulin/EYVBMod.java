@@ -2,7 +2,10 @@ package me.gamingoninsulin;
 
 import me.gamingoninsulin.common.ModItemGroup;
 import me.gamingoninsulin.common.blocks.ModBlocks;
+import me.gamingoninsulin.common.blocks.entity.ModBlockEntities;
 import me.gamingoninsulin.common.items.ModItems;
+import me.gamingoninsulin.common.recipe.ModRecipes;
+import me.gamingoninsulin.common.screen.ModScreenHandlers;
 import me.gamingoninsulin.common.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 
@@ -23,5 +26,9 @@ public class EYVBMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModRegistries.registerModStuffs();
+
+		ModBlockEntities.RegisterModEntities();
+		ModScreenHandlers.registerScreenHandler();
+		ModRecipes.RegisterRecipes();
 	}
 }

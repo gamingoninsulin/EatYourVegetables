@@ -2,6 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
+    "B": {
+      "item": "eyvb:crafting_book"
+    },
     "F": {
       "item": "minecraft:oak_fence"
     },
@@ -12,7 +15,7 @@
   "pattern": [
     "F F",
     "F F",
-    "SSS"
+    "SBS"
   ],
   "result": {
     "item": "eyvb:empty_crate"

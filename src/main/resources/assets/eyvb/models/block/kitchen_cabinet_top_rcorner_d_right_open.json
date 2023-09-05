@@ -5,7 +5,8 @@
 		"0": "eyvb:block/cabinet_top_layer",
 		"2": "eyvb:block/cabinet_front_open",
 		"4": "eyvb:block/cabinet_front",
-		"6": "eyvb:block/cabinet_wood"
+		"6": "eyvb:block/cabinet_wood",
+		"particle": "eyvb:block/cabinet_wood"
 	},
 	"elements": [
 		{
@@ -254,7 +255,7 @@
 		},
 		"gui": {
 			"rotation": [30, 225, 0],
-			"translation": [0.25, -1.5, 0],
+			"translation": [0.25, -1, 0],
 			"scale": [0.55, 0.55, 0.55]
 		},
 		"fixed": {

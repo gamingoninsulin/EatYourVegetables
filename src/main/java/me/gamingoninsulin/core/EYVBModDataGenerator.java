@@ -1,6 +1,6 @@
 package me.gamingoninsulin.core;
 
-import me.gamingoninsulin.core.datagen.*;
+import me.gamingoninsulin.common.datagen.*;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 

@@ -174,6 +174,10 @@ public class ModItemGroup {
                         entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8);
 
                         // ##################################################
+                        // APPETIZERS
+                        entries.add(ModItems.SALT_ITEM);
+                        // MISC FOOD
+                        entries.add(ModItems.WHEEL_OF_CHEESE);
                     }).build());
 
     // ##################################################

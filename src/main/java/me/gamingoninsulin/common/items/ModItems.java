@@ -7,6 +7,7 @@ import me.gamingoninsulin.common.food.ModFoodComponent;
 import me.gamingoninsulin.common.materials.ModToolMaterial;
 import me.gamingoninsulin.core.Reference;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.impl.item.RecipeRemainderHandler;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -15,12 +16,24 @@ import net.minecraft.util.Identifier;
 
 
 public class ModItems {
-    // sword
+    /*
+       ##############################################################################################################
+                                                      TOOLS
+       ##############################################################################################################
+    */
+    // stone knife
     public static final Item STONE_KNIFE = registerItem("stone_knife",
             new SwordItem(ModToolMaterial.CAULIFLOWER_MATERIAL, 0,0f, new FabricItemSettings()));
-    // ##################################################
 
-    // food items
+    // stone knife
+    public static final Item CRAFTING_BOOK = registerItem("crafting_book",
+            new Item(new FabricItemSettings()));
+   /*
+       ##############################################################################################################
+                                                     CROP SEEDS
+       ##############################################################################################################
+    */
+
     // cauliflower seeds
     public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds",
             new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new FabricItemSettings()));
@@ -33,7 +46,12 @@ public class ModItems {
     public static final Item EGGPLANT_SEEDS = registerItem("eggplant_seeds",
             new AliasedBlockItem(ModBlocks.EGGPLANT_CROP, new FabricItemSettings()));
 
-    // ##################################################
+
+    /*
+       ##############################################################################################################
+                                                      CROPS ITEM
+       ##############################################################################################################
+    */
 
     // cauliflower
     public static final Item CAULIFLOWER = registerItem("cauliflower",
@@ -59,7 +77,15 @@ public class ModItems {
     public static final Item SEA_PICKLE = registerItem("sea_pickle",
             new Item(new FabricItemSettings().food(ModFoodComponent.SEA_PICKLE)));
 
-    // ##################################################
+    // cauliflower
+    public static final Item SALT_ITEM = registerItem("salt_item",
+            new Item(new FabricItemSettings().food(ModFoodComponent.SALT_ITEM)));
+
+    /*
+       ##############################################################################################################
+                                                    COOKED CROP ITEMS
+       ##############################################################################################################
+    */
 
     // cooked cauliflower
     public static final Item COOKED_CAULIFLOWER = registerItem("cooked_cauliflower",
@@ -69,7 +95,15 @@ public class ModItems {
     public static final Item CUT_CUCUMBER = registerItem("cut_cucumber",
             new Item(new FabricItemSettings().food(ModFoodComponent.CUCUMBER)));
 
-    // ##################################################
+    // Wheel of Cheese
+    public static final Item WHEEL_OF_CHEESE = registerItem("wheel_of_cheese",
+            new Item(new FabricItemSettings().food(ModFoodComponent.WHEEL_OF_CHEESE)));
+
+    /*
+       ##############################################################################################################
+                                                DO NOT TOUCH DOWN HERE!
+       ##############################################################################################################
+    */
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Reference.MOD_ID, name), item);
@@ -79,7 +113,12 @@ public class ModItems {
         EYVBMod.LOGGER.info("Registering Mod Items for " + Reference.REGISTER_MOD_NAME);
     }
 }
-/*      //OFF\\
+/*
+
+       ##############################################################################################################
+                                                    TURNED OFF
+       ##############################################################################################################
+
 
     //  ore blocks
     // pink garnet
@@ -90,7 +129,9 @@ public class ModItems {
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet",
             new Item(new FabricItemSettings()));
 
-    // ##################################################
+       ##############################################################################################################
+
+       ##############################################################################################################
 
     // tools
     // metal detector
@@ -121,7 +162,9 @@ public class ModItems {
     public static final Item PINK_GARNET_PAXEL = registerItem("pink_garnet_paxel",
             new PaxelItem(ModToolMaterial.PINK_GARNET_MATERIAL, 0, 0f, new FabricItemSettings()));
 
-   // ##################################################
+       ##############################################################################################################
+
+       ##############################################################################################################
 
    // armor
    // helmet
@@ -140,12 +183,16 @@ public class ModItems {
     public static final Item PINK_GARNET_BOOTS = registerItem("pink_garnet_boots",
             new ModArmorItem(ModArmorMaterials.PINK_GARNET_ARMOR_MATERIAL, ArmorItem.Type.BOOTS ,  new FabricItemSettings()));
 
-    // ##################################################
+       ##############################################################################################################
+
+       ##############################################################################################################
 
     // fuel items
     // peat brick
     public static final Item PEAT_BRICK = registerItem("peat_brick",
             new Item(new FabricItemSettings()));
 
-    // ##################################################
+       ##############################################################################################################
+
+       ##############################################################################################################
  */

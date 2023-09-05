@@ -1,0 +1,11 @@
+{
+  "type": "eyvb:cheese_forming",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result": {
+    "item": "eyvb:wheel_of_cheese"
+  }
+}

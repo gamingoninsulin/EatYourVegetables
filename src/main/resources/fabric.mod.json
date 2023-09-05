@@ -25,7 +25,7 @@
 			"me.gamingoninsulin.core.EYVBClientMod"
 		],
 		"rei_client": [
-			"me.gamingoninsulin.common.compat.rei.EYVBREIClientPlugin"
+			"me.gamingoninsulin.common.compat.EYVB_REIClientPlugin"
 		]
 	},
 	"mixins": [

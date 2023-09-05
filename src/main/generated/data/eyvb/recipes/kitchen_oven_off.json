@@ -2,8 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": {
+    "#": {
       "item": "minecraft:coal_block"
+    },
+    "B": {
+      "item": "eyvb:crafting_book"
     },
     "D": {
       "item": "minecraft:deepslate"
@@ -11,8 +14,8 @@
   },
   "pattern": [
     "DDD",
-    "DBD",
-    "DDD"
+    "D#D",
+    "DBD"
   ],
   "result": {
     "item": "eyvb:kitchen_oven_off"

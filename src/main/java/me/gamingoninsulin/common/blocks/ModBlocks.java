@@ -95,19 +95,19 @@ public class ModBlocks {
        ##############################################################################################################
     */
 
-    public static final Block KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_CLOSED = registerBlock("kitchen_cabinet_lcornerno_drawers_d_closed",
+    public static final Block KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_CLOSED = registerBlock("kitchen_cabinet_lcorner_no_drawers_d_closed",
             new CabinetBottomBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     // cabinet corner no drawers left open left
-    public static final Block KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_LEFT_OPEN = registerBlock("kitchen_cabinet_lcornerno_drawers_d_left_open",
+    public static final Block KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_LEFT_OPEN = registerBlock("kitchen_cabinet_lcorner_no_drawers_d_left_open",
             new CabinetBottomBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     // cabinet corner no drawers left open right
-    public static final Block KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_RIGHT_OPEN = registerBlock("kitchen_cabinet_lcornerno_drawers_d_right_open",
+    public static final Block KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_RIGHT_OPEN = registerBlock("kitchen_cabinet_lcorner_no_drawers_d_right_open",
             new CabinetBottomBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     //  cabinet corner no drawers left open
-    public static final Block KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_BOTH_OPEN = registerBlock("kitchen_cabinet_lcornerno_drawers_d_both_open",
+    public static final Block KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_BOTH_OPEN = registerBlock("kitchen_cabinet_lcorner_no_drawers_d_both_open",
             new CabinetBottomBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     /*
@@ -287,7 +287,11 @@ public class ModBlocks {
     public static final Block KITCHEN_EXTRACTOR_HOOD = registerBlock("kitchen_extractor_hood",
             new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
-    // ##################################################
+    /*
+       ##############################################################################################################
+                                             CHEESE FORM PRESS
+       ##############################################################################################################
+    */
 
     // cheese press
     public static final Block CHEESE_FORM_PRESS = registerBlock("cheese_form_press",
