@@ -7,7 +7,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 public enum ModToolMaterial implements ToolMaterial {
-        CAULIFLOWER_MATERIAL(0, 1, 0.0f, 0.0f, 0, () -> Ingredient.ofItems(ModItems.CAULIFLOWER));
+        CRAFTING_MATERIAL(0, 1, 0.0f, 0.0f, 0, () -> Ingredient.ofItems(ModItems.CAULIFLOWER));
 
         private final int miningLevel;
         private final int itemDurability;
@@ -16,8 +16,8 @@ public enum ModToolMaterial implements ToolMaterial {
         private final int enchantability;
         private final Lazy<Ingredient> repairIngredient;
 
-        private ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage,
-                                int enchantability, Supplier<Ingredient> repairIngredient) {
+        ModToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage,
+                        int enchantability, Supplier<Ingredient> repairIngredient) {
             this.miningLevel = miningLevel;
             this.itemDurability = itemDurability;
             this.miningSpeed = miningSpeed;

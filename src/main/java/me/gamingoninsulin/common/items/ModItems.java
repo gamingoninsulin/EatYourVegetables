@@ -3,11 +3,11 @@ package me.gamingoninsulin.common.items;
 
 import me.gamingoninsulin.EYVBMod;
 import me.gamingoninsulin.common.blocks.ModBlocks;
+import me.gamingoninsulin.common.fluid.ModFluids;
 import me.gamingoninsulin.common.food.ModFoodComponent;
 import me.gamingoninsulin.common.materials.ModToolMaterial;
 import me.gamingoninsulin.core.Reference;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.impl.item.RecipeRemainderHandler;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -21,13 +21,19 @@ public class ModItems {
                                                       TOOLS
        ##############################################################################################################
     */
+    // cheese fluid
+    public static final Item FLUID_CHEESE_BUCKET = Registry.register(Registries.ITEM, new Identifier(Reference.MOD_ID,
+            "fluid_cheese_bucket"), new BucketItem(ModFluids.STILL_CHEESE_FLUID,
+            new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
     // stone knife
     public static final Item STONE_KNIFE = registerItem("stone_knife",
-            new SwordItem(ModToolMaterial.CAULIFLOWER_MATERIAL, 0,0f, new FabricItemSettings().recipeRemainder(ModItems.STONE_KNIFE).maxCount(1)));
+            new SwordItem(ModToolMaterial.CRAFTING_MATERIAL, 0,0f, new FabricItemSettings()
+                    .recipeRemainder(ModItems.STONE_KNIFE).maxCount(1)));
 
     // stone knife
     public static final Item CRAFTING_BOOK = registerItem("crafting_book",
-            new Item(new FabricItemSettings().recipeRemainder(ModItems.CRAFTING_BOOK).maxCount(1)));
+            new Item(new FabricItemSettings()));
    /*
        ##############################################################################################################
                                                      CROP SEEDS

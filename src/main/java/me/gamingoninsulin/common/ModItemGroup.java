@@ -178,6 +178,7 @@ public class ModItemGroup {
                         entries.add(ModItems.SALT_ITEM);
                         // MISC FOOD
                         entries.add(ModItems.WHEEL_OF_CHEESE);
+                        entries.add(ModItems.FLUID_CHEESE_BUCKET);
                     }).build());
 
     // ##################################################

@@ -1,10 +1,13 @@
 package me.gamingoninsulin.core;
 
 import me.gamingoninsulin.common.blocks.ModBlocks;
+import me.gamingoninsulin.common.fluid.ModFluids;
 import me.gamingoninsulin.common.screen.CheeseFormPressScreen;
 import me.gamingoninsulin.common.screen.ModScreenHandlers;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
+import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 
@@ -25,7 +28,14 @@ public class EYVBClientMod implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.KITCHEN_SINK_WATER_D_BOTH_OPEN, RenderLayer.getCutout());
 
 
-        HandledScreens.register(ModScreenHandlers.CHEESE_FORM_PRESS_STATION_SCREEN_HANDLER, CheeseFormPressScreen::new);    }
+        HandledScreens.register(ModScreenHandlers.CHEESE_FORM_PRESS_STATION_SCREEN_HANDLER, CheeseFormPressScreen::new);
+
+        FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.STILL_CHEESE_FLUID, ModFluids.FLOWING_CHEESE_FLUID,
+                SimpleFluidRenderHandler.coloredWater(0xc68747));
+
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(),
+                ModFluids.STILL_CHEESE_FLUID, ModFluids.FLOWING_CHEESE_FLUID);
+    }
 }
 /*      //OFF\\
 

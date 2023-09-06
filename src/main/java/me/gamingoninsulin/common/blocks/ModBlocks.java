@@ -6,6 +6,8 @@ import me.gamingoninsulin.common.blocks.custom.crops.CauliflowerCropBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.CucumberCropBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.EggplantCropBlock;
 import me.gamingoninsulin.common.blocks.custom.kitchen.*;
+import me.gamingoninsulin.common.fluid.ModFluids;
+import me.gamingoninsulin.core.Reference;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -17,11 +19,21 @@ import net.minecraft.util.Identifier;
 import static me.gamingoninsulin.core.Reference.*;
 
 public class ModBlocks {
+      /*
+       ##############################################################################################################
+                                                FLUIDS
+       ##############################################################################################################
+    */
+
+    public static final Block CHEESE_FLUID_BLOCK = Registry.register(Registries.BLOCK, new Identifier(Reference.MOD_ID,
+            "cheese_fluid_block"), new FluidBlock(ModFluids.STILL_CHEESE_FLUID, FabricBlockSettings.copyOf(Blocks.WATER)
+            .replaceable().liquid()));
     /*
        ##############################################################################################################
                                                 Empty crate
        ##############################################################################################################
     */
+
     public static final Block EMPTY_CRATE = registerBlock("empty_crate",
             new EmptyCrateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
@@ -241,19 +253,19 @@ public class ModBlocks {
 
     // kitchen sink
     public static final Block KITCHEN_SINK_WATER_D_CLOSED = registerBlock("kitchen_sink_water_d_closed",
-            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+            new KitchenSinkWaterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     // kitchen sink
     public static final Block KITCHEN_SINK_WATER_D_RIGHT_OPEN = registerBlock("kitchen_sink_water_d_right_open",
-            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+            new KitchenSinkWaterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     // kitchen sink
     public static final Block KITCHEN_SINK_WATER_D_LEFT_OPEN = registerBlock("kitchen_sink_water_d_left_open",
-            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+            new KitchenSinkWaterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     // kitchen sink
     public static final Block KITCHEN_SINK_WATER_D_BOTH_OPEN = registerBlock("kitchen_sink_water_d_both_open",
-            new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+            new KitchenSinkWaterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     /*
        ##############################################################################################################
@@ -261,19 +273,19 @@ public class ModBlocks {
        ##############################################################################################################
     */
 
-    // kitchen water facet sink
+    // kitchen empty facet sink
     public static final Block KITCHEN_SINK_EMPTY_D_CLOSED = registerBlock("kitchen_sink_empty_d_closed",
             new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
-    // kitchen water facet sink
+    // kitchen empty facet sink
     public static final Block KITCHEN_SINK_EMPTY_D_RIGHT_OPEN = registerBlock("kitchen_sink_empty_d_right_open",
             new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
-    // kitchen water facet sink
+    // kitchen empty facet sink
     public static final Block KITCHEN_SINK_EMPTY_D_LEFT_OPEN = registerBlock("kitchen_sink_empty_d_left_open",
             new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
-    // kitchen water facet sink
+    // kitchen empty facet sink
     public static final Block KITCHEN_SINK_EMPTY_D_BOTH_OPEN = registerBlock("kitchen_sink_empty_d_both_open",
             new KitchenSinkBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 

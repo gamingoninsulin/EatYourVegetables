@@ -379,6 +379,7 @@ public class ModModelProvider extends FabricModelProvider {
         // tools
         itemmodelgenerator.register(ModItems.STONE_KNIFE, Models.HANDHELD);
         itemmodelgenerator.register(ModItems.CRAFTING_BOOK, Models.HANDHELD);
+        itemmodelgenerator.register(ModItems.FLUID_CHEESE_BUCKET, Models.HANDHELD);
 
     }
 }

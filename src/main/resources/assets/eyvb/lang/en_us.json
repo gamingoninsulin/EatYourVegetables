@@ -4,6 +4,8 @@
     "item.eyvb.cauliflower_seeds": "Cauliflower Seeds",
     "item.eyvb.cauliflower": "Raw Cauliflower",
     "item.eyvb.cooked_cauliflower": "Cooked Cauliflower",
+    "item.eyvb.fluid_cheese_bucket": "Fluid Cheese Bucket",
+    "item.eyvb.fluid_cheese_block": "Fluid Cheese",
 
     "block.eyvb.mod_crate_block_cauliflower_layer_1": "Crate with 8x Cauliflower's",
     "block.eyvb.mod_crate_block_cauliflower_layer_2": "Crate with 16 Cauliflower's",
@@ -177,5 +179,8 @@
     "block.eyvb.kitchen_extractor_hood": "Extractor Hood",
     "block.eyvb.cheese_form_press": "Cheese Form Press",
     "block.eyvb.cheese_form_press_working": "Working Cheese Form Press",
-    "block.eyvb.cheese_form_press_done": "Cheese Form Press Done"
+    "block.eyvb.cheese_form_press_done": "Cheese Form Press Done",
+
+  "tooltip.eyvb.liquid.amount.with.capacity": "%s / %s mB",
+  "tooltip.eyvb.liquid.amount": "%s mB"
 }

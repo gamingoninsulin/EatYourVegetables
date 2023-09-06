@@ -1,16 +1,25 @@
 package me.gamingoninsulin.common.blocks.entity;
 
 import me.gamingoninsulin.common.blocks.entity.util.ImplementedInventory;
+import me.gamingoninsulin.common.fluid.ModFluids;
+import me.gamingoninsulin.common.items.ModItems;
 import me.gamingoninsulin.common.recipe.CheeseFormPressRecipe;
 import me.gamingoninsulin.common.screen.CheeseFormPressScreenHandler;
 import net.fabricmc.fabric.api.screenhandler.v1.ExtendedScreenHandlerFactory;
+import net.fabricmc.fabric.api.transfer.v1.fluid.FluidConstants;
+import net.fabricmc.fabric.api.transfer.v1.fluid.FluidVariant;
+import net.fabricmc.fabric.api.transfer.v1.storage.base.SingleVariantItemStorage;
+import net.fabricmc.fabric.api.transfer.v1.storage.base.SingleVariantStorage;
+import net.fabricmc.fabric.api.transfer.v1.transaction.Transaction;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.inventory.Inventories;
 import net.minecraft.inventory.SimpleInventory;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.network.PacketByteBuf;
 import net.minecraft.screen.PropertyDelegate;
@@ -33,7 +42,7 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
 
     protected final PropertyDelegate propertyDelegate;
     private int progress = 0;
-    private int maxProgress = 144;
+    private int maxProgress = 72;
 
     public CheesePressStationBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.CHEESE_FORM_PRESS_STATION_BE, pos, state);
@@ -88,27 +97,36 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
         super.writeNbt(nbt);
         nbt.putInt("cheese_form_press_station.progress", progress);
         Inventories.writeNbt(nbt, inventory);
+        nbt.put("cheese_form_press_station.variant", fluidStorage.variant.getNbt());
+        nbt.putLong("cheese_form_press_station_fluid_amount", fluidStorage.amount);
     }
 
     @Override
     public void readNbt(NbtCompound nbt) {
         Inventories.readNbt(nbt, inventory);
         progress = nbt.getInt("cheese_form_press_station.progress");
+        fluidStorage.variant = FluidVariant.fromNbt((NbtCompound) nbt.get("cheese_form_press_station.variant"));
+        fluidStorage.amount = nbt.getLong("gem_empowering_station.fluid_amount");
         super.readNbt(nbt);
     }
 
-    public void tick(World world, BlockPos pos, BlockState state) {      if(canInsertIntoOutputSlot() && hasRecipe()) {
-        increaseCraftingProgress();
-        markDirty(world, pos, state);
-
-        if(hasCraftingFinished()) {
-            craftItem();
-            resetProgress();
+    public final SingleVariantStorage<FluidVariant> fluidStorage = new SingleVariantStorage<FluidVariant>() {
+        @Override
+        protected FluidVariant getBlankVariant() {
+            return FluidVariant.blank();
         }
-    } else {
-        resetProgress();
-    }
-    }
+
+        @Override
+        protected long getCapacity(FluidVariant variant) {
+            return (FluidConstants.BUCKET / 81) * 64; // 1 Bucket = 81000 Droplets = 1000mB || *64 ==> 64,000mB = 64 Buckets
+        }
+
+        @Override
+        protected void onFinalCommit() {
+            markDirty();
+            getWorld().updateListeners(pos, getCachedState(), getCachedState(), 3);
+        }
+    };
 
     private void craftItem() {
         Optional<CheeseFormPressRecipe> recipe = getCurrentRecipe();
@@ -140,9 +158,12 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
         ItemStack output = recipe.get().getOutput(null);
 
         return canInsertAmountIntoOutputSlot(output.getCount())
-                && canInsertItemIntoOutputSlot(output);
+                && canInsertItemIntoOutputSlot(output) && hasEnoughFluidToCraft();
     }
 
+    private boolean hasEnoughFluidToCraft() {
+        return this.fluidStorage.amount >= 1000; // mB amount!
+    }
 
     private boolean canInsertItemIntoOutputSlot(ItemStack output) {
         return this.getStack(OUTPUT_SLOT).isEmpty() || this.getStack(OUTPUT_SLOT).getItem() == output.getItem();
@@ -164,5 +185,49 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
     private boolean canInsertIntoOutputSlot() {
         return this.getStack(OUTPUT_SLOT).isEmpty() ||
                 this.getStack(OUTPUT_SLOT).getCount() < this.getStack(OUTPUT_SLOT).getMaxCount();
+    }
+
+    private void fillUpOnFluid() {
+        if(hasFluidSourceItemInFluidSlot(FLUID_ITEM_SLOT)) {
+            transferItemFluidToTank(FLUID_ITEM_SLOT);
+        }
+    }
+
+    private void transferItemFluidToTank(int fluidItemSlot) {
+        try(Transaction transaction = Transaction.openOuter()) {
+            this.fluidStorage.insert(FluidVariant.of(ModFluids.STILL_CHEESE_FLUID),
+                    (FluidConstants.BUCKET / 81), transaction);
+            transaction.commit();
+
+            this.setStack(fluidItemSlot, new ItemStack(Items.BUCKET));
+        }
+    }
+
+    private boolean hasFluidSourceItemInFluidSlot(int fluidItemSlot) {
+        return this.getStack(fluidItemSlot).getItem() == ModItems.FLUID_CHEESE_BUCKET;
+    }
+
+
+    public void tick(World world, BlockPos pos, BlockState state) {
+        fillUpOnFluid();
+        if(canInsertIntoOutputSlot() && hasRecipe()) {
+            increaseCraftingProgress();
+            markDirty(world, pos, state);
+
+            if(hasCraftingFinished()) {
+                craftItem();
+                extractFluid();
+                resetProgress();
+            }
+        } else {
+            resetProgress();
+        }
+    }
+
+    private void extractFluid() {
+        try(Transaction transaction = Transaction.openOuter()) {
+            this.fluidStorage.extract(FluidVariant.of(ModFluids.STILL_CHEESE_FLUID), 1000, transaction);
+            transaction.commit();
+        }
     }
 }

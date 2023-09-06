@@ -3,6 +3,7 @@ package me.gamingoninsulin;
 import me.gamingoninsulin.common.ModItemGroup;
 import me.gamingoninsulin.common.blocks.ModBlocks;
 import me.gamingoninsulin.common.blocks.entity.ModBlockEntities;
+import me.gamingoninsulin.common.fluid.ModFluids;
 import me.gamingoninsulin.common.items.ModItems;
 import me.gamingoninsulin.common.recipe.ModRecipes;
 import me.gamingoninsulin.common.screen.ModScreenHandlers;
@@ -30,5 +31,7 @@ public class EYVBMod implements ModInitializer {
 		ModBlockEntities.RegisterModEntities();
 		ModScreenHandlers.registerScreenHandler();
 		ModRecipes.RegisterRecipes();
+
+		ModFluids.registerFluid();
 	}
 }

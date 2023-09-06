@@ -16,7 +16,7 @@ public class CheeseFormPressScreenHandler extends ScreenHandler {
 
     private final Inventory inventory;
     private final PropertyDelegate propertyDelegate;
-    private final CheesePressStationBlockEntity blockEntity;
+    public final CheesePressStationBlockEntity blockEntity;
 
     protected CheeseFormPressScreenHandler(int syncId, PlayerInventory inventory, PacketByteBuf buf) {
         this(syncId,inventory,inventory.player.getWorld().getBlockEntity(buf.readBlockPos()),
@@ -42,9 +42,9 @@ public class CheeseFormPressScreenHandler extends ScreenHandler {
         this.propertyDelegate = arrayPropertyDelegate;
         this.blockEntity = (CheesePressStationBlockEntity) blockEntity;
 
-        this.addSlot(new Slot(inventory, 0, 9, 25)); // input ingredient (salt)
-        this.addSlot(new Slot(inventory, 1, 73, 59)); // input fluid (milk)
-        this.addSlot(new Slot(inventory, 2, 73, 59)); // output (wheel of cheese)
+        this.addSlot(new Slot(inventory, 0, 104, 11)); // input ingredient (salt)
+        this.addSlot(new Slot(inventory, 1, 51, 58)); // input fluid (milk)
+        this.addSlot(new Slot(inventory, 2, 104, 58)); // output (wheel of cheese)
 
         addPlayerInventory(playerInventory);
         addPlayerHotbar(playerInventory);
