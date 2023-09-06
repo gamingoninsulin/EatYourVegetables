@@ -23,11 +23,11 @@ public class ModItems {
     */
     // stone knife
     public static final Item STONE_KNIFE = registerItem("stone_knife",
-            new SwordItem(ModToolMaterial.CAULIFLOWER_MATERIAL, 0,0f, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.CAULIFLOWER_MATERIAL, 0,0f, new FabricItemSettings().recipeRemainder(ModItems.STONE_KNIFE).maxCount(1)));
 
     // stone knife
     public static final Item CRAFTING_BOOK = registerItem("crafting_book",
-            new Item(new FabricItemSettings()));
+            new Item(new FabricItemSettings().recipeRemainder(ModItems.CRAFTING_BOOK).maxCount(1)));
    /*
        ##############################################################################################################
                                                      CROP SEEDS
