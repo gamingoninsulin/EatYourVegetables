@@ -15,7 +15,7 @@
   <br><br>
   Kitchen:
   <br>
-  - Kitchen cabinets uppen & lower parts open and closed doors
+  - Kitchen cabinets upper & lower parts open and closed doors
   - kitchen sinks open and closed doors
   - kitchen ovens
   <br><br>
