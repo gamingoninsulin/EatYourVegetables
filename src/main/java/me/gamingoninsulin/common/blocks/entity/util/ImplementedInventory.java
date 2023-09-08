@@ -6,8 +6,6 @@ import net.minecraft.inventory.Inventory;
 import net.minecraft.inventory.SidedInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
-import net.minecraft.network.listener.ClientPlayPacketListener;
-import net.minecraft.network.packet.Packet;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.Direction;
 import org.jetbrains.annotations.Nullable;
@@ -211,16 +209,4 @@ public interface ImplementedInventory extends SidedInventory {
     default boolean canPlayerUse(PlayerEntity player) {
         return true;
     }
-
-    void writeNbt(NbtCompound nbt);
-
-    void readNbt(NbtCompound nbt);
-
-    @Nullable Packet<ClientPlayPacketListener> toUpdatePacket();
-
-    NbtCompound toInitialChunkDataNbt();
-
-    ItemStack quickMove(PlayerEntity player, int invSlot);
-
-    boolean canUse(PlayerEntity player);
 }

@@ -377,14 +377,4 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
     public NbtCompound toInitialChunkDataNbt() {
         return createNbt();
     }
-
-    @Override
-    public ItemStack quickMove(PlayerEntity player, int invSlot) {
-        return null;
-    }
-
-    @Override
-    public boolean canUse(PlayerEntity player) {
-        return false;
-    }
 }

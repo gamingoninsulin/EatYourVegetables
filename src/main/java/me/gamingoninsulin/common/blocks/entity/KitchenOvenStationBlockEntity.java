@@ -208,7 +208,7 @@ public class KitchenOvenStationBlockEntity extends BlockEntity implements Extend
 
     @Override
     public Text getDisplayName() {
-        return Text.literal("Kitchen Oven");
+        return Text.literal("Cooking & Baking Station");
     }
 
     @Nullable
@@ -382,13 +382,4 @@ public class KitchenOvenStationBlockEntity extends BlockEntity implements Extend
         return createNbt();
     }
 
-    @Override
-    public ItemStack quickMove(PlayerEntity player, int invSlot) {
-        return null;
-    }
-
-    @Override
-    public boolean canUse(PlayerEntity player) {
-        return false;
-    }
 }

@@ -1,4 +1,4 @@
-// 1.20.1	2023-09-07T00:48:38.657195448	Eat Your Vegetables Boy/Block Loot Tables
+// 1.20.1	2023-09-08T15:40:32.726909588	Eat Your Vegetables Boy/Block Loot Tables
 33987d9158ef8a8f23cb1283eb063c5116cf524e data/eyvb/loot_tables/blocks/kitchen_cabinet_center_no_drawers_d_left_open.json
 727aa4ae2e5960c9538a0282b7336c462304d4ed data/eyvb/loot_tables/blocks/mod_crate_block_cauliflower_layer_4.json
 535417fc5a7d02c5a75cba45e70d3e31d6a666a2 data/eyvb/loot_tables/blocks/mod_crate_block_cucumber_layer_5.json
@@ -96,8 +96,8 @@ b8d8b0320a29e1a596621c42a3990024969d4b10 data/eyvb/loot_tables/blocks/avocado_bu
 fe26e43894df75ac6d03e9197504a378817d02d7 data/eyvb/loot_tables/blocks/pine_leaves_wall.json
 ceeeb47b86fdd34ad63b2721e6d876f583d13c01 data/eyvb/loot_tables/blocks/kitchen_cabinet_top_rcorner_d_left_open.json
 f18062cb2ac276628e2d3531aef54d054fa8bc0e data/eyvb/loot_tables/blocks/cucumber_wall.json
-8b8b5830a5e69f2b3164e8f1d3a45281ee9f0e6f data/eyvb/loot_tables/blocks/eggplant_button.json
 968a5269b08927cb713aec6e11382aff73251d11 data/eyvb/loot_tables/blocks/mod_crate_block_eggplant_layer_7.json
+8b8b5830a5e69f2b3164e8f1d3a45281ee9f0e6f data/eyvb/loot_tables/blocks/eggplant_button.json
 0e42059cd2935923df2b7c5a8ea0f94f8e135f13 data/eyvb/loot_tables/blocks/corn_wall.json
 cf90e2b9a58c1bbfe6d5447eb6a1b3de081e6d1d data/eyvb/loot_tables/blocks/pine_planks_slab.json
 d0bee803e8e150aebead82f9dec1873862d35ff3 data/eyvb/loot_tables/blocks/mod_crate_block_cauliflower_layer_8.json

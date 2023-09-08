@@ -19,7 +19,7 @@ import java.util.Optional;
 
 public class KitchenOvenScreen extends HandledScreen<CheeseFormPressScreenHandler> {
     private static final Identifier TEXTURE =
-            new Identifier(Reference.MOD_ID, "textures/gui/cooking_station_block_gui.png");
+            new Identifier(Reference.MOD_ID, "textures/gui/cooking_baking_station_block_gui.png");
 
     private EnergyInfoArea energyInfoArea;
     private FluidStackRenderer fluidStackRenderer;

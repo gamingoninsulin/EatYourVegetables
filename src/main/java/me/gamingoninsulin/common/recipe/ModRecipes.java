@@ -13,10 +13,10 @@ public class ModRecipes {
         Registry.register(Registries.RECIPE_TYPE, new Identifier(Reference.MOD_ID, CheeseFormPressRecipe.Type.ID),
                 CheeseFormPressRecipe.Type.INSTANCE);
 
-        Registry.register(Registries.RECIPE_SERIALIZER, new Identifier(Reference.MOD_ID, CheeseFormPressRecipe.Serializer.ID),
+        Registry.register(Registries.RECIPE_SERIALIZER, new Identifier(Reference.MOD_ID, KitchenOvenRecipe.Serializer.ID),
                 KitchenOvenRecipe.Serializer.INSTANCE);
 
-        Registry.register(Registries.RECIPE_TYPE, new Identifier(Reference.MOD_ID, CheeseFormPressRecipe.Type.ID),
+        Registry.register(Registries.RECIPE_TYPE, new Identifier(Reference.MOD_ID, KitchenOvenRecipe.Type.ID),
                 KitchenOvenRecipe.Type.INSTANCE);
     }
 

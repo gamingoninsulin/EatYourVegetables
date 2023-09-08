@@ -23,6 +23,10 @@ public class ItemStackSyncS2CPacket {
         if(client.world.getBlockEntity(position) instanceof CheesePressStationBlockEntity blockEntity) {
             blockEntity.setInventory(list);
         }
+
+        if(client.world.getBlockEntity(position) instanceof KitchenOvenStationBlockEntity blockEntity) {
+            blockEntity.setInventory(list);
+        }
         
     }
 }

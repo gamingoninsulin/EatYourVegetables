@@ -2,6 +2,7 @@ package me.gamingoninsulin.common.datagen;
 
 import me.gamingoninsulin.common.blocks.ModBlocks;
 import me.gamingoninsulin.common.datagen.recipe.CheeseFormStationRecipeGen;
+import me.gamingoninsulin.common.datagen.recipe.KitchenOvenStationRecipeGen;
 import me.gamingoninsulin.common.items.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -26,16 +27,35 @@ public class ModRecipeGen extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> exporter) {
 
 
-         /*
+    /*
         #########################################################################################################
                                                 CHEESE FORMING RECIPES
         #########################################################################################################
-
+    */
+    /*
         #########################################################################################################
                                                 SALTED CHEESE
         #########################################################################################################
     */
-        new CheeseFormStationRecipeGen(ModItems.SALT_ITEM, ModItems.WHEEL_OF_CHEESE, 1)
+        new CheeseFormStationRecipeGen(
+                ModItems.SALT_ITEM,         // ingredient
+                ModItems.WHEEL_OF_CHEESE,   // result
+                1)                          // amount
+
+                .criterion(hasItem(ModItems.SALT_ITEM), conditionsFromItem(ModItems.SALT_ITEM))
+                .offerTo(exporter);
+
+
+        /*
+        #########################################################################################################
+                                                COOKED COWLIFLOWER
+        #########################################################################################################
+    */
+        new KitchenOvenStationRecipeGen(
+                ModItems.CAULIFLOWER,           // ingredient
+                ModItems.COOKED_CAULIFLOWER,    // result
+                1)                              // amount
+
                 .criterion(hasItem(ModItems.SALT_ITEM), conditionsFromItem(ModItems.SALT_ITEM))
                 .offerTo(exporter);
 

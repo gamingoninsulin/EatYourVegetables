@@ -1,6 +1,5 @@
 package me.gamingoninsulin.common.blocks.entity;
 
-import dev.architectury.platform.Mod;
 import me.gamingoninsulin.EYVBMod;
 import me.gamingoninsulin.common.blocks.ModBlocks;
 import me.gamingoninsulin.core.Reference;
@@ -24,6 +23,16 @@ public class ModBlockEntities {
                             // kitchen oven
                             ModBlocks.KITCHEN_OVEN_ON
                     ).build(null));
+
+    public static final BlockEntityType<ModSignBlockEntity> MOD_SIGN_BLOCK_ENTITY = Registry.register(Registries.BLOCK_ENTITY_TYPE,
+            new Identifier(Reference.MOD_ID, "mod_sign_entity"),
+            FabricBlockEntityTypeBuilder.create(ModSignBlockEntity::new,
+                    ModBlocks.PINEWOOD_SIGN, ModBlocks.PINEWOOD_WALL_SIGN).build());
+
+    public static final BlockEntityType<ModSignBlockEntity> MOD_HANGING_SIGN_BLOCK_ENTITY = Registry.register(Registries.BLOCK_ENTITY_TYPE,
+            new Identifier(Reference.MOD_ID, "mod_hanging_sign_entity"),
+            FabricBlockEntityTypeBuilder.create(ModSignBlockEntity::new,
+                    ModBlocks.PINEWOOD_HANGING_SIGN, ModBlocks.PINEWOOD_HANGING_SIGN).build(null));
 
     public static void RegisterModEntities() {
         EYVBMod.LOGGER.info("Regitering Mod Entities for " + Reference.REGISTER_MOD_NAME);

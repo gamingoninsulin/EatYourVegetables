@@ -7,13 +7,17 @@ import me.gamingoninsulin.common.fluid.ModFluids;
 import me.gamingoninsulin.common.network.ModMessages;
 import me.gamingoninsulin.common.screen.CheeseFormPressScreen;
 import me.gamingoninsulin.common.screen.ModScreenHandlers;
+import me.gamingoninsulin.common.util.ModWoodTypes;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.TexturedRenderLayers;
 import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
+import net.minecraft.client.render.block.entity.HangingSignBlockEntityRenderer;
+import net.minecraft.client.render.block.entity.SignBlockEntityRenderer;
 
 public class EYVBClientMod implements ClientModInitializer {
     @Override
@@ -58,6 +62,12 @@ public class EYVBClientMod implements ClientModInitializer {
         ModMessages.registerS2CPackets();
 
         BlockEntityRendererFactories.register(ModBlockEntities.CHEESE_FORM_PRESS_STATION_BE, CheesePressStationBlockRenderer::new);
+
+        TexturedRenderLayers.SIGN_TYPE_TEXTURES.put(ModWoodTypes.PINEWOOD, TexturedRenderLayers.getSignTextureId(ModWoodTypes.PINEWOOD));
+
+        BlockEntityRendererFactories.register(ModBlockEntities.MOD_SIGN_BLOCK_ENTITY, SignBlockEntityRenderer::new);
+
+        BlockEntityRendererFactories.register(ModBlockEntities.MOD_HANGING_SIGN_BLOCK_ENTITY, HangingSignBlockEntityRenderer::new);
     }
 }
 /*      //OFF\\

@@ -10,6 +10,8 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.Block;
 import net.minecraft.data.client.*;
+import net.minecraft.data.family.BlockFamilies;
+
 public class ModModelProvider extends FabricModelProvider {
 
 
@@ -371,6 +373,8 @@ public class ModModelProvider extends FabricModelProvider {
         //blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.PINE_LEAVES_BLOCK);
 
         BlockStateModelGenerator.BlockTexturePool PinePlanksTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.PINE_PLANKS_BLOCK);
+
+        PinePlanksTexture.family(BlockFamilies.register(ModBlocks.PINE_PLANKS_BLOCK).sign(ModBlocks.PINEWOOD_SIGN, ModBlocks.PINEWOOD_WALL_SIGN).build());
 
         PinePlanksTexture.stairs(ModBlocks.PINE_PLANKS_STAIRS);
         PinePlanksTexture.slab(ModBlocks.PINE_PLANKS_SLAB);

@@ -1,0 +1,11 @@
+{
+  "type": "eyvb:kitchen_oven",
+  "ingredients": [
+    {
+      "item": "eyvb:cauliflower"
+    }
+  ],
+  "result": {
+    "item": "eyvb:cooked_cauliflower"
+  }
+}

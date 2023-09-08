@@ -24,6 +24,7 @@ public class EYVBMod implements ModInitializer {
 		LOGGER.info("Starting Eat Your Vegetables Boy Mod!");
 
 		ModItemGroup.registerItemGroups();
+		//LOGGER.info("done with ItemsGroups");
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModRegistries.registerModStuffs();

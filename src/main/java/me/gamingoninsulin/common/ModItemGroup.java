@@ -197,6 +197,11 @@ public class ModItemGroup {
                         entries.add(ModBlocks.PINE_LEAVES_SLAB);
                         entries.add(ModBlocks.PINE_LEAVES_WALL);
 
+                        entries.add(ModBlocks.PINEWOOD_SIGN);
+                        entries.add(ModBlocks.PINEWOOD_WALL_SIGN);
+                        entries.add(ModBlocks.PINEWOOD_HANGING_SIGN);
+                        entries.add(ModBlocks.PINEWOOD_HANGING_WALL_SIGN);
+
                         // ##################################################
                         // APPETIZERS
                         entries.add(ModItems.SALT_ITEM);
@@ -296,44 +301,3 @@ public class ModItemGroup {
     }
 
 }
-/*      //OFF\\
-
-// ##################################################
-
-    public static final ItemGroup ORES_AND_ORE_ITEMS = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(MOD_ID, "ores_and_ore_items"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eyvb.ores_and_ore_items"))
-                    .icon(() -> new ItemStack(ModItems.RAW_PINK_GARNET)).entries((displayContext, entries) -> {
-                        // ORES, & (RAW) BLOCKS
-                        entries.add(ModBlocks.PINK_GARNET_ORE);
-                        entries.add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
-                        entries.add(ModBlocks.NETHER_PINK_GARNET_ORE);
-                        entries.add(ModBlocks.END_PINK_GARNET_ORE);
-                        entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
-                        entries.add(ModBlocks.PEAT_BLOCK);
-                        // ITEMS & RAW ITEMS
-                        entries.add(ModItems.PINK_GARNET);
-                        entries.add(ModItems.RAW_PINK_GARNET);
-                        entries.add(ModItems.PEAT_BRICK);
-                    }).build());
-
-    // ##################################################
-
-    public static final ItemGroup BLOCKS_AND_DECO = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(MOD_ID, "blocks_and_deco"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eyvb.blocks_and_deco"))
-                    .icon(() -> new ItemStack(ModBlocks.PINK_GARNET_FENCE)).entries((displayContext, entries) -> {
-                        // BLOCKS
-                        entries.add(ModBlocks.PINK_GARNET_BLOCK);
-
-                        // DECO
-                        entries.add(ModBlocks.PINK_GARNET_SLAB);
-                        entries.add(ModBlocks.PINK_GARNET_STAIRS);
-                        entries.add(ModBlocks.PINK_GARNET_FENCE);
-                        entries.add(ModBlocks.PINK_GARNET_FENCE_GATE);
-                        entries.add(ModBlocks.PINK_GARNET_DOOR);
-                        entries.add(ModBlocks.PINK_GARNET_TRAPDOOR);
-                        entries.add(ModBlocks.PINK_GARNET_BUTTON);
-                        entries.add(ModBlocks.PINK_GARNET_PRESSURE_PLATE);
-                    }).build());
-
-    // ##################################################
- */

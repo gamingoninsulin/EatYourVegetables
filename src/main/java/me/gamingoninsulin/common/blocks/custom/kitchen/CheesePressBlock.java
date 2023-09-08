@@ -1,5 +1,6 @@
 package me.gamingoninsulin.common.blocks.custom.kitchen;
 
+import me.gamingoninsulin.common.blocks.entity.CheesePressStationBlockEntity;
 import me.gamingoninsulin.common.blocks.entity.ModBlockEntities;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;

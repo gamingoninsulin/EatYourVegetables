@@ -6,7 +6,12 @@ import me.gamingoninsulin.common.blocks.custom.crops.CauliflowerCropBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.CucumberCropBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.EggplantCropBlock;
 import me.gamingoninsulin.common.blocks.custom.kitchen.*;
+import me.gamingoninsulin.common.blocks.custom.signs.ModHangingSignBlock;
+import me.gamingoninsulin.common.blocks.custom.signs.ModStandingSignBlock;
+import me.gamingoninsulin.common.blocks.custom.signs.ModWallHangingSignBlock;
+import me.gamingoninsulin.common.blocks.custom.signs.ModWallSignBlock;
 import me.gamingoninsulin.common.fluid.ModFluids;
+import me.gamingoninsulin.common.util.ModWoodTypes;
 import me.gamingoninsulin.core.Reference;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -63,6 +68,21 @@ public class ModBlocks {
 
     public static final Block PINE_PLANKS_WALL = registerBlock("pine_planks_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+
+
+    public static final Block PINEWOOD_SIGN = registerBlockWithoutBlockItem("pinewood_sign",
+            new ModStandingSignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), ModWoodTypes.PINEWOOD));
+    public static final Block PINEWOOD_WALL_SIGN = registerBlockWithoutBlockItem("pinewood_wall_sign",
+            new ModWallSignBlock(FabricBlockSettings.copyOf(Blocks.OAK_WALL_SIGN), ModWoodTypes.PINEWOOD));
+    public static final Block PINEWOOD_HANGING_SIGN = registerBlockWithoutBlockItem("pinewood_hanging_sign",
+            new ModHangingSignBlock(FabricBlockSettings.copyOf(Blocks.OAK_HANGING_SIGN), ModWoodTypes.PINEWOOD));
+    public static final Block PINEWOOD_HANGING_WALL_SIGN = registerBlockWithoutBlockItem("pinewood_hanging_wall_sign",
+            new ModWallHangingSignBlock(FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.PINEWOOD));
+
+
+
+
 
     // ############################################################################################################
 

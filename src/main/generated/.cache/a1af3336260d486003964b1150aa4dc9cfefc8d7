@@ -1,4 +1,4 @@
-// 1.20.1	2023-09-07T00:48:38.662652373	Eat Your Vegetables Boy/Recipes
+// 1.20.1	2023-09-08T15:40:32.732421816	Eat Your Vegetables Boy/Recipes
 bde0c90c375e904d132790137da8effb06e34105 data/eyvb/advancements/recipes/misc/mod_crate_block_eggplant_layer_7_to_eggplant.json
 806d8255159c1b27d86500451cd7b4cc3165e3a1 data/eyvb/advancements/recipes/misc/mod_crate_block_cauliflower_layer_4.json
 06ea57a2ef47ec53040dc483c57f0963bb805d43 data/eyvb/recipes/mod_crate_block_sea_pickle_layer_1_to_sea_pickle.json
@@ -117,6 +117,7 @@ dcb16afb5c9c9d528bccaf23ef64c132898eeab0 data/eyvb/advancements/recipes/misc/sea
 d24095a07d02d9c2f6f40dcf046032e885fdb883 data/eyvb/recipes/sea_pickle_fence.json
 207186e46230b70b18f4f470850121c790da0678 data/eyvb/recipes/cut_cucumber.json
 aceb985d252fc077f129921898beaf6beb7ed2b8 data/eyvb/recipes/mod_crate_block_corn_layer_2_to_corn.json
+057f227d04913e9ca0407e095a744c66fe2c7b1c data/eyvb/advancements/recipes/cooked_cauliflower.json
 ca95cdffb0b2206b14c0a74647dce20a75d9f530 data/eyvb/recipes/kitchen_cabinet_center_d_right_open.json
 e9bfb65899c76340cda6d3b2569dac5618b4ea7e data/eyvb/recipes/mod_crate_block_cucumber_layer_7_to_cucumber.json
 96c4954d31f45da5b3bf7b4503ab2690c05b976c data/eyvb/advancements/recipes/misc/mod_crate_block_cauliflower_layer_1.json
@@ -168,6 +169,7 @@ bce3c1ba9e03e3ea402165a43df202cc752e6db5 data/eyvb/advancements/recipes/misc/mod
 6d5824ac0c1820800a0e82263159e67ffa14e919 data/eyvb/advancements/recipes/misc/corn_pressure_plate.json
 60d1fefb35f237abef5872383fb2a6f6021d32ba data/eyvb/advancements/recipes/misc/mod_crate_block_cucumber_layer_8_to_cucumber.json
 51fd58deac1145f67562b4b48b2c03438051ab78 data/eyvb/recipes/sea_pickle_stairs_right.json
+b52a6ece034ecd33b7331dae8ed53c43012c704b data/eyvb/recipes/cooked_cauliflower_from_kitchen_oven.json
 a896dee8053688c55e53144cd597f72f069f5dfc data/eyvb/recipes/cucumber_stairs_left.json
 28e685edca335790ba2ab84e519b5f0f70749b5c data/eyvb/recipes/crafting_book.json
 f47c80b76e6f9034099e1e8d1ca9f77d5b426fb7 data/eyvb/advancements/recipes/misc/mod_crate_block_cucumber_layer_8.json
