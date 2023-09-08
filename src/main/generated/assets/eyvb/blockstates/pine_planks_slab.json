@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "eyvb:block/pine_planks_slab"
+    },
+    "type=double": {
+      "model": "eyvb:block/pine_planks"
+    },
+    "type=top": {
+      "model": "eyvb:block/pine_planks_slab_top"
+    }
+  }
+}

@@ -101,7 +101,7 @@ public class ModItems {
     public static final Item CUT_CUCUMBER = registerItem("cut_cucumber",
             new Item(new FabricItemSettings().food(ModFoodComponent.CUCUMBER)));
 
-    // Wheel of Cheese
+    // Wheel of Salted Cheese
     public static final Item WHEEL_OF_CHEESE = registerItem("wheel_of_cheese",
             new Item(new FabricItemSettings().food(ModFoodComponent.WHEEL_OF_CHEESE)));
 

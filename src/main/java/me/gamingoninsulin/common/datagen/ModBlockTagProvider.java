@@ -3,6 +3,7 @@ package me.gamingoninsulin.common.datagen;
 import me.gamingoninsulin.common.blocks.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -243,7 +244,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.AVOCADO_FENCE,
                         ModBlocks.CORN_FENCE,
                         ModBlocks.EGGPLANT_FENCE,
-                        ModBlocks.SEA_PICKLE_FENCE
+                        ModBlocks.SEA_PICKLE_FENCE,
+                        ModBlocks.PINE_PLANKS_FENCE
                 );
 
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
@@ -253,9 +255,16 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.AVOCADO_FENCE_GATE,
                         ModBlocks.CORN_FENCE_GATE,
                         ModBlocks.EGGPLANT_FENCE_GATE,
-                        ModBlocks.SEA_PICKLE_FENCE_GATE
-                );
+                        ModBlocks.SEA_PICKLE_FENCE_GATE,
+                        ModBlocks.PINE_PLANKS_FENCE_GATE
 
+                );
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE).add(
+                     ModBlocks.PINE_LEAVES_BLOCK,
+                     ModBlocks.PINE_LEAVES_STAIRS,
+                     ModBlocks.PINE_LEAVES_SLAB,
+                     ModBlocks.PINE_LEAVES_WALL
+        );
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(
                         ModBlocks.CAULIFLOWER_WALL,
@@ -263,72 +272,22 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.AVOCADO_WALL,
                         ModBlocks.CORN_WALL,
                         ModBlocks.EGGPLANT_WALL,
-                        ModBlocks.SEA_PICKLE_WALL
+                        ModBlocks.SEA_PICKLE_WALL,
+                        ModBlocks.PINE_PLANKS_WALL,
+                        ModBlocks.PINE_LEAVES_WALL
+
+
+                );
+
+        getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
+                .add(
+                        // LOGS
+                        ModBlocks.PINE_WOOD,
+                        ModBlocks.PINE_LOG,
+
+                        // STRIPPED
+                        ModBlocks.STRIPPED_PINE_WOOD,
+                        ModBlocks.STRIPPED_PINE_LOG
                 );
     }
 }
-/*      //OFF\\
-
-        // metal detector
-        getOrCreateTagBuilder(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS_TAG)
-                .add(ModBlocks.PINK_GARNET_ORE)
-                .forceAddTag(BlockTags.GOLD_ORES)
-                .forceAddTag(BlockTags.COAL_ORES)
-                .forceAddTag(BlockTags.DIAMOND_ORES)
-                .forceAddTag(BlockTags.IRON_ORES)
-                .forceAddTag(BlockTags.LAPIS_ORES)
-                .forceAddTag(BlockTags.COPPER_ORES)
-                .forceAddTag(BlockTags.REDSTONE_ORES)
-                .forceAddTag(BlockTags.EMERALD_ORES
-                );
-
-        // Tag for Tool Material Netherite
-        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
-                .add(ModBlocks.NETHER_PINK_GARNET_ORE);
-
-        // Tag for our custom Tool Material (Pink Garnet)
-        getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_5")))
-                .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE)
-                .add(ModBlocks.END_PINK_GARNET_ORE);
-
-        getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE_TAG)
-                .forceAddTag(BlockTags.PICKAXE_MINEABLE)
-                .forceAddTag(BlockTags.AXE_MINEABLE)
-                .forceAddTag(BlockTags.SHOVEL_MINEABLE);
-        // sword
-        getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
-               .add(
-
-               );
-
-         pickaxe
-        getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(
-
-                );
-
-         axe
-        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-                .add(
-                );
-
-        // needs tool
-
-        // needs diamond +
-        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.DEEPSLATE_PINK_GARNET_ORE
-                );
-
-        // needs iron +
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.PINK_GARNET_ORE,
-                        ModBlocks.PINK_GARNET_BLOCK,
-                        ModBlocks.RAW_PINK_GARNET_BLOCK
-                );
-
-         needs stone +
-      getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-              .add(
-
-              );
- */

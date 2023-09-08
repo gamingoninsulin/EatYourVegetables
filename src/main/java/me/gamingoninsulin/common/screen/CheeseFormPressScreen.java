@@ -1,6 +1,7 @@
 package me.gamingoninsulin.common.screen;
 
 import com.mojang.blaze3d.systems.RenderSystem;
+import me.gamingoninsulin.common.screen.renderer.EnergyInfoArea;
 import me.gamingoninsulin.common.screen.renderer.FluidStackRenderer;
 import me.gamingoninsulin.common.util.MouseUtil;
 import me.gamingoninsulin.core.Reference;
@@ -28,8 +29,8 @@ public class CheeseFormPressScreen extends HandledScreen<CheeseFormPressScreenHa
     @Override
     protected void init() {
         super.init();
-        titleY = 1000;
-        playerInventoryTitleY = 1000;
+        titleY = 8000;
+        playerInventoryTitleY = 8000;
         assignFluidStackRenderer();
     }
 
@@ -40,8 +41,9 @@ public class CheeseFormPressScreen extends HandledScreen<CheeseFormPressScreenHa
         }
     }
 
+
     private void assignFluidStackRenderer() {
-        fluidStackRenderer = new FluidStackRenderer((FluidConstants.BUCKET / 81) * 64, true, 16, 39);
+        fluidStackRenderer = new FluidStackRenderer((FluidConstants.BUCKET / 81) * 8, true, 16, 39); // 64
     }
 
     @Override
@@ -49,7 +51,7 @@ public class CheeseFormPressScreen extends HandledScreen<CheeseFormPressScreenHa
         int x = (width - backgroundWidth) / 2;
         int y = (height - backgroundHeight) / 2;
 
-        renderFluidTooltip(context, mouseX, mouseY, x, y, 9, 48, fluidStackRenderer);
+        renderFluidTooltip(context, mouseX, mouseY, x, y, 50, 10, fluidStackRenderer);
     }
 
     @Override
@@ -64,12 +66,12 @@ public class CheeseFormPressScreen extends HandledScreen<CheeseFormPressScreenHa
 
         renderProgressArrow(context, x, y);
         fluidStackRenderer.drawFluid(context, handler.blockEntity.fluidStorage, x + 50, y + 10, 16, 39,
-                (FluidConstants.BUCKET / 81) * 64);
+                (FluidConstants.BUCKET / 81) * 8); // 64
     }
 
     private void renderProgressArrow(DrawContext context, int x, int y) {
         if(handler.isCrafting()) {
-            context.drawTexture(TEXTURE, x + 108, y + 29, 176, 0, 8, handler.getScaledProgress());
+            context.drawTexture(TEXTURE, x + 109, y + 29, 176, 0, 8, handler.getScaledProgress());
         }
     }
 
@@ -83,4 +85,8 @@ public class CheeseFormPressScreen extends HandledScreen<CheeseFormPressScreenHa
     private boolean isMouseAboveArea(int pMouseX, int pMouseY, int x, int y, int offsetX, int offsetY, FluidStackRenderer renderer) {
         return MouseUtil.isMouseOver(pMouseX, pMouseY, x + offsetX, y + offsetY, renderer.getWidth(), renderer.getHeight());
     }
+
+//    private boolean isMouseAboveArea(int pMouseX, int pMouseY, int x, int y, int offsetX, int offsetY, int width, int height) {
+//        return MouseUtil.isMouseOver(pMouseX, pMouseY, x + offsetX, y + offsetY, width, height);
+//    }
 }

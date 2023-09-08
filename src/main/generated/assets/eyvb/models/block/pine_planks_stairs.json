@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "eyvb:block/pine_planks",
+    "side": "eyvb:block/pine_planks",
+    "top": "eyvb:block/pine_planks"
+  }
+}

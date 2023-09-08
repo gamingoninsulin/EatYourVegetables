@@ -2,7 +2,7 @@
   "type": "eyvb:cheese_forming",
   "ingredients": [
     {
-      "item": "minecraft:milk_bucket"
+      "item": "eyvb:salt_item"
     }
   ],
   "result": {

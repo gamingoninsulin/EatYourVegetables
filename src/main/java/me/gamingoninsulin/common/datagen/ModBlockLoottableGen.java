@@ -251,13 +251,27 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8);
 
         // ##################################################
+
+        // PINE
+        addDrop(ModBlocks.PINE_SAPLING);
+        addDrop(ModBlocks.PINE_LOG);
+        addDrop(ModBlocks.PINE_WOOD);
+        addDrop(ModBlocks.STRIPPED_PINE_LOG);
+        addDrop(ModBlocks.STRIPPED_PINE_WOOD);
+        addDrop(ModBlocks.PINE_LEAVES_BLOCK);
+
+        addDrop(ModBlocks.PINE_PLANKS_STAIRS);
+        addDrop(ModBlocks.PINE_PLANKS_SLAB);
+        addDrop(ModBlocks.PINE_PLANKS_BUTTON);
+        addDrop(ModBlocks.PINE_PLANKS_PRESSURE_PLATE);
+        addDrop(ModBlocks.PINE_PLANKS_FENCE);
+        addDrop(ModBlocks.PINE_PLANKS_FENCE_GATE);
+        addDrop(ModBlocks.PINE_PLANKS_WALL);
+
+        addDrop(ModBlocks.PINE_LEAVES_STAIRS);
+        addDrop(ModBlocks.PINE_LEAVES_SLAB);
+        addDrop(ModBlocks.PINE_LEAVES_WALL);
+
+
     }
 }
-/*      //OFF\\
-
-        addDrop(ModBlocks.PEAT_BLOCK, oreDrops(ModBlocks.PEAT_BLOCK, ModItems.PEAT_BRICK));
-        addDrop(ModBlocks.PINK_GARNET_ORE, oreDrops(ModBlocks.PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
-        addDrop(ModBlocks.NETHER_PINK_GARNET_ORE, oreDrops(ModBlocks.NETHER_PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
-        addDrop(ModBlocks.END_PINK_GARNET_ORE, oreDrops(ModBlocks.END_PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
-        addDrop(ModBlocks.DEEPSLATE_PINK_GARNET_ORE, oreDrops(ModBlocks.DEEPSLATE_PINK_GARNET_ORE, ModItems.RAW_PINK_GARNET));
-*/

@@ -174,6 +174,30 @@ public class ModItemGroup {
                         entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8);
 
                         // ##################################################
+                        // TREES
+
+                        // pine
+                        entries.add(ModBlocks.PINE_LOG);
+                        entries.add(ModBlocks.PINE_WOOD);
+                        entries.add(ModBlocks.STRIPPED_PINE_LOG);
+                        entries.add(ModBlocks.STRIPPED_PINE_WOOD);
+                        entries.add(ModBlocks.PINE_PLANKS_BLOCK);
+                        entries.add(ModBlocks.PINE_LEAVES_BLOCK);
+                        entries.add(ModBlocks.PINE_SAPLING);
+
+                        entries.add(ModBlocks.PINE_PLANKS_STAIRS);
+                        entries.add(ModBlocks.PINE_PLANKS_SLAB);
+                        entries.add(ModBlocks.PINE_PLANKS_BUTTON);
+                        entries.add(ModBlocks.PINE_PLANKS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.PINE_PLANKS_FENCE);
+                        entries.add(ModBlocks.PINE_PLANKS_FENCE_GATE);
+                        entries.add(ModBlocks.PINE_PLANKS_WALL);
+
+                        entries.add(ModBlocks.PINE_LEAVES_STAIRS);
+                        entries.add(ModBlocks.PINE_LEAVES_SLAB);
+                        entries.add(ModBlocks.PINE_LEAVES_WALL);
+
+                        // ##################################################
                         // APPETIZERS
                         entries.add(ModItems.SALT_ITEM);
                         // MISC FOOD

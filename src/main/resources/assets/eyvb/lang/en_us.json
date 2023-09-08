@@ -5,7 +5,7 @@
     "item.eyvb.cauliflower": "Raw Cauliflower",
     "item.eyvb.cooked_cauliflower": "Cooked Cauliflower",
     "item.eyvb.fluid_cheese_bucket": "Fluid Cheese Bucket",
-    "item.eyvb.fluid_cheese_block": "Fluid Cheese",
+    "block.eyvb.cheese_fluid": "Fluid Cheese",
 
     "block.eyvb.mod_crate_block_cauliflower_layer_1": "Crate with 8x Cauliflower's",
     "block.eyvb.mod_crate_block_cauliflower_layer_2": "Crate with 16 Cauliflower's",
@@ -68,7 +68,7 @@
 
 
     "item.eyvb.salt_item": "Salt",
-    "item.eyvb.wheel_of_cheese": "Wheel Of Cheese",
+    "item.eyvb.wheel_of_cheese": "Wheel Of Old Salted Cheese",
 
 
 
@@ -171,6 +171,18 @@
     "block.eyvb.kitchen_sink_empty_d_left_open": "Empty Kitchen Sink Doors Left Open",
     "block.eyvb.kitchen_sink_empty_d_right_open": "Empty Kitchen Sink Doors Right Open",
 
+   "block.eyvb.pine_log": "Pine Log",
+   "block.eyvb.pine_wood": "Pine Wood",
+   "block.eyvb.stripped_pine_log": "Stripped Pine Log",
+   "block.eyvb.stripped_pine_wood": "Stripped Pine Wood",
+
+   "block.eyvb.pine_planks": "Pine Planks",
+
+   "block.eyvb.pine-leaves": "Pine Leaves",
+
+   "block.eyvb.pine_sappling": "Pine Sappling",
+
+
     "block.eyvb.kitchen_sink_water_d_closed": "Full Kitchen Sink Doors Closed",
     "block.eyvb.kitchen_sink_water_d_both_open": "Full Kitchen Sink Doors Both Open",
     "block.eyvb.kitchen_sink_water_d_left_open": "Full Kitchen Sink Doors Left Open",
@@ -181,6 +193,15 @@
     "block.eyvb.cheese_form_press_working": "Working Cheese Form Press",
     "block.eyvb.cheese_form_press_done": "Cheese Form Press Done",
 
+  "block.eyvb.pine_leaves_stairs": "Pine Leaves Stairs",
+  "block.eyvb.pine_leaves_slab": "Pine Leaves Slab",
+  "block.eyvb.pine_leaves_wall": "Pine Leaves Wall",
+
+  "block.eyvb.pine_planks_stairs": "Pine Planks Stairs",
+  "block.eyvb.pine_planks_slab": "Pine Planks Slab",
+  "block.eyvb.pine_planks_wall": "Pine Planks Wall",
+
   "tooltip.eyvb.liquid.amount.with.capacity": "%s / %s mB",
   "tooltip.eyvb.liquid.amount": "%s mB"
+
 }

@@ -18,6 +18,13 @@ public class ModBlockEntities {
                             ModBlocks.CHEESE_FORM_PRESS
                     ).build(null));
 
+    public static final BlockEntityType<KitchenOvenStationBlockEntity> KITCHEN_OVEN_STATION_BE =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(Reference.MOD_ID, "kitchen_oven_station_block_entity"),
+                    FabricBlockEntityTypeBuilder.create(KitchenOvenStationBlockEntity::new,
+                            // kitchen oven
+                            ModBlocks.KITCHEN_OVEN_ON
+                    ).build(null));
+
     public static void RegisterModEntities() {
         EYVBMod.LOGGER.info("Regitering Mod Entities for " + Reference.REGISTER_MOD_NAME);
     }

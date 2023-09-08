@@ -1,7 +1,10 @@
 package me.gamingoninsulin.core;
 
 import me.gamingoninsulin.common.blocks.ModBlocks;
+import me.gamingoninsulin.common.blocks.entity.ModBlockEntities;
+import me.gamingoninsulin.common.blocks.entity.renderer.CheesePressStationBlockRenderer;
 import me.gamingoninsulin.common.fluid.ModFluids;
+import me.gamingoninsulin.common.network.ModMessages;
 import me.gamingoninsulin.common.screen.CheeseFormPressScreen;
 import me.gamingoninsulin.common.screen.ModScreenHandlers;
 import net.fabricmc.api.ClientModInitializer;
@@ -10,6 +13,7 @@ import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 
 public class EYVBClientMod implements ClientModInitializer {
     @Override
@@ -26,7 +30,22 @@ public class EYVBClientMod implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.KITCHEN_SINK_WATER_D_LEFT_OPEN, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.KITCHEN_SINK_WATER_D_RIGHT_OPEN, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.KITCHEN_SINK_WATER_D_BOTH_OPEN, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHEESE_FORM_PRESS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHEESE_FORM_PRESS_WORKING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CHEESE_FORM_PRESS_DONE, RenderLayer.getCutout());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_PLANKS_STAIRS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_PLANKS_SLAB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_PLANKS_BUTTON, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_PLANKS_PRESSURE_PLATE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_PLANKS_FENCE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_PLANKS_FENCE_GATE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_PLANKS_WALL, RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_LEAVES_BLOCK, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_LEAVES_STAIRS, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_LEAVES_SLAB, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_LEAVES_WALL, RenderLayer.getCutout());
 
         HandledScreens.register(ModScreenHandlers.CHEESE_FORM_PRESS_STATION_SCREEN_HANDLER, CheeseFormPressScreen::new);
 
@@ -35,6 +54,10 @@ public class EYVBClientMod implements ClientModInitializer {
 
         BlockRenderLayerMap.INSTANCE.putFluids(RenderLayer.getTranslucent(),
                 ModFluids.STILL_CHEESE_FLUID, ModFluids.FLOWING_CHEESE_FLUID);
+
+        ModMessages.registerS2CPackets();
+
+        BlockEntityRendererFactories.register(ModBlockEntities.CHEESE_FORM_PRESS_STATION_BE, CheesePressStationBlockRenderer::new);
     }
 }
 /*      //OFF\\

@@ -42,8 +42,8 @@ public class CheeseFormPressScreenHandler extends ScreenHandler {
         this.propertyDelegate = arrayPropertyDelegate;
         this.blockEntity = (CheesePressStationBlockEntity) blockEntity;
 
-        this.addSlot(new Slot(inventory, 0, 104, 11)); // input ingredient (salt)
-        this.addSlot(new Slot(inventory, 1, 51, 58)); // input fluid (milk)
+        this.addSlot(new Slot(inventory, 0, 104, 10)); // input ingredient (salt)
+        this.addSlot(new Slot(inventory, 1, 50, 58)); // input fluid (milk)
         this.addSlot(new Slot(inventory, 2, 104, 58)); // output (wheel of cheese)
 
         addPlayerInventory(playerInventory);

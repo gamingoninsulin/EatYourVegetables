@@ -13,6 +13,10 @@ public class ModScreenHandlers {
             Registry.register(Registries.SCREEN_HANDLER, new Identifier(Reference.MOD_ID, "cheese_form_pres_station_screen_handler"),
                     new ExtendedScreenHandlerType<>(CheeseFormPressScreenHandler::new));
 
+    public static final ScreenHandlerType<KitchenOvenScreenHandler> KITCHEN_OVEN_STATION_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER, new Identifier(Reference.MOD_ID, "kitchen_oven_station_screen_handler"),
+                    new ExtendedScreenHandlerType<>(KitchenOvenScreenHandler::new));
+
 
     public static void registerScreenHandler() {
         EYVBMod.LOGGER.info("Registering Screen Handlers for " + Reference.REGISTER_MOD_NAME);

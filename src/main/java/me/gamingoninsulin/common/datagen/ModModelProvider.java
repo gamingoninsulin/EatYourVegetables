@@ -1,5 +1,6 @@
 package me.gamingoninsulin.common.datagen;
 
+import dev.architectury.platform.Mod;
 import me.gamingoninsulin.common.blocks.ModBlocks;
 import me.gamingoninsulin.common.blocks.custom.crops.CauliflowerCropBlock;
 import me.gamingoninsulin.common.blocks.custom.crops.CucumberCropBlock;
@@ -7,6 +8,7 @@ import me.gamingoninsulin.common.blocks.custom.crops.EggplantCropBlock;
 import me.gamingoninsulin.common.items.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.block.Block;
 import net.minecraft.data.client.*;
 public class ModModelProvider extends FabricModelProvider {
 
@@ -333,6 +335,8 @@ public class ModModelProvider extends FabricModelProvider {
         SeaPickleTexture.fenceGate(ModBlocks.SEA_PICKLE_FENCE_GATE);
         SeaPickleTexture.wall(ModBlocks.SEA_PICKLE_WALL);
 
+
+
         // layer 1
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_1);
 
@@ -356,6 +360,36 @@ public class ModModelProvider extends FabricModelProvider {
 
         // layer 8
         blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8);
+
+
+        // TREES
+        // PINE
+        blockstatemodelgenerator.registerLog(ModBlocks.PINE_LOG).log(ModBlocks.PINE_LOG).wood(ModBlocks.PINE_WOOD);
+        blockstatemodelgenerator.registerLog(ModBlocks.STRIPPED_PINE_LOG).log(ModBlocks.STRIPPED_PINE_LOG).wood(ModBlocks.STRIPPED_PINE_WOOD);
+
+        // blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.PINE_PLANK_BLOCK);
+        //blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.PINE_LEAVES_BLOCK);
+
+        BlockStateModelGenerator.BlockTexturePool PinePlanksTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.PINE_PLANKS_BLOCK);
+
+        PinePlanksTexture.stairs(ModBlocks.PINE_PLANKS_STAIRS);
+        PinePlanksTexture.slab(ModBlocks.PINE_PLANKS_SLAB);
+        PinePlanksTexture.button(ModBlocks.PINE_PLANKS_BUTTON);
+        PinePlanksTexture.pressurePlate(ModBlocks.PINE_PLANKS_PRESSURE_PLATE);
+        PinePlanksTexture.fence(ModBlocks.PINE_PLANKS_FENCE);
+        PinePlanksTexture.fenceGate(ModBlocks.PINE_PLANKS_FENCE_GATE);
+        PinePlanksTexture.wall(ModBlocks.PINE_PLANKS_WALL);
+
+
+        BlockStateModelGenerator.BlockTexturePool PineLeavesTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.PINE_LEAVES_BLOCK);
+
+        PineLeavesTexture.stairs(ModBlocks.PINE_LEAVES_STAIRS);
+        PineLeavesTexture.slab(ModBlocks.PINE_LEAVES_SLAB);
+        PineLeavesTexture.wall(ModBlocks.PINE_LEAVES_WALL);
+
+        // SAPLING
+        blockstatemodelgenerator.registerTintableCrossBlockState(ModBlocks.PINE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+
 
     }
 
@@ -383,34 +417,3 @@ public class ModModelProvider extends FabricModelProvider {
 
     }
 }
-/*       //OFF\\
-
-        // block
-         blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.RAW_PINK_GARNET_BLOCK);
-         blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.PEAT_BLOCK);
-
-         blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.PINK_GARNET_ORE);
-         blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.END_PINK_GARNET_ORE);
-         blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.NETHER_PINK_GARNET_ORE);
-         blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_PINK_GARNET_ORE);
-
-         blockstatemodelgenerator.registerDoor(ModBlocks.CAULIFLOWER_DOOR);
-         blockstatemodelgenerator.registerTrapdoor(ModBlocks.CAULIFLOWER_TRAPDOOR);
-
-        // item
-         itemmodelgenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
-         itemmodelgenerator.register(ModItems.RAW_PINK_GARNET, Models.GENERATED);
-         itemmodelgenerator.register(ModItems.PINK_GARNET_SWORD, Models.HANDHELD);
-         itemmodelgenerator.register(ModItems.PINK_GARNET_PICKAXE, Models.HANDHELD);
-         itemmodelgenerator.register(ModItems.PINK_GARNET_SHOVEL, Models.HANDHELD);
-         itemmodelgenerator.register(ModItems.PINK_GARNET_AXE, Models.HANDHELD);
-         itemmodelgenerator.register(ModItems.PINK_GARNET_HOE, Models.HANDHELD);
-         itemmodelgenerator.register(ModItems.PINK_GARNET_PAXEL, Models.HANDHELD);
-         itemmodelgenerator.register(ModItems.PEAT_BRICK, Models.GENERATED);
-         itemmodelgenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
-
-         itemmodelgenerator.registerArmor((ArmorItem) ModItems.PINK_GARNET_HELMET);
-         itemmodelgenerator.registerArmor((ArmorItem) ModItems.PINK_GARNET_CHESTPLATE);
-         itemmodelgenerator.registerArmor((ArmorItem) ModItems.PINK_GARNET_LEGGINGS);
-         itemmodelgenerator.registerArmor((ArmorItem) ModItems.PINK_GARNET_BOOTS);
-*/

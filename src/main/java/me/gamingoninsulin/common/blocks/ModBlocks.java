@@ -19,7 +19,72 @@ import net.minecraft.util.Identifier;
 import static me.gamingoninsulin.core.Reference.*;
 
 public class ModBlocks {
-      /*
+    /*
+       ##############################################################################################################
+                                                TREES
+       ##############################################################################################################
+    */
+    // pine
+    // log
+    public static final Block PINE_LOG = registerBlock("pine_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).strength(4f)));
+    // wood
+    public static final Block PINE_WOOD = registerBlock("pine_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.OAK_WOOD).strength(4f)));
+    // stripped log
+    public static final Block STRIPPED_PINE_LOG = registerBlock("stripped_pine_log",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_LOG).strength(4f)));
+    // stripped wood
+    public static final Block STRIPPED_PINE_WOOD = registerBlock("stripped_pine_wood",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_OAK_WOOD).strength(4f)));
+    // planks
+    public static final Block PINE_PLANKS_BLOCK = registerBlock("pine_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).strength(4f)));
+
+// ############################################################################################################
+
+    // PINE PLANKS VARIANT
+    public static final Block PINE_PLANKS_STAIRS = registerBlock("pine_planks_stairs",
+            new StairsBlock(ModBlocks.PINE_PLANKS_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block PINE_PLANKS_SLAB = registerBlock("pine_planks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block PINE_PLANKS_BUTTON = registerBlock("pine_planks_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK, 10, true));
+    public static final Block PINE_PLANKS_PRESSURE_PLATE = registerBlock("pine_planks_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), BlockSetType.OAK));
+
+    public static final Block PINE_PLANKS_FENCE = registerBlock("pine_planks_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    public static final Block PINE_PLANKS_FENCE_GATE = registerBlock("pine_planks_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS), WoodType.OAK));
+
+    public static final Block PINE_PLANKS_WALL = registerBlock("pine_planks_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
+
+    // ############################################################################################################
+
+    public static final Block PINE_LEAVES_STAIRS = registerBlock("pine_leaves_stairs",
+            new StairsBlock(ModBlocks.PINE_PLANKS_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+
+    public static final Block PINE_LEAVES_SLAB = registerBlock("pine_leaves_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+
+    public static final Block PINE_LEAVES_WALL = registerBlock("pine_leaves_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
+
+// ############################################################################################################
+
+    // leaves
+    public static final Block PINE_LEAVES_BLOCK = registerBlock("pine_leaves_block",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1f)));
+
+    // sapping
+    public static final Block PINE_SAPLING = registerBlock("pine_sapling",
+            new SaplingBlock(null, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(4f)));
+    /*
        ##############################################################################################################
                                                 FLUIDS
        ##############################################################################################################
@@ -344,6 +409,7 @@ public class ModBlocks {
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
     public static final Block CAULIFLOWER_FENCE_GATE = registerBlock("cauliflower_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT), WoodType.OAK));
+
     public static final Block CAULIFLOWER_WALL = registerBlock("cauliflower_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.ROOTED_DIRT)));
 

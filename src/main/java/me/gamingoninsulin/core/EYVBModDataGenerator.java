@@ -13,7 +13,7 @@ public class EYVBModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModBlockLoottableGen::new);
 		pack.addProvider(ModModelProvider::new);
-		pack.addProvider(ModRecipeGen::new);
 		pack.addProvider(ModFluidTagProvider::new);
+		pack.addProvider(ModRecipeGen::new);
 	}
 }

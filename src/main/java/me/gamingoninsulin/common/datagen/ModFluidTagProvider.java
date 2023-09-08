@@ -26,7 +26,5 @@ public class ModFluidTagProvider extends FabricTagProvider.FluidTagProvider {
                                                 TURNED OFF
        ##############################################################################################################
 
-    this.getOrCreateTagBuilder(FluidTags.WATER)
-                    .add(ModFluids.FLOWING_CHEESE_FLUID)
-                    .add(ModFluids.STILL_CHEESE_FLUID);
+
  */
