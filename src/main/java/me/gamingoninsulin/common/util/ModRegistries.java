@@ -21,8 +21,6 @@ public class ModRegistries {
 
         // LEAVES
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINE_LEAVES_BLOCK, 30, 60);
-        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINE_LEAVES_STAIRS, 30, 60);
-        FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINE_LEAVES_SLAB, 30, 60);
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PINE_LEAVES_WALL, 30, 60);
 
         // PLANKS

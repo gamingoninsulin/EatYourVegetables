@@ -20,114 +20,114 @@ public class ModModelProvider extends FabricModelProvider {
     }
 
     @Override
-    public void generateBlockStateModels(BlockStateModelGenerator blockstatemodelgenerator) {
+    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
         // ######################################################################################################### \\
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMPTY_CRATE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.EMPTY_CRATE);
 
         // BOTTOM
         // kitchen cabinets
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_D_BOTH_OPEN);
 
         // NO DRAWERS
         // kitchen cabinets
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_CENTER_NO_DRAWERS_D_BOTH_OPEN);
 
         // ######################################################################################################### \\
 
         // kitchen cabinet corners left
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_D_BOTH_OPEN);
 
         // NO DRAWERS
         // kitchen cabinet corners left
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_LCORNER_NO_DRAWERS_D_BOTH_OPEN);
 
         // ######################################################################################################### \\
 
         // kitchen cabinet corners left
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_D_BOTH_OPEN);
 
         // NO DRAWERS
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_RCORNER_NO_DRAWERS_D_BOTH_OPEN);
 
         // ######################################################################################################### \\
 
         // TOP
         // kitchen cabinets
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_CENTER_D_BOTH_OPEN);
 
         // kitchen cabinet corners left
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_LCORNER_D_BOTH_OPEN);
 
         // kitchen cabinet corners left
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_CABINET_TOP_RCORNER_D_BOTH_OPEN);
 
         // ######################################################################################################### \\
 
         // kitchen ovens
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_OVEN_OFF);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_OVEN_ON);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_OVEN_OFF);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_OVEN_ON);
 
         // ######################################################################################################### \\
 
         // kitchens sinks
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_WATER_D_BOTH_OPEN);
 
         // kitchen sink with water
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_CLOSED);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_RIGHT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_LEFT_OPEN);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_CLOSED);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_RIGHT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_LEFT_OPEN);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_SINK_EMPTY_D_BOTH_OPEN);
 
         // ######################################################################################################### \\
 
         // kitchen extractor hood
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_EXTRACTOR_HOOD);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.KITCHEN_EXTRACTOR_HOOD);
 
         // ######################################################################################################### \\
 
         // cheese press
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_FORM_PRESS);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_FORM_PRESS_WORKING);
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_FORM_PRESS_DONE);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_FORM_PRESS);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_FORM_PRESS_WORKING);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.CHEESE_FORM_PRESS_DONE);
 
         // ######################################################################################################### \\
 
         //  CAULIFLOWER BLOCK
-        BlockStateModelGenerator.BlockTexturePool CauliflowerTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.CAULIFLOWER_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool CauliflowerTexture = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CAULIFLOWER_BLOCK);
 
         // CROP
-        blockstatemodelgenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
+        blockStateModelGenerator.registerCrop(ModBlocks.CAULIFLOWER_CROP, CauliflowerCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
 
         CauliflowerTexture.stairs(ModBlocks.CAULIFLOWER_STAIRS);
         CauliflowerTexture.slab(ModBlocks.CAULIFLOWER_SLAB);
@@ -138,36 +138,36 @@ public class ModModelProvider extends FabricModelProvider {
         CauliflowerTexture.wall(ModBlocks.CAULIFLOWER_WALL);
 
         // layer 1
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1);
 
         // layer 2
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2);
 
         // layer 3
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3);
 
         // layer 4
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4);
 
         // layer 5
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5);
 
         // layer
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6);
 
         // layer 7
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7);
 
         // layer 8
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8);
 
         // ######################################################################################################### \\
 
         // CUCUMBER BLOCK
-        BlockStateModelGenerator.BlockTexturePool CucumberTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.CUCUMBER_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool CucumberTexture = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CUCUMBER_BLOCK);
 
         // CROP
-        blockstatemodelgenerator.registerCrop(ModBlocks.CUCUMBER_CROP, CucumberCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.CUCUMBER_CROP, CucumberCropBlock.AGE, 0, 1, 2, 3, 4, 5);
 
         CucumberTexture.stairs(ModBlocks.CUCUMBER_STAIRS);
         CucumberTexture.slab(ModBlocks.CUCUMBER_SLAB);
@@ -178,36 +178,36 @@ public class ModModelProvider extends FabricModelProvider {
         CucumberTexture.wall(ModBlocks.CUCUMBER_WALL);
 
         // layer 1
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1);
 
         // layer 2
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2);
 
         // layer 3
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3);
 
         // layer 4
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4);
 
         // layer 5
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5);
 
         // layer
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6);
 
         // layer 7
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7);
 
         // layer 8
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8);
 
         // ######################################################################################################### \\
 
         //  AVOCADO BLOCK
-        BlockStateModelGenerator.BlockTexturePool AvocadoTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.AVOCADO_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool AvocadoTexture = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.AVOCADO_BLOCK);
 
         // CROP
-//        blockstatemodelgenerator.registerCrop(ModBlocks.AVOCADO_CROP, AvocadoCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
+//        blockStateModelGenerator.registerCrop(ModBlocks.AVOCADO_CROP, AvocadoCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
 
         AvocadoTexture.stairs(ModBlocks.AVOCADO_STAIRS);
         AvocadoTexture.slab(ModBlocks.AVOCADO_SLAB);
@@ -218,36 +218,36 @@ public class ModModelProvider extends FabricModelProvider {
         AvocadoTexture.wall(ModBlocks.AVOCADO_WALL);
 
         // layer 1
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_1);
 
         // layer 2
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_2);
 
         // layer 3
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_3);
 
         // layer 4
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_4);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_4);
 
         // layer 5
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_5);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_5);
 
         // layer
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_6);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_6);
 
         // layer 7
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_7);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_7);
 
         // layer 8
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_8);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_8);
 
         // ######################################################################################################### \\
 
         //  EGGPLANT BLOCK
-        BlockStateModelGenerator.BlockTexturePool EggplantTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.EGGPLANT_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool EggplantTexture = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.EGGPLANT_BLOCK);
 
         // CROP
-        blockstatemodelgenerator.registerCrop(ModBlocks.EGGPLANT_CROP, EggplantCropBlock.AGE, 0, 1, 2, 3, 4, 5);
+        blockStateModelGenerator.registerCrop(ModBlocks.EGGPLANT_CROP, EggplantCropBlock.AGE, 0, 1, 2, 3, 4, 5);
 
         EggplantTexture.stairs(ModBlocks.EGGPLANT_STAIRS);
         EggplantTexture.slab(ModBlocks.EGGPLANT_SLAB);
@@ -258,36 +258,36 @@ public class ModModelProvider extends FabricModelProvider {
         EggplantTexture.wall(ModBlocks.EGGPLANT_WALL);
 
         // layer 1
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_1);
 
         // layer 2
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_2);
 
         // layer 3
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_3);
 
         // layer 4
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_4);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_4);
 
         // layer 5
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_5);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_5);
 
         // layer
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_6);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_6);
 
         // layer 7
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_7);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_7);
 
         // layer 8
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_8);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_8);
 
         // ######################################################################################################### \\
 
         //  CORN BLOCK
-        BlockStateModelGenerator.BlockTexturePool CornTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.CORN_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool CornTexture = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORN_BLOCK);
 
         // CROP
-//        blockstatemodelgenerator.registerCrop(ModBlocks.CORN_CROP, CornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
+//        blockStateModelGenerator.registerCrop(ModBlocks.CORN_CROP, CornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
 
         CornTexture.stairs(ModBlocks.CORN_STAIRS);
         CornTexture.slab(ModBlocks.CORN_SLAB);
@@ -298,36 +298,36 @@ public class ModModelProvider extends FabricModelProvider {
         CornTexture.wall(ModBlocks.CORN_WALL);
 
         // layer 1
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_1);
 
         // layer 2
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_2);
 
         // layer 3
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_3);
 
         // layer 4
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_4);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_4);
 
         // layer 5
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_5);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_5);
 
         // layer
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_6);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_6);
 
         // layer 7
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_7);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_7);
 
         // layer 8
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_8);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_8);
 
         // ######################################################################################################### \\
 
         //  SEA PICKLE BLOCK
-        BlockStateModelGenerator.BlockTexturePool SeaPickleTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.SEA_PICKLE_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool SeaPickleTexture = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SEA_PICKLE_BLOCK);
 
         // CROP
-//        blockstatemodelgenerator.registerCrop(ModBlocks.SEA_PICKLE_CROP, SeaPickleCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
+//        blockStateModelGenerator.registerCrop(ModBlocks.SEA_PICKLE_CROP, SeaPickleCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
 
         SeaPickleTexture.stairs(ModBlocks.SEA_PICKLE_STAIRS);
         SeaPickleTexture.slab(ModBlocks.SEA_PICKLE_SLAB);
@@ -340,41 +340,41 @@ public class ModModelProvider extends FabricModelProvider {
 
 
         // layer 1
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_1);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_1);
 
         // layer 2
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_2);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_2);
 
         // layer 3
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_3);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_3);
 
         // layer 4
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_4);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_4);
 
         // layer 5
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_5);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_5);
 
         // layer
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_6);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_6);
 
         // layer 7
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_7);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_7);
 
         // layer 8
-        blockstatemodelgenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8);
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8);
 
 
         // TREES
         // PINE
-        blockstatemodelgenerator.registerLog(ModBlocks.PINE_LOG).log(ModBlocks.PINE_LOG).wood(ModBlocks.PINE_WOOD);
-        blockstatemodelgenerator.registerLog(ModBlocks.STRIPPED_PINE_LOG).log(ModBlocks.STRIPPED_PINE_LOG).wood(ModBlocks.STRIPPED_PINE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.PINE_LOG).log(ModBlocks.PINE_LOG).wood(ModBlocks.PINE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_PINE_LOG).log(ModBlocks.STRIPPED_PINE_LOG).wood(ModBlocks.STRIPPED_PINE_WOOD);
 
-        // blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.PINE_PLANK_BLOCK);
-        //blockstatemodelgenerator.registerSimpleCubeAll(ModBlocks.PINE_LEAVES_BLOCK);
+        // blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINE_PLANK_BLOCK);
+        //blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINE_LEAVES_BLOCK);
 
-        BlockStateModelGenerator.BlockTexturePool PinePlanksTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.PINE_PLANKS_BLOCK);
-
+        BlockStateModelGenerator.BlockTexturePool PinePlanksTexture = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINE_PLANKS_BLOCK);
         PinePlanksTexture.family(BlockFamilies.register(ModBlocks.PINE_PLANKS_BLOCK).sign(ModBlocks.PINEWOOD_SIGN, ModBlocks.PINEWOOD_WALL_SIGN).build());
+        blockStateModelGenerator.registerHangingSign(ModBlocks.STRIPPED_PINE_LOG, ModBlocks.PINEWOOD_HANGING_SIGN, ModBlocks.PINEWOOD_HANGING_WALL_SIGN);
 
         PinePlanksTexture.stairs(ModBlocks.PINE_PLANKS_STAIRS);
         PinePlanksTexture.slab(ModBlocks.PINE_PLANKS_SLAB);
@@ -385,14 +385,12 @@ public class ModModelProvider extends FabricModelProvider {
         PinePlanksTexture.wall(ModBlocks.PINE_PLANKS_WALL);
 
 
-        BlockStateModelGenerator.BlockTexturePool PineLeavesTexture = blockstatemodelgenerator.registerCubeAllModelTexturePool(ModBlocks.PINE_LEAVES_BLOCK);
+        BlockStateModelGenerator.BlockTexturePool PineLeavesTexture = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINE_LEAVES_BLOCK);
 
-        PineLeavesTexture.stairs(ModBlocks.PINE_LEAVES_STAIRS);
-        PineLeavesTexture.slab(ModBlocks.PINE_LEAVES_SLAB);
         PineLeavesTexture.wall(ModBlocks.PINE_LEAVES_WALL);
 
         // SAPLING
-        blockstatemodelgenerator.registerTintableCrossBlockState(ModBlocks.PINE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.PINE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
 
     }

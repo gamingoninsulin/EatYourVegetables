@@ -69,8 +69,6 @@ public class ModBlocks {
     public static final Block PINE_PLANKS_WALL = registerBlock("pine_planks_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
 
-
-
     public static final Block PINEWOOD_SIGN = registerBlockWithoutBlockItem("pinewood_sign",
             new ModStandingSignBlock(FabricBlockSettings.copyOf(Blocks.OAK_SIGN), ModWoodTypes.PINEWOOD));
     public static final Block PINEWOOD_WALL_SIGN = registerBlockWithoutBlockItem("pinewood_wall_sign",
@@ -80,22 +78,12 @@ public class ModBlocks {
     public static final Block PINEWOOD_HANGING_WALL_SIGN = registerBlockWithoutBlockItem("pinewood_hanging_wall_sign",
             new ModWallHangingSignBlock(FabricBlockSettings.copyOf(Blocks.OAK_WALL_HANGING_SIGN), ModWoodTypes.PINEWOOD));
 
-
-
-
-
     // ############################################################################################################
-
-    public static final Block PINE_LEAVES_STAIRS = registerBlock("pine_leaves_stairs",
-            new StairsBlock(ModBlocks.PINE_PLANKS_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
-
-    public static final Block PINE_LEAVES_SLAB = registerBlock("pine_leaves_slab",
-            new SlabBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
 
     public static final Block PINE_LEAVES_WALL = registerBlock("pine_leaves_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
 
-// ############################################################################################################
+    // ############################################################################################################
 
     // leaves
     public static final Block PINE_LEAVES_BLOCK = registerBlock("pine_leaves_block",

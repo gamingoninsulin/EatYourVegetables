@@ -29,12 +29,13 @@ public class ModBlockEntities {
             FabricBlockEntityTypeBuilder.create(ModSignBlockEntity::new,
                     ModBlocks.PINEWOOD_SIGN, ModBlocks.PINEWOOD_WALL_SIGN).build());
 
-    public static final BlockEntityType<ModSignBlockEntity> MOD_HANGING_SIGN_BLOCK_ENTITY = Registry.register(Registries.BLOCK_ENTITY_TYPE,
+    public static final BlockEntityType<ModHangingSignBlockEntity> MOD_HANGING_SIGN_BLOCK_ENTITY = Registry.register(Registries.BLOCK_ENTITY_TYPE,
             new Identifier(Reference.MOD_ID, "mod_hanging_sign_entity"),
-            FabricBlockEntityTypeBuilder.create(ModSignBlockEntity::new,
-                    ModBlocks.PINEWOOD_HANGING_SIGN, ModBlocks.PINEWOOD_HANGING_SIGN).build(null));
+            FabricBlockEntityTypeBuilder.create(ModHangingSignBlockEntity::new,
+                    ModBlocks.PINEWOOD_HANGING_SIGN, ModBlocks.PINEWOOD_HANGING_WALL_SIGN).build(null));
+
 
     public static void RegisterModEntities() {
-        EYVBMod.LOGGER.info("Regitering Mod Entities for " + Reference.REGISTER_MOD_NAME);
+        EYVBMod.LOGGER.info("Registering Mod Entities for " + Reference.REGISTER_MOD_NAME);
     }
 }

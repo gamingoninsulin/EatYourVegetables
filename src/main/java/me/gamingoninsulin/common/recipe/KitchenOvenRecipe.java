@@ -83,7 +83,7 @@ public class KitchenOvenRecipe implements Recipe<SimpleInventory> {
             ItemStack output = ShapedRecipe.outputFromJson(JsonHelper.getObject(json, "result"));
 
             JsonArray ingredients = JsonHelper.getArray(json, "ingredients");
-            DefaultedList<Ingredient> inputs = DefaultedList.ofSize(1, Ingredient.EMPTY);
+            DefaultedList<Ingredient> inputs = DefaultedList.ofSize(11, Ingredient.EMPTY);
 
             for (int i = 0; i < inputs.size(); i++) {
                 inputs.set(i, Ingredient.fromJson(ingredients.get(i)));

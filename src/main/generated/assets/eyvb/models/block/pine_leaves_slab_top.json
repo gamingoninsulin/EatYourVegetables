@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "eyvb:block/pine_leaves_block",
-    "side": "eyvb:block/pine_leaves_block",
-    "top": "eyvb:block/pine_leaves_block"
-  }
-}

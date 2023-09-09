@@ -113,13 +113,13 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
         }
     }
 
-    public final SimpleEnergyStorage energyStorage = new SimpleEnergyStorage(64000, 200, 200) {
-        @Override
-        protected void onFinalCommit() {
-            markDirty();
-            getWorld().updateListeners(pos, getCachedState(), getCachedState(), 3);
-        }
-    };
+//    public final SimpleEnergyStorage energyStorage = new SimpleEnergyStorage(64000, 200, 200) {
+//        @Override
+//        protected void onFinalCommit() {
+//            markDirty();
+//            getWorld().updateListeners(pos, getCachedState(), getCachedState(), 3);
+//        }
+//    };
 
     public final SingleVariantStorage<FluidVariant> fluidStorage = new SingleVariantStorage<FluidVariant>() {
         @Override
@@ -223,7 +223,7 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
         super.writeNbt(nbt);
         Inventories.writeNbt(nbt, inventory);
         nbt.putInt("cheese_form_press_station.progress", progress);
-        nbt.putLong(("cheese_form_press_station.energy"), energyStorage.amount);
+//        nbt.putLong(("cheese_form_press_station.energy"), energyStorage.amount);
         nbt.put("cheese_form_press_station.variant", fluidStorage.variant.toNbt());
         nbt.putLong("cheese_form_press_station_fluid.amount", fluidStorage.amount);
     }
@@ -232,19 +232,19 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
     public void readNbt(NbtCompound nbt) {
         Inventories.readNbt(nbt, inventory);
         progress = nbt.getInt("cheese_form_press_station.progress");
-        energyStorage.amount = nbt.getLong("cheese_form_press_station.energy");
+//        energyStorage.amount = nbt.getLong("cheese_form_press_station.energy");
         fluidStorage.variant = FluidVariant.fromNbt((NbtCompound) nbt.get("kicthen_oven_station.variant"));
         fluidStorage.amount = nbt.getLong("cheese_form_press_station_fluid.amount");
         super.readNbt(nbt);
     }
 
     public void tick(World world, BlockPos pos, BlockState state) {
-        fillUpOnEnergy(); // until we have machines/other mods that give us Energy
+//        fillUpOnEnergy(); // until we have machines/other mods that give us Energy
         fillUpOnFluid();
 
         if(canInsertIntoOutputSlot() && hasRecipe()) {
             increaseCraftingProgress();
-            extractEnergy();
+//            extractEnergy();
             markDirty(world, pos, state);
 
             if(hasCraftingFinished()) {
@@ -284,25 +284,25 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
         return this.getStack(fluidItemSlot).getItem() == ModItems.FLUID_CHEESE_BUCKET;
     }
 
-    private void extractEnergy() {
-        try(Transaction transaction = Transaction.openOuter()) {
-            this.energyStorage.extract(32L, transaction);
-            transaction.commit();
-        }
-    }
-
-    private void fillUpOnEnergy() {
-        if(hasEnergyItemInEnergySlot(ENERGY_ITEM_SLOT)) {
-            try(Transaction transaction = Transaction.openOuter()) {
-                this.energyStorage.insert(64, transaction);
-                transaction.commit();
-            }
-        }
-    }
-
-    private boolean hasEnergyItemInEnergySlot(int energyItemSlot) {
-        return this.getStack(energyItemSlot).getItem() == ModItems.CAULIFLOWER;
-    }
+//    private void extractEnergy() {
+//        try(Transaction transaction = Transaction.openOuter()) {
+//            this.energyStorage.extract(32L, transaction);
+//            transaction.commit();
+//        }
+//    }
+//
+//    private void fillUpOnEnergy() {
+//        if(hasEnergyItemInEnergySlot(ENERGY_ITEM_SLOT)) {
+//            try(Transaction transaction = Transaction.openOuter()) {
+//                this.energyStorage.insert(64, transaction);
+//                transaction.commit();
+//            }
+//        }
+//    }
+//
+//    private boolean hasEnergyItemInEnergySlot(int energyItemSlot) {
+//        return this.getStack(energyItemSlot).getItem() == ModItems.CAULIFLOWER;
+//    }
 
     private void craftItem() {
         Optional<KitchenOvenRecipe> recipe = getCurrentRecipe();
@@ -341,9 +341,9 @@ public class CheesePressStationBlockEntity extends BlockEntity implements Extend
         return this.fluidStorage.amount >= 500; // mB amount!
     }
 
-    private boolean hasEnoughEnergyToCraft() {
-        return this.energyStorage.amount >= 32L * this.maxProgress;
-    }
+//    private boolean hasEnoughEnergyToCraft() {
+//        return this.energyStorage.amount >= 32L * this.maxProgress;
+//    }
 
     private boolean canInsertItemIntoOutputSlot(ItemStack output) {
         return this.getStack(OUTPUT_SLOT).isEmpty() || this.getStack(OUTPUT_SLOT).getItem() == output.getItem();

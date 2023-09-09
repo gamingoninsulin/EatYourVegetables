@@ -34,13 +34,13 @@ public class KitchenOvenScreen extends HandledScreen<CheeseFormPressScreenHandle
         titleY = 8000;
         playerInventoryTitleY = 8000;
         assignFluidStackRenderer();
-        assignEnergyInfoArea();
+//        assignEnergyInfoArea();
     }
 
-    private void assignEnergyInfoArea() {
-        energyInfoArea = new EnergyInfoArea(((width - backgroundWidth) / 2) + 156,
-                ((height - backgroundHeight) / 2 ) + 11, handler.blockEntity.energyStorage);
-    }
+//    private void assignEnergyInfoArea() {
+//        energyInfoArea = new EnergyInfoArea(((width - backgroundWidth) / 2) + 156,
+//                ((height - backgroundHeight) / 2 ) + 11, handler.blockEntity.energyStorage);
+//    }
 
     private void renderFluidTooltip(DrawContext context, int mouseX, int mouseY, int x, int y, int offsetX, int offsetY, FluidStackRenderer renderer) {
         if(isMouseAboveArea(mouseX, mouseY, x, y, offsetX, offsetY, renderer)) {

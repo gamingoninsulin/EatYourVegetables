@@ -56,7 +56,7 @@ public class ModRecipeGen extends FabricRecipeProvider {
                 ModItems.COOKED_CAULIFLOWER,    // result
                 1)                              // amount
 
-                .criterion(hasItem(ModItems.SALT_ITEM), conditionsFromItem(ModItems.SALT_ITEM))
+                .criterion(hasItem(ModItems.CAULIFLOWER), conditionsFromItem(ModItems.CAULIFLOWER))
                 .offerTo(exporter);
 
 

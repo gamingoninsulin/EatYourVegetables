@@ -21,6 +21,17 @@ public class ModItems {
                                                       TOOLS
        ##############################################################################################################
     */
+
+    public static final Item PINEWOOD_SIGN = registerItem("pinewood_sign",
+            new SignItem(new FabricItemSettings().maxCount(16), ModBlocks.PINEWOOD_SIGN, ModBlocks.PINEWOOD_WALL_SIGN));
+    public static final Item PINEWOOD_HANGING_SIGN = registerItem("pinewood_hanging_sign",
+            new HangingSignItem(ModBlocks.PINEWOOD_HANGING_SIGN, ModBlocks.PINEWOOD_HANGING_WALL_SIGN, new FabricItemSettings().maxCount(16)));
+
+    /*
+       ##############################################################################################################
+                                                      TOOLS
+       ##############################################################################################################
+    */
     // cheese fluid
     public static final Item FLUID_CHEESE_BUCKET = Registry.register(Registries.ITEM, new Identifier(Reference.MOD_ID,
             "fluid_cheese_bucket"), new BucketItem(ModFluids.STILL_CHEESE_FLUID,
@@ -31,7 +42,7 @@ public class ModItems {
             new SwordItem(ModToolMaterial.CRAFTING_MATERIAL, 0,0f, new FabricItemSettings()
                     .recipeRemainder(ModItems.STONE_KNIFE).maxCount(1)));
 
-    // stone knife
+    // crafting book
     public static final Item CRAFTING_BOOK = registerItem("crafting_book",
             new Item(new FabricItemSettings()));
    /*

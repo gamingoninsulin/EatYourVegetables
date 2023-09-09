@@ -193,14 +193,15 @@ public class ModItemGroup {
                         entries.add(ModBlocks.PINE_PLANKS_FENCE_GATE);
                         entries.add(ModBlocks.PINE_PLANKS_WALL);
 
-                        entries.add(ModBlocks.PINE_LEAVES_STAIRS);
-                        entries.add(ModBlocks.PINE_LEAVES_SLAB);
                         entries.add(ModBlocks.PINE_LEAVES_WALL);
 
-                        entries.add(ModBlocks.PINEWOOD_SIGN);
-                        entries.add(ModBlocks.PINEWOOD_WALL_SIGN);
-                        entries.add(ModBlocks.PINEWOOD_HANGING_SIGN);
-                        entries.add(ModBlocks.PINEWOOD_HANGING_WALL_SIGN);
+//                        entries.add(ModBlocks.PINEWOOD_SIGN);
+//                        entries.add(ModBlocks.PINEWOOD_WALL_SIGN);
+//                        entries.add(ModBlocks.PINEWOOD_HANGING_SIGN);
+//                        entries.add(ModBlocks.PINEWOOD_HANGING_WALL_SIGN);
+
+                        entries.add(ModItems.PINEWOOD_SIGN);
+                        entries.add(ModItems.PINEWOOD_HANGING_SIGN);
 
                         // ##################################################
                         // APPETIZERS

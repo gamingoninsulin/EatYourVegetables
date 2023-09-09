@@ -47,8 +47,6 @@ public class EYVBClientMod implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_PLANKS_WALL, RenderLayer.getCutout());
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_LEAVES_BLOCK, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_LEAVES_STAIRS, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_LEAVES_SLAB, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PINE_LEAVES_WALL, RenderLayer.getCutout());
 
         HandledScreens.register(ModScreenHandlers.CHEESE_FORM_PRESS_STATION_SCREEN_HANDLER, CheeseFormPressScreen::new);
@@ -63,11 +61,10 @@ public class EYVBClientMod implements ClientModInitializer {
 
         BlockEntityRendererFactories.register(ModBlockEntities.CHEESE_FORM_PRESS_STATION_BE, CheesePressStationBlockRenderer::new);
 
-        TexturedRenderLayers.SIGN_TYPE_TEXTURES.put(ModWoodTypes.PINEWOOD, TexturedRenderLayers.getSignTextureId(ModWoodTypes.PINEWOOD));
-
         BlockEntityRendererFactories.register(ModBlockEntities.MOD_SIGN_BLOCK_ENTITY, SignBlockEntityRenderer::new);
-
         BlockEntityRendererFactories.register(ModBlockEntities.MOD_HANGING_SIGN_BLOCK_ENTITY, HangingSignBlockEntityRenderer::new);
+
+        TexturedRenderLayers.SIGN_TYPE_TEXTURES.put(ModWoodTypes.PINEWOOD, TexturedRenderLayers.getSignTextureId(ModWoodTypes.PINEWOOD));
     }
 }
 /*      //OFF\\

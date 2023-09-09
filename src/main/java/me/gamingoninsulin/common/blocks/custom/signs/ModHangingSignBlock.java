@@ -1,6 +1,6 @@
 package me.gamingoninsulin.common.blocks.custom.signs;
 
-import me.gamingoninsulin.common.blocks.entity.ModSignBlockEntity;
+import me.gamingoninsulin.common.blocks.entity.ModHangingSignBlockEntity;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.HangingSignBlock;
 import net.minecraft.block.WoodType;
@@ -14,6 +14,6 @@ public class ModHangingSignBlock extends HangingSignBlock {
 
     @Override
     public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-        return new ModSignBlockEntity(pos, state);
+        return new ModHangingSignBlockEntity(pos, state);
     }
 }
