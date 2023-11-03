@@ -8,10 +8,10 @@
 <br>
 <br>
 <div style="text-align: left;">
-  <h3>What this mod adds:</h3>
+  <h3>What this mod adds Currently:</h3>
   Misc: 
   <br>
-  - Empty Crate
+- Crafting Knife & Crafting book
   <br><br>
   Kitchen:
   <br>
@@ -23,39 +23,44 @@
   <br>
   - Cauliflower crop & seeds<br>
   - Cauliflower Deco Blocks such as:<br> 
-  (Cauliflower Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  (Cauliflower Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
   <br><br>
   - Cucumber crop & seeds<br>
   - Cucumber Deco Blocks such as:<br> 
-  (Cucumber Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  (Cucumber Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
   <br><br>
   - Avocado crop & seeds<br>
   - Avocado Deco Blocks such as:<br> 
-  (Avocado Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  (Avocado Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
   <br><br>
   - Eggplant crop & seeds<br>
   - Eggplant Deco Blocks such as:<br> 
-  (Eggplant Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  (Eggplant Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
   <br><br>
   - Corn crop & seeds<br>
   - Corn Deco Blocks such as:<br>
-  (Corn Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  (Corn Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+  <br><br>
+  - Rice item & seeds<br>
+  - Rice Deco Blocks such as:<br>
+  (Sea Pickle Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
   <br><br>
   - Sea Pickle item<br>
   - Sea Pickle Deco Blocks such as:<br>
-  (Sea Pickle Crate, Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)  
+  (Sea Pickle Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
+
 </div>
 <br>
 <br>
 <br>
 <div style="text-align: right;">
- <img src="src\main\resources\assets\eyvb\icon.png" alt="Mod Icon" width="100" hight="100"/> 
-  <br>
+ <img src="src\main\resources\assets\eyvb\icon.png" alt="Mod Icon" width="100" hight="100"/> <br>
+  Any suggestions? <br>
+  Let me know on any of these platforms <br>
   <h3>Contact details:</h3>
-  <br>
   <p>
-    (Discord Tag) GamingOnInsulin <br>
-    (Twitter) <a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a>
+    (Discord Server) <a href=" https://discord.gg/n832bVJ">GamingOnInsulin</a> <br>
+    (Twitter) <a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a> <br>
+    (Email) <a href="mailto:`gamingoninsulin@gmail.com">GamingOnInsulin</a>
   </p>
-</div>
 </div>

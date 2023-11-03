@@ -1,83 +1,21 @@
 {
   "itemgroup.eyvb.food_and_stuffs": "Food & Stuffs",
+  "itemgroup.eyvb.toold_and_blocks": "Tools & Blocks",
+
+  "item.eyvb.salt_item": "Salt",
+  "item.eyvb.wheel_of_cheese": "Wheel Of Old Salted Cheese",
+  "item.eyvb.stone_knife": "Stone Knife",
+
+  "item.eyvb.fluid_cheese_bucket": "Fluid Cheese Bucket",
+  "block.eyvb.cheese_fluid": "Fluid Cheese",
+
+  "item.eyvb.rice_seeds": "Rice Seeds",
+  "item.eyvb.rice": "Raw Rice",
+  "item.eyvb.rice_panicle": "Rice Panicle",
 
   "item.eyvb.cauliflower_seeds": "Cauliflower Seeds",
   "item.eyvb.cauliflower": "Raw Cauliflower",
   "item.eyvb.cooked_cauliflower": "Cooked Cauliflower",
-  "item.eyvb.fluid_cheese_bucket": "Fluid Cheese Bucket",
-  "block.eyvb.cheese_fluid": "Fluid Cheese",
-
-  "block.eyvb.mod_crate_block_cauliflower_layer_1": "Crate with 8x Cauliflower's",
-  "block.eyvb.mod_crate_block_cauliflower_layer_2": "Crate with 16 Cauliflower's",
-  "block.eyvb.mod_crate_block_cauliflower_layer_3": "Crate with 24x Cauliflower's",
-  "block.eyvb.mod_crate_block_cauliflower_layer_4": "Crate with 32x Cauliflower's",
-  "block.eyvb.mod_crate_block_cauliflower_layer_5": "Crate with 40x Cauliflower's",
-  "block.eyvb.mod_crate_block_cauliflower_layer_6": "Crate with 48x Cauliflower's",
-  "block.eyvb.mod_crate_block_cauliflower_layer_7": "Crate with 56x Cauliflower's",
-  "block.eyvb.mod_crate_block_cauliflower_layer_8": "Crate with 64x Cauliflower's",
-
-  "item.eyvb.cucumber_seeds": "Cucumber Seeds",
-  "item.eyvb.cucumber": "Cucumber",
-  "item.eyvb.cut_cucumber": "Cut Cucumber",
-
-  "block.eyvb.mod_crate_block_cucumber_layer_1": "Crate with 8x Cucumber's",
-  "block.eyvb.mod_crate_block_cucumber_layer_2": "Crate with 16 Cucumber's",
-  "block.eyvb.mod_crate_block_cucumber_layer_3": "Crate with 24x Cucumber's",
-  "block.eyvb.mod_crate_block_cucumber_layer_4": "Crate with 32x Cucumber's",
-  "block.eyvb.mod_crate_block_cucumber_layer_5": "Crate with 40x Cucumber's",
-  "block.eyvb.mod_crate_block_cucumber_layer_6": "Crate with 48x Cucumber's",
-  "block.eyvb.mod_crate_block_cucumber_layer_7": "Crate with 56x Cucumber's",
-  "block.eyvb.mod_crate_block_cucumber_layer_8": "Crate with 64x Cucumber's",
-
-  "block.eyvb.mod_crate_block_avocado_layer_1": "Crate with 8x  Avocado's",
-  "block.eyvb.mod_crate_block_avocado_layer_2": "Crate with 16  Avocado's",
-  "block.eyvb.mod_crate_block_avocado_layer_3": "Crate with 24x Avocado's",
-  "block.eyvb.mod_crate_block_avocado_layer_4": "Crate with 32x Avocado's",
-  "block.eyvb.mod_crate_block_avocado_layer_5": "Crate with 40x Avocado's",
-  "block.eyvb.mod_crate_block_avocado_layer_6": "Crate with 48x Avocado's",
-  "block.eyvb.mod_crate_block_avocado_layer_7": "Crate with 56x Avocado's",
-  "block.eyvb.mod_crate_block_avocado_layer_8": "Crate with 64x Avocado's",
-
-  "block.eyvb.mod_crate_block_eggplant_layer_1": "Crate with 8x Eggplant's",
-  "block.eyvb.mod_crate_block_eggplant_layer_2": "Crate with 16 Eggplant's",
-  "block.eyvb.mod_crate_block_eggplant_layer_3": "Crate with 24x Eggplant's",
-  "block.eyvb.mod_crate_block_eggplant_layer_4": "Crate with 32x Eggplant's",
-  "block.eyvb.mod_crate_block_eggplant_layer_5": "Crate with 40x Eggplant's",
-  "block.eyvb.mod_crate_block_eggplant_layer_6": "Crate with 48x Eggplant's",
-  "block.eyvb.mod_crate_block_eggplant_layer_7": "Crate with 56x Eggplant's",
-  "block.eyvb.mod_crate_block_eggplant_layer_8": "Crate with 64x Eggplant's",
-
-  "block.eyvb.mod_crate_block_corn_layer_1": "Crate with 8x Corn Cob's",
-  "block.eyvb.mod_crate_block_corn_layer_2": "Crate with 16 Corn Cob's",
-  "block.eyvb.mod_crate_block_corn_layer_3": "Crate with 24x Corn Cob's",
-  "block.eyvb.mod_crate_block_corn_layer_4": "Crate with 32x Corn Cob's",
-  "block.eyvb.mod_crate_block_corn_layer_5": "Crate with 40x Corn Cob's",
-  "block.eyvb.mod_crate_block_corn_layer_6": "Crate with 48x Corn Cob's",
-  "block.eyvb.mod_crate_block_corn_layer_7": "Crate with 56x Corn Cob's",
-  "block.eyvb.mod_crate_block_corn_layer_8": "Crate with 64x Corn Cob's",
-
-  "block.eyvb.mod_crate_block_sea_pickle_layer_1": "Crate with 8x Sea Pickle's",
-  "block.eyvb.mod_crate_block_sea_pickle_layer_2": "Crate with 16 Sea Pickle's",
-  "block.eyvb.mod_crate_block_sea_pickle_layer_3": "Crate with 24x Sea Pickle's",
-  "block.eyvb.mod_crate_block_sea_pickle_layer_4": "Crate with 32x Sea Pickle's",
-  "block.eyvb.mod_crate_block_sea_pickle_layer_5": "Crate with 40x Sea Pickle's",
-  "block.eyvb.mod_crate_block_sea_pickle_layer_6": "Crate with 48x Sea Pickle's",
-  "block.eyvb.mod_crate_block_sea_pickle_layer_7": "Crate with 56x Sea Pickle's",
-  "block.eyvb.mod_crate_block_sea_pickle_layer_8": "Crate with 64x Sea Pickle's",
-
-
-
-  "item.eyvb.salt_item": "Salt",
-  "item.eyvb.wheel_of_cheese": "Wheel Of Old Salted Cheese",
-
-
-
-  "itemgroup.eyvb.tools_and_armor": "Tools & Armor",
-
-
-
-  "item.eyvb.stone_knife": "Stone Slicing Knife",
-  "block.eyvb.empty_crate": "Empty Crate",
 
   "block.eyvb.cauliflower_block": "Cauliflower Block",
   "block.eyvb.cauliflower_stairs": "Cauliflower Stairs",
@@ -88,6 +26,10 @@
   "block.eyvb.cauliflower_pressure_plate": "Cauliflower Pressure Plate",
   "block.eyvb.cauliflower_button": "Cauliflower Button",
 
+  "item.eyvb.cucumber_seeds": "Cucumber Seeds",
+  "item.eyvb.cucumber": "Cucumber",
+  "item.eyvb.cut_cucumber": "Cut Cucumber",
+
   "block.eyvb.cucumber_block": "Cucumber Block",
   "block.eyvb.cucumber_stairs": "Cucumber Stairs",
   "block.eyvb.cucumber_slab": "Cucumber Slab",
@@ -97,14 +39,7 @@
   "block.eyvb.cucumber_pressure_plate": "Cucumber Pressure Plate",
   "block.eyvb.cucumber_button": "Cucumber Button",
 
-  "block.eyvb.eggplant_block": "Eggplant Block",
-  "block.eyvb.eggplant_stairs": "Eggplant Stairs",
-  "block.eyvb.eggplant_slab": "Eggplant Slab",
-  "block.eyvb.eggplant_wall": "Eggplant Wall",
-  "block.eyvb.eggplant_fence": "Eggplant Fence",
-  "block.eyvb.eggplant_fence_gate": "Eggplant Fence Gate",
-  "block.eyvb.eggplant_pressure_plate": "Eggplant Pressure Plate",
-  "block.eyvb.eggplant_button": "Eggplant Button",
+  "item.eyvb.avocado": "Avocado",
 
   "block.eyvb.avocado_block": "Avocado Block",
   "block.eyvb.avocado_stairs": "Avocado Stairs",
@@ -115,6 +50,22 @@
   "block.eyvb.avocado_pressure_plate": "Avocado Pressure Plate",
   "block.eyvb.avocado_button": "Avocado Button",
 
+
+  "item.eyvb.eggplant_seeds": "Eggplant Seeds",
+  "item.eyvb.eggplant": "Raw Eggplant",
+
+
+  "block.eyvb.eggplant_block": "Eggplant Block",
+  "block.eyvb.eggplant_stairs": "Eggplant Stairs",
+  "block.eyvb.eggplant_slab": "Eggplant Slab",
+  "block.eyvb.eggplant_wall": "Eggplant Wall",
+  "block.eyvb.eggplant_fence": "Eggplant Fence",
+  "block.eyvb.eggplant_fence_gate": "Eggplant Fence Gate",
+  "block.eyvb.eggplant_pressure_plate": "Eggplant Pressure Plate",
+  "block.eyvb.eggplant_button": "Eggplant Button",
+
+  "item.eyvb.corn_cob": "Raw Corn",
+
   "block.eyvb.corn_block": "Corn Block",
   "block.eyvb.corn_stairs": "Corn Stairs",
   "block.eyvb.corn_slab": "Corn Slab",
@@ -123,6 +74,8 @@
   "block.eyvb.corn_fence_gate": "Corn Fence Gate",
   "block.eyvb.corn_pressure_plate": "Corn Pressure Plate",
   "block.eyvb.corn_button": "Corn Button",
+
+  "item.eyvb.sea_pickle": "Sea Pickle",
 
   "block.eyvb.sea_pickle_block": "Sea Pickle Block",
   "block.eyvb.sea_pickle_stairs": "Sea Pickle Stairs",
@@ -135,76 +88,50 @@
 
   "block.eyvb.kitchen_cabinet_center_d_closed": "Kitchen Centered Bottom Counter Doors Closed",
   "block.eyvb.kitchen_cabinet_center_d_both_open": "Kitchen Centered Bottom Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_center_d_left_open": "Kitchen Centered Bottom Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_center_d_right_open": "Kitchen Centered Bottom Counter Doors Closed",
-
   "block.eyvb.kitchen_cabinet_lcorner_d_closed": "Kitchen Left Corner Bottom Counter Doors Closed",
   "block.eyvb.kitchen_cabinet_lcorner_d_both_open": "Kitchen Left Corner Bottom Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_lcorner_d_left_open": "Kitchen Left Corner Bottom Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_lcorner_d_right_open": "Kitchen Left Corner Bottom Counter Doors Closed",
-
   "block.eyvb.kitchen_cabinet_rcorner_d_closed": "Kitchen Right Corner Bottom Counter Doors Closed",
   "block.eyvb.kitchen_cabinet_rcorner_d_both_open": "Kitchen Right Corner Bottom Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_rcorner_d_left_open": "Kitchen Right Corner Bottom Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_rcorner_d_right_open": "Kitchen Right Corner Bottom Counter Doors Closed",
-
   "block.eyvb.kitchen_cabinet_top_center_d_closed": "Kitchen Centered Top Counter Doors Closed",
   "block.eyvb.kitchen_cabinet_top_center_d_both_open": "Kitchen Centered Top Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_top_center_d_left_open": "Kitchen Centered Top Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_top_center_d_right_open": "Kitchen Centered Top Counter Doors Closed",
-
   "block.eyvb.kitchen_cabinet_top_lcorner_d_closed": "Kitchen Left Corner Top Counter Doors Closed",
   "block.eyvb.kitchen_cabinet_top_lcorner_d_both_open": "Kitchen Left Corner Top Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_top_lcorner_d_left_open": "Kitchen Left Corner Top Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_top_lcorner_d_right_open": "Kitchen Left Corner Top Counter Doors Closed",
-
   "block.eyvb.kitchen_cabinet_top_rcorner_d_closed": "Kitchen Right Corner Top Counter Doors Closed",
   "block.eyvb.kitchen_cabinet_top_rcorner_d_both_open": "Kitchen Right Corner Top Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_top_rcorner_d_left_open": "Kitchen Right Corner Top Counter Doors Closed",
-  "block.eyvb.kitchen_cabinet_top_rcorner_d_right_open": "Kitchen Right Corner Top Counter Doors Closed",
-
   "block.eyvb.kitchen_oven_off": "Oven Off",
   "block.eyvb.kitchen_oven_on": "Oven On",
-
   "block.eyvb.kitchen_sink_empty_d_closed": "Empty Kitchen Sink Doors Closed",
   "block.eyvb.kitchen_sink_empty_d_both_open": "Empty Kitchen Sink Doors Both Open",
-  "block.eyvb.kitchen_sink_empty_d_left_open": "Empty Kitchen Sink Doors Left Open",
-  "block.eyvb.kitchen_sink_empty_d_right_open": "Empty Kitchen Sink Doors Right Open",
+  "block.eyvb.kitchen_sink_water_d_closed": "Full Kitchen Sink Doors Closed",
+  "block.eyvb.kitchen_sink_water_d_both_open": "Full Kitchen Sink Doors Both Open",
+  "block.eyvb.kitchen_extractor_hood": "Extractor Hood",
+
+  "block.eyvb.cheese_form_press": "Cheese Form Press",
+  "block.eyvb.cheese_form_press_working": "Working Cheese Form Press",
+  "block.eyvb.cheese_form_press_done": "Cheese Form Press Done",
+
+  "tooltip.eyvb.liquid.amount.with.capacity": "%s / %s mB",
+  "tooltip.eyvb.liquid.amount": "%s mB",
 
   "block.eyvb.pine_log": "Pine Log",
   "block.eyvb.pine_wood": "Pine Wood",
   "block.eyvb.stripped_pine_log": "Stripped Pine Log",
   "block.eyvb.stripped_pine_wood": "Stripped Pine Wood",
-
   "block.eyvb.pine_planks": "Pine Planks",
-
   "block.eyvb.pine-leaves": "Pine Leaves",
-
   "block.eyvb.pine_sapling": "Pine Sapling",
-
-
-  "block.eyvb.kitchen_sink_water_d_closed": "Full Kitchen Sink Doors Closed",
-  "block.eyvb.kitchen_sink_water_d_both_open": "Full Kitchen Sink Doors Both Open",
-  "block.eyvb.kitchen_sink_water_d_left_open": "Full Kitchen Sink Doors Left Open",
-  "block.eyvb.kitchen_sink_water_d_right_open": "Full Kitchen Sink Doors Right Open",
-
-  "block.eyvb.kitchen_extractor_hood": "Extractor Hood",
-  "block.eyvb.cheese_form_press": "Cheese Form Press",
-  "block.eyvb.cheese_form_press_working": "Working Cheese Form Press",
-  "block.eyvb.cheese_form_press_done": "Cheese Form Press Done",
-
+  "block.eyvb.pine_leaves_block": "Pine Leaves",
   "block.eyvb.pine_leaves_stairs": "Pine Leaves Stairs",
   "block.eyvb.pine_leaves_slab": "Pine Leaves Slab",
   "block.eyvb.pine_leaves_wall": "Pine Leaves Wall",
-
   "block.eyvb.pine_planks_stairs": "Pine Planks Stairs",
   "block.eyvb.pine_planks_slab": "Pine Planks Slab",
   "block.eyvb.pine_planks_wall": "Pine Planks Wall",
-
+  "block.eyvb.pine_planks_button": "Pine button",
+  "block.eyvb.pine_planks_pressure_plate": "Pine Pressure Plate",
+  "block.eyvb.pine_planks_fence": "Pine Fence",
+  "block.eyvb.pine_planks_fence_gate": "Pine Fence Gate",
   "block.eyvb.pinewood_sign": "Pine Sign",
-  "block.eyvb.pinewood_hanging_sign": "Pine Sign",
-
-  "tooltip.eyvb.liquid.amount.with.capacity": "%s / %s mB",
-  "tooltip.eyvb.liquid.amount": "%s mB"
+  "block.eyvb.pinewood_hanging_sign": "Pine Sign"
 
 }

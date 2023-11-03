@@ -2,19 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "C": {
-      "item": "minecraft:cobblestone"
+    "B": {
+      "item": "minecraft:stone"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "C",
-    "S"
+    " B ",
+    "S  "
   ],
   "result": {
-    "count": 12,
     "item": "eyvb:stone_knife"
   },
   "show_notification": true

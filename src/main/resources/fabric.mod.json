@@ -19,13 +19,13 @@
 			"me.gamingoninsulin.EYVBMod"
 		],
 		"fabric-datagen": [
-			"me.gamingoninsulin.core.EYVBModDataGenerator"
+          "me.gamingoninsulin.eatyourvegtablesboymod.EYVBModDataGenerator"
 		],
 		"client": [
-			"me.gamingoninsulin.core.EYVBClientMod"
+          "me.gamingoninsulin.eatyourvegtablesboymod.EYVBClientMod"
 		],
 		"rei_client": [
-			"me.gamingoninsulin.common.compat.EYVB_REIClientPlugin"
+			"me.gamingoninsulin.eatyourvegtablesboymod.compat.EYVB_REIClientPlugin"
 		]
 	},
 	"mixins": [

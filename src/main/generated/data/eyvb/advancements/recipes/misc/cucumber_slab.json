@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_cauliflower_block": {
+    "has_cucumber_block": {
       "conditions": {
         "items": [
           {
             "items": [
-              "eyvb:cauliflower_block"
+              "eyvb:cucumber_block"
             ]
           }
         ]
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_cauliflower_block",
+      "has_cucumber_block",
       "has_the_recipe"
     ]
   ],

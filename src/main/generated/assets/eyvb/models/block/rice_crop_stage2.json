@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "eyvb:block/rice_crop_stage2"
+  }
+}

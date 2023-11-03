@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "me.gamingoninsulin.core.mixin",
+	"package": "me.gamingoninsulin.eatyourvegtablesboymod.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"EYVBMixin"
+		"TrunkPlacerTypeInvoker"
 	],
 	"injectors": {
 		"defaultRequire": 1

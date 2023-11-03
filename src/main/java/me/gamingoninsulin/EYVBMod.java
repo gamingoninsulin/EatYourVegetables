@@ -1,19 +1,20 @@
 package me.gamingoninsulin;
 
-import me.gamingoninsulin.common.ModItemGroup;
-import me.gamingoninsulin.common.blocks.ModBlocks;
-import me.gamingoninsulin.common.blocks.entity.ModBlockEntities;
-import me.gamingoninsulin.common.fluid.ModFluids;
-import me.gamingoninsulin.common.items.ModItems;
-import me.gamingoninsulin.common.recipe.ModRecipes;
-import me.gamingoninsulin.common.screen.ModScreenHandlers;
-import me.gamingoninsulin.common.util.ModRegistries;
+import me.gamingoninsulin.eatyourvegtablesboymod.ModItemGroup;
+import me.gamingoninsulin.eatyourvegtablesboymod.blocks.ModBlocks;
+import me.gamingoninsulin.eatyourvegtablesboymod.blocks.entity.ModBlockEntities;
+import me.gamingoninsulin.eatyourvegtablesboymod.fluid.ModFluids;
+import me.gamingoninsulin.eatyourvegtablesboymod.items.ModItems;
+import me.gamingoninsulin.eatyourvegtablesboymod.recipe.ModRecipes;
+import me.gamingoninsulin.eatyourvegtablesboymod.screen.ModScreenHandlers;
+import me.gamingoninsulin.eatyourvegtablesboymod.util.ModRegistries;
+import me.gamingoninsulin.eatyourvegtablesboymod.world.ModTrunkPlacerTypes;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static me.gamingoninsulin.core.Reference.*;
+import static me.gamingoninsulin.eatyourvegtablesboymod.Reference.*;
 
 public class EYVBMod implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
@@ -34,5 +35,6 @@ public class EYVBMod implements ModInitializer {
 		ModRecipes.RegisterRecipes();
 
 		ModFluids.registerFluid();
+		ModTrunkPlacerTypes.register();
 	}
 }
