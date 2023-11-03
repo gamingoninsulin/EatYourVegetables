@@ -26,6 +26,9 @@
 		],
 		"rei_client": [
 			"me.gamingoninsulin.eatyourvegtablesboymod.compat.EYVB_REIClientPlugin"
+		],
+		"terrablender": [
+			"me.gamingoninsulin.eatyourvegtablesboymod.world.biome.ModTerraBlenderAPI"
 		]
 	},
 	"mixins": [
