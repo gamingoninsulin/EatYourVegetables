@@ -1,11 +1,9 @@
 package me.gamingoninsulin.eatyourvegtablesboymod.blocks;
 
 import me.gamingoninsulin.EYVBMod;
-import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.*;
 import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.crops.CauliflowerCropBlock;
 import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.crops.CucumberCropBlock;
 import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.crops.EggplantCropBlock;
-import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.crops.saplings.PineSaplingCropBlock;
 import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.crops.tall.RiceCropBlock;
 import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.kitchen.*;
 import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.signs.ModHangingSignBlock;
@@ -15,7 +13,7 @@ import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.signs.ModWallSign
 import me.gamingoninsulin.eatyourvegtablesboymod.fluid.ModFluids;
 import me.gamingoninsulin.eatyourvegtablesboymod.util.ModWoodTypes;
 import me.gamingoninsulin.eatyourvegtablesboymod.Reference;
-import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.PineWoodSaplingGenerator;
+import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.PineWoodSaplingGenetator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -96,11 +94,11 @@ public class ModBlocks {
 
     // leaves
     public static final Block PINE_LEAVES_BLOCK = registerBlock("pine_leaves_block",
-            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES).strength(1f)));
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.OAK_LEAVES)));
 
     // sapping
     public static final Block PINE_SAPLING = registerBlock("pine_sapling",
-            new SaplingBlock(new PineWoodSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).strength(1f)));
+            new SaplingBlock(new PineWoodSaplingGenetator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
     /*
        ##############################################################################################################
                                                 FLUIDS

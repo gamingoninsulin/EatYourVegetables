@@ -36,15 +36,6 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CAULIFLOWER_PRESSURE_PLATE);
                         entries.add(ModBlocks.CAULIFLOWER_BUTTON);
 
-                        // Cauliflower Crates
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_1);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_2);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_3);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_4);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_5);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_6);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_7);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CAULIFLOWER_LAYER_8);
 
                         // ##################################################
 
@@ -63,16 +54,6 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CUCUMBER_PRESSURE_PLATE);
                         entries.add(ModBlocks.CUCUMBER_BUTTON);
 
-                        // Cucumber Crates
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_1);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_2);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_3);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_4);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_5);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_6);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_7);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CUCUMBER_LAYER_8);
-
                         // ##################################################
 
                         // Avocado Item & Tree/Crop
@@ -88,15 +69,6 @@ public class ModItemGroup {
                         entries.add(ModBlocks.AVOCADO_PRESSURE_PLATE);
                         entries.add(ModBlocks.AVOCADO_BUTTON);
 
-                        // Avocado Crates
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_1);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_2);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_3);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_4);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_5);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_6);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_7);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_AVOCADO_LAYER_8);
 
                         // ##################################################
 
@@ -114,15 +86,6 @@ public class ModItemGroup {
                         entries.add(ModBlocks.EGGPLANT_PRESSURE_PLATE);
                         entries.add(ModBlocks.EGGPLANT_BUTTON);
 
-                        // Eggplant Crates
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_1);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_2);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_3);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_4);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_5);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_6);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_7);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_EGGPLANT_LAYER_8);
 
                         // ##################################################
 
@@ -139,15 +102,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.CORN_PRESSURE_PLATE);
                         entries.add(ModBlocks.CORN_BUTTON);
 
-                        // Corn Crates
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_1);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_2);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_3);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_4);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_5);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_6);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_7);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_CORN_LAYER_8);
+
 
                         // ##################################################
 
@@ -163,15 +118,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SEA_PICKLE_PRESSURE_PLATE);
                         entries.add(ModBlocks.SEA_PICKLE_BUTTON);
 
-                        // Sea Pickle Crates
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_1);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_2);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_3);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_4);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_5);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_6);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_7);
-                        entries.add(ModBlocks.MOD_CRATE_BLOCK_SEA_PICKLE_LAYER_8);
+
 
                         // ##################################################
                         // RICE
@@ -220,10 +167,8 @@ public class ModItemGroup {
 
     public static final ItemGroup TOOLS_AND_BLOCKS = Registry.register(Registries.ITEM_GROUP,
             new Identifier(MOD_ID, "tools_and_blocks"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eyvb.tools_and_blocks"))
-                    .icon(() -> new ItemStack(ModBlocks.EMPTY_CRATE)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.KITCHEN_CABINET_CENTER_D_CLOSED)).entries((displayContext, entries) -> {
                         // ##################################################
-                        // empty crate
-                        entries.add(ModBlocks.EMPTY_CRATE);
 
                         // BOTTOM
                         // cabinet closed, open left, open right and open

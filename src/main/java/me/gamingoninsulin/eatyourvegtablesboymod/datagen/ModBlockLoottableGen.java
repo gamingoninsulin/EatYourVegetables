@@ -175,7 +175,6 @@ public class ModBlockLoottableGen extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PINE_WOOD);
         addDrop(ModBlocks.STRIPPED_PINE_LOG);
         addDrop(ModBlocks.STRIPPED_PINE_WOOD);
-        addDrop(ModBlocks.PINE_LEAVES_BLOCK);
 
         addDrop(ModBlocks.PINE_PLANKS_STAIRS);
         addDrop(ModBlocks.PINE_PLANKS_SLAB);

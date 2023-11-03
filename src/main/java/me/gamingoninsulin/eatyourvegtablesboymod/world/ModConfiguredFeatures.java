@@ -17,14 +17,14 @@ import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
 public class ModConfiguredFeatures {
-    public static final RegistryKey<ConfiguredFeature<?, ?>> PINEWOOD_KEY = registerKey("pinewood");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> PINEWOOD_KEY = registerKey("pine_wood");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, PINEWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PINE_LOG),
                 new StraightTrunkPlacer(5, 6, 3),
                 BlockStateProvider.of(ModBlocks.PINE_LEAVES_BLOCK),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1),3),
+                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
     }
 

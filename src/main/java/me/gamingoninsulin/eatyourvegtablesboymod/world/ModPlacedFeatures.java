@@ -8,7 +8,6 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.feature.*;
-import java.util.List;
 import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 
 import java.util.List;
