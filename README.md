@@ -59,7 +59,7 @@
   Let me know on any of these platforms <br>
   <h3>Contact details:</h3>
   <p>
-    (Discord Server) <a href=" https://discord.gg/n832bVJ">GamingOnInsulin</a> <br>
+    (Discord Server) <a href="https://discord.gg/n832bVJ">GamingOnInsulin</a> <br>
     (Twitter) <a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a> <br>
     (Email) <a href="mailto:`gamingoninsulin@gmail.com">GamingOnInsulin</a>
   </p>
