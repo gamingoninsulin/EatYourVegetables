@@ -177,6 +177,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         BlockStateModelGenerator.BlockTexturePool PineLeavesTexture = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PINE_LEAVES_BLOCK);
 
+
         PineLeavesTexture.wall(ModBlocks.PINE_LEAVES_WALL);
 
         // SAPLING

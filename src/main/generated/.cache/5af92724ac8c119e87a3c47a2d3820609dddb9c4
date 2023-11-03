@@ -1,9 +1,9 @@
-// 1.20.1	2023-11-03T17:17:20.7273423	Eat Your Vegetables Boy/Tags for minecraft:block
+// 1.20.1	2023-11-03T22:11:18.7011255	Eat Your Vegetables Boy/Tags for minecraft:block
 c78b3b62d3ddd7eaa08f555ee61b385ae1af0d20 data\minecraft\tags\blocks\logs_that_burn.json
 324c29ffee5c8785d8060e3f61725dd13563c859 data\minecraft\tags\blocks\leaves.json
 0e6e11112e18098164c88c2501d01b16dadcccdf data\minecraft\tags\blocks\fences.json
 24f77883dc300c6c9338c1717f94fd98542baff7 data\minecraft\tags\blocks\fence_gates.json
-82e7340dab58a32c2392c1a1ba68a9c87d04f6a5 data\minecraft\tags\blocks\mineable\axe.json
 7b5d95f19d16a15a3e8263789dfaf0d10c3fd0cc data\minecraft\tags\blocks\mineable\pickaxe.json
+82e7340dab58a32c2392c1a1ba68a9c87d04f6a5 data\minecraft\tags\blocks\mineable\axe.json
 663d33f566d65ed368ef7dcab696e185ac3d6fa6 data\minecraft\tags\blocks\mineable\hoe.json
 57e11fa155be66efcb0dac60d7c2e253bc46982a data\minecraft\tags\blocks\walls.json

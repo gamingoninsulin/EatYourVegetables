@@ -13,7 +13,7 @@ import me.gamingoninsulin.eatyourvegtablesboymod.blocks.custom.signs.ModWallSign
 import me.gamingoninsulin.eatyourvegtablesboymod.fluid.ModFluids;
 import me.gamingoninsulin.eatyourvegtablesboymod.util.ModWoodTypes;
 import me.gamingoninsulin.eatyourvegtablesboymod.Reference;
-import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.PineWoodSaplingGenetator;
+import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.PineWoodSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -98,7 +98,7 @@ public class ModBlocks {
 
     // sapping
     public static final Block PINE_SAPLING = registerBlock("pine_sapling",
-            new SaplingBlock(new PineWoodSaplingGenetator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
+            new SaplingBlock(new PineWoodSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
     /*
        ##############################################################################################################
                                                 FLUIDS

@@ -2,6 +2,10 @@ package me.gamingoninsulin.eatyourvegtablesboymod.world;
 
 import me.gamingoninsulin.eatyourvegtablesboymod.Reference;
 import me.gamingoninsulin.eatyourvegtablesboymod.blocks.ModBlocks;
+import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.ModFoliagePlacerTypes;
+import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.ModTrunkPlacerTypes;
+import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.custom.PinewoodFoliagePlacer;
+import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.custom.PinewoodTrunkPlacer;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -22,9 +26,9 @@ public class ModConfiguredFeatures {
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, PINEWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PINE_LOG),
-                new StraightTrunkPlacer(5, 6, 3),
+                new PinewoodTrunkPlacer(5, 6, 3),
                 BlockStateProvider.of(ModBlocks.PINE_LEAVES_BLOCK),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
+                new PinewoodFoliagePlacer(ConstantIntProvider.create(3), ConstantIntProvider.create(1), 3),
                 new TwoLayersFeatureSize(1, 0, 2)).build());
     }
 

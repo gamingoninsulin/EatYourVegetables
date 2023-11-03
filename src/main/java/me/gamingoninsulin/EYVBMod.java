@@ -9,6 +9,8 @@ import me.gamingoninsulin.eatyourvegtablesboymod.recipe.ModRecipes;
 import me.gamingoninsulin.eatyourvegtablesboymod.screen.ModScreenHandlers;
 import me.gamingoninsulin.eatyourvegtablesboymod.util.ModRegistries;
 import me.gamingoninsulin.eatyourvegtablesboymod.world.gen.ModWorldGeneration;
+import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.ModFoliagePlacerTypes;
+import me.gamingoninsulin.eatyourvegtablesboymod.world.tree.ModTrunkPlacerTypes;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -36,5 +38,7 @@ public class EYVBMod implements ModInitializer {
 
 		ModFluids.registerFluid();
 		ModWorldGeneration.generateModWorldGeneration();
+		ModTrunkPlacerTypes.register();
+		ModFoliagePlacerTypes.register();
 	}
 }
