@@ -3,10 +3,15 @@
 
 <br><br>
 
-<h3><i><b>!!CAUTION!! All (WIP) are currently Development!</b></i></h3> <br><br>
+<h3><i><b>!!CAUTION!! All (WIP) are currently Development!</b></i></h3> 
+
+<br><br>
+
 </div>
 <div align="left">
+
 <hr>
+
  <p>
   <b><i>Added Crop & Blocks Update</i></b> <br>
   added crop blocks and from minecraft crops <br>(Example Cauliflower Block, Stair, Slab, Fence, fence gate, pressure plate and button) <br>
@@ -43,3 +48,21 @@
      --- Crafting Book (WIP) <br>
 <hr>
 </div>
+
+<br>
+
+<div align="center">--XXXXX Contact Information XXXXX--</div>
+<br>
+
+<div align="right">
+ <img src="../img/profile/profile_icon.png" alt="Profile Icon" width="100" hight="100"/> <br>
+  Any suggestions? <br>
+  Let me know on any of these platforms <br><br>
+  <p align="center">
+    (Discord Server) <a href="https://discord.gg/n832bVJ">GamingOnInsulin</a> <br>
+    (Twitter) <a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a> <br>
+    (Email) <a href="mailto:`gamingoninsulin@gmail.com">GamingOnInsulin</a>
+  </p>
+</div>
+<br>
+<hr>
