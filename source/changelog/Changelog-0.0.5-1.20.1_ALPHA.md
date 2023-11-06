@@ -55,8 +55,8 @@
  <img src="../img/profile/profile_icon.png" alt="Mod Icon" width="100" hight="100"/> <br>
   Any suggestions? <br>
   Let me know on any of these platforms <br>
-  Go back here to our <a href="README.md">README</a> ! <br>
-  Or go here to our <a href="LICENSE.md">LICENSE</a> !
+  Go back here to our <a href="../../README.md">README</a> ! <br>
+  Or go here to our <a href="../../LICENSE.md">LICENSE</a> !
   <br><br>
   <p align="center">
     (Discord Server) <a href="https://discord.gg/n832bVJ">GamingOnInsulin</a> <br>
