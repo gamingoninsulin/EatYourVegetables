@@ -12,7 +12,7 @@
 		"sources": ""
 	},
 	"license": "MIT",
-	"icon": "assets/eyvb/icon.png",
+	"icon": "assets/logo.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

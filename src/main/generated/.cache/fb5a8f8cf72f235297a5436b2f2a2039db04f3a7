@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-03T22:11:18.7330953	Eat Your Vegetables Boy/Block Loot Tables
+// 1.20.1	2023-11-05T22:34:04.950942	Eat Your Vegetables Boy/Block Loot Tables
 3abf3aedbc976890b3dbd1f30b8ceb0dcb5a6caa data\eyvb\loot_tables\blocks\cauliflower_fence_gate.json
 699238928cd58ba96caa219bd070492029ed0a10 data\eyvb\loot_tables\blocks\eggplant_crop.json
 b8d8b0320a29e1a596621c42a3990024969d4b10 data\eyvb\loot_tables\blocks\avocado_button.json
@@ -11,8 +11,8 @@ d2f2ef0d74ef7d3f0aeba36eb260ee661144104a data\eyvb\loot_tables\blocks\cucumber_f
 959a3bf005268144c3dfe9461aee8832e91d9519 data\eyvb\loot_tables\blocks\eggplant_slab.json
 fc439ac4262ae09afa89bf176e44998b6ded6a04 data\eyvb\loot_tables\blocks\kitchen_sink_water_d_closed.json
 9c607f133f5bf31c63a629e5c11885f23f3dfd5a data\eyvb\loot_tables\blocks\kitchen_cabinet_center_no_drawers_d_both_open.json
-0e42059cd2935923df2b7c5a8ea0f94f8e135f13 data\eyvb\loot_tables\blocks\corn_wall.json
 39dc1ea8b838da97172ee1404d97a1089a6df16b data\eyvb\loot_tables\blocks\cheese_form_press_working.json
+0e42059cd2935923df2b7c5a8ea0f94f8e135f13 data\eyvb\loot_tables\blocks\corn_wall.json
 4a9c0e8eb3d15433d06dffb544fbbffcaba09b33 data\eyvb\loot_tables\blocks\cauliflower_slab.json
 4988aeccac9aad43efb29fc5630a7203e20765ea data\eyvb\loot_tables\blocks\kitchen_cabinet_top_center_d_closed.json
 7cdf24c441e2e7a307f1bc3d9f150d5dc2bc3132 data\eyvb\loot_tables\blocks\kitchen_cabinet_lcorner_no_drawers_d_closed.json
@@ -56,8 +56,8 @@ f5f395487ec873265b550feeb4d15abed731c55f data\eyvb\loot_tables\blocks\cucumber_f
 827ab0aa6ba0be7d5e3baf0fe5d10185f13f3509 data\eyvb\loot_tables\blocks\kitchen_cabinet_rcorner_no_drawers_d_both_open.json
 7e068e0b2fa05143ae94c07ecba4dcf763bd6858 data\eyvb\loot_tables\blocks\rice_crop.json
 b483492a296ca68eed72ac8235df7798babad0e0 data\eyvb\loot_tables\blocks\sea_pickle_fence_gate.json
-cf90e2b9a58c1bbfe6d5447eb6a1b3de081e6d1d data\eyvb\loot_tables\blocks\pine_planks_slab.json
 e83e27d1c61124329c7fc3407de515ffb7d79a9e data\eyvb\loot_tables\blocks\kitchen_cabinet_top_rcorner_d_closed.json
+cf90e2b9a58c1bbfe6d5447eb6a1b3de081e6d1d data\eyvb\loot_tables\blocks\pine_planks_slab.json
 b6634b44fbe85b0516a6a393ab70366fabc76026 data\eyvb\loot_tables\blocks\eggplant_wall.json
 0f5498fc868e18f45d8d89eb43eb81892c212b4f data\eyvb\loot_tables\blocks\eggplant_fence_gate.json
 c15fd32686720db395d8a03c0d45e4715f518d74 data\eyvb\loot_tables\blocks\pine_planks_pressure_plate.json
