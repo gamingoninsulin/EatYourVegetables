@@ -8,7 +8,13 @@
 </div>
 
 <br>
-<div align="center">--XXXXX Mod Information XXXXX--</div>
+
+<div align="center">
+  <hr>
+  MOD INFORMATION
+  <hr>
+</div>
+
 <br>
 
 <div align="left">
@@ -69,28 +75,39 @@
   - Sea Pickle Deco Blocks such as:<br>
   (Sea Pickle Block, Stairs, Slab, Fence, Fence Gate, Pressure Plate, Button)
 </div>
-<div align="center">--XXXXX Downloads XXXXX--</div>
+<div align="center">
+  <hr>
+  DOWNLOADS
+  <hr>
+</div>
+
 
 <div align="left">
-
-<hr> <!-- download item start -->
-
+<!-- download item start -->
   <h3><a href="https://">- 0.0.5-1.20.1_ALPHA</a></h3>
   <p>
     (Fist Alpha Release)  (WIP)<br>
     See <a href="source/changelog/Changelog-0.0.5-1.20.1_ALPHA.md">Change Log</a> for more details.
   </p>
-<hr> <!-- download item  end -->
+<!-- download item  end -->
 
 </div>
 <br>
-<div align="center">--XXXXX Contact Information XXXXX--</div>
+
+<div align="center">
+  <hr>
+  CONTACT INFORMATION
+  <hr>
+</div>
+
 <br>
 
 <div align="right">
  <img src="source/img/profile/profile_icon.png" alt="Mod Icon" width="100" hight="100"/> <br>
   Any suggestions? <br>
-  Let me know on any of these platforms <br><br>
+  Let me know on any of these platforms <br>
+  here is our <a href="LICENSE.md">LICENSE</a> take a look!
+  <br><br>
   <p align="center">
     (Discord Server) <a href="https://discord.gg/n832bVJ">GamingOnInsulin</a> <br>
     (Twitter) <a href="https://twitter.com/GamingOnInsulin">GamingOnInulin</a> <br>
