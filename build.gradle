@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.3-SNAPSHOT'
+	id 'fabric-loom' version '1.4-SNAPSHOT'
 	id 'maven-publish'
 }
 version = project.mod_version
@@ -24,42 +24,16 @@ repositories {
 		url = 'https://maven.terraformersmc.com/'
 	}
 	maven { url = 'https://maven.minecraftforge.net/' }
+	maven {url = "https://maven.kyrptonaught.dev"}
+
 }
 
 dependencies {
+	// #################################################################################################################
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
-
-	// mod menu dependency
-	modApi "com.terraformersmc:modmenu:7.2.1"
-
-	// REI Dependency
-	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:12.0.652"
-	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:12.0.652"
-
-	// jade
-	modImplementation "curse.maven:jade-324717:4710614"
-
-	// terra blender
-	modImplementation 'com.github.glitchfiend:TerraBlender-fabric:1.20.1-3.0.0.169'
-
-	// team reborn
-	include modApi('teamreborn:energy:3.0.0') {
-		exclude(group: "net.fabricmc.fabric-api")
-	}
-
-	// terra formers
-	modImplementation "com.terraformersmc.terraform-api:terraform-wood-api-v1:7.0.1"
-	include "com.terraformersmc.terraform-api:terraform-wood-api-v1:7.0.1"
-
-	// terra blender
-	modImplementation "com.github.glitchfiend:TerraBlender-fabric:1.20.1-3.0.0.169"
-
-	// Visit https://www.curseforge.com/minecraft/mc-mods/jade/files/all?filter-status=1&filter-game-version=2020709689%3A7498
-	// to get the latest version's jade_id
-	modImplementation "curse.maven:jade-324717:11.5.1"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
@@ -68,6 +42,35 @@ dependencies {
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+
+	// #################################################################################################################
+
+	// MOD MENU
+	modApi "com.terraformersmc:modmenu:7.2.1"
+
+	// Visit https://www.curseforge.com/minecraft/mc-mods/jade/files/all?filter-status=1&filter-game-version=2020709689%3A7498
+	// to get the latest version's jade_id
+	modImplementation "curse.maven:jade-324717:${jade_id}"
+
+	// REI
+	modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:${rei_version}"
+	modRuntimeOnly "me.shedaniel:RoughlyEnoughItems-fabric:${rei_version}"
+
+	// TEAM REBORN ENERGY
+	include modApi("teamreborn:energy:${team_reborn_energy_version}") {
+		exclude(group: "net.fabricmc.fabric-api")
+	}
+
+	// TERRAFORMERS MC
+	modImplementation "com.terraformersmc.terraform-api:terraform-wood-api-v1:${terraform_version}"
+	include "com.terraformersmc.terraform-api:terraform-wood-api-v1:${terraform_version}"
+
+	// TERRA BLENDER
+	modImplementation "com.github.glitchfiend:TerraBlender-fabric:${terra_blender_version}"
+
+	// CUSTOM PORTAL API
+	modImplementation "net.kyrptonaught:customportalapi:${custom_portal_version}"
+	include "net.kyrptonaught:customportalapi:${custom_portal_version}"
 }
 
 loom {
