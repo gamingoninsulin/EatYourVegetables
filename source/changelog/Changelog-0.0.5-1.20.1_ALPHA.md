@@ -1,4 +1,10 @@
 <div align="center">
+  <hr>
+  <h3>Page Content</h3>
+   <span><a href="#0.0.5-1.20.1_alpha">0.0.5-1.20.1_alpha</a></span>
+</div>
+<hr>
+<div align="center" id="0.0.5-1.20.1_alpha">
 <img src="../img/changelog/minecraft_changelog-0.0.5-1.20.1_alpha.png" alt="Changelog Image">
 <div align="center">
   <hr>

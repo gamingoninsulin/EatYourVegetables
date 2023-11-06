@@ -107,7 +107,7 @@
   Any suggestions? <br>
   Let me know on any of these platforms <br>
   Go here to our <a href="LICENSE.md">LICENSE</a> ! <br>
-  Or Go here to our <a href="source/changelog/Changelog-0.0.5-1.20.1_ALPHA.md">CHANGELOG</a> !
+  Or Go here to our LATEST <a href="source/changelog/Changelog-0.0.5-1.20.1_ALPHA.md">CHANGELOG</a> !
   <br><br>
   <p align="center">
     (Discord Server) <a href="https://discord.gg/n832bVJ">GamingOnInsulin</a> <br>
