@@ -1,12 +1,9 @@
 
 <div align="center">
-  <h1><a href="https://" target="_blank">Eat Your Vegetables Boy (FABIRC MOD)</a></h1> 
-  
-  <br>
-  <br>
-  
-  <p>A mod that adds new cookable and craftable food items and block <br> 
-  For Minceaft 1.20.X</p>
+  <img src="source/img/banner/minecraft_eatyourvegtablesboy.png" alt="Mod Banner Image"> 
+  <h6>All kinds of Vegtable Decorations pure cosmetic</h6>  
+  <p>A mod that adds new cookable and craftable food items and block <br>
+  For Minceaft 1.20.X+</p>
   
 </div>
 
@@ -77,10 +74,11 @@
 <div align="left">
 
 <hr> <!-- download item start -->
+
   <h3><a href="https://">- 0.0.5-1.20.1_ALPHA</a></h3>
   <p>
     (Fist Alpha Release)  (WIP)<br>
-    See <a href="#changelog">Change Log</a> for more details.
+    See <a href="source/changelog/Changelog-0.0.5-1.20.1_ALPHA.md">Change Log</a> for more details.
   </p>
 <hr> <!-- download item  end -->
 
@@ -90,7 +88,7 @@
 <br>
 
 <div align="right">
- <img src="src\main\resources\assets\eyvb\icon.png" alt="Mod Icon" width="100" hight="100"/> <br>
+ <img src="source/img/profile/profile_icon.png" alt="Mod Icon" width="100" hight="100"/> <br>
   Any suggestions? <br>
   Let me know on any of these platforms <br><br>
   <p align="center">
@@ -99,50 +97,6 @@
     (Email) <a href="mailto:`gamingoninsulin@gmail.com">GamingOnInsulin</a>
   </p>
 </div>
-<br><br>
-
-<div id="changelog" align="center">--XXXXX Change Log 
-XXXXX--</div>
-
-<br><br>
-
-<div align="left">
+<br>
 <hr>
-<i><b>!!CAUTION!! All (WIP) are currently Development!</b></i> <br><br>
- <b>- 0.0.5-1.20.x_ALPHA:</b>
- <p>
-  <b><i>Added Crop & Blocks Update</i></b> <br>
-  added crop blocks and from minecraft crops <br>(Example Cauliflower Block, Stair, Slab, Fence, fence gate, pressure plate and button) <br>
-  Also added leave wall blocks for pine leaves all pine wood related wood variants.
-  
- </p>
-  <b>+ Added Crops:</b> <br>
-     --- Cauliflower <br>
-     --- Cucumber <br>
-     --- Rice (WIP) <br>
-     --- Corn <br>
-     --- Eggplant <br>
-     --- Sea Pickle (WIP) <br>
-     --- Avocado (WIP) <br>
-     <br>
- <b>+ Added Saplings,wood and leaves:</b> <br>
-     --- Pine Sapling <br>
-     --- Pine Log <br>
-     --- Pine Wood <br>
-     --- Pine Leaves <br>
-     --- Pine Leaves Wall <br>
-     --- Pine Plank <br>
-     --- Pine Slab <br>
-     --- Pine Pressure Plate <br>
-     --- Pine Button.
-     <br>
- <b>+ Added Kitchen</b> <br>
-     --- Kitchen Counter Bottom & Upper Parts (open & closed) (WIP) <br>
-     --- Kitchen Skink (open & Closed) (WIP) <br>
-     --- Kitchen Oven (on & off) (WIP) <br>
-     <br>
-  <b>+ Added Misc Items:</b> <br>
-     --- Crafting Knife (WIP) <br>
-     --- Crafting Book (WIP) <br>
-<hr>
-</div>
+
